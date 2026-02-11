@@ -1,0 +1,42 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+This repo serves two purposes:
+
+1. **Metadata gathering setup**: Provides a setup for AI coding agents to gather research metadata from CON (Center for Open Neuroscience) related websites and repositories. AI agents are responsible for validating gathered data using the REST API of a dump-things-server instance. Humans give final confirmation and commit the gathered metadata.
+2. **CLI tool**: A Python CLI tool (`dump-research-info`) for dumping the gathered metadata in this repo to a [dump-things-server](https://hub.psychoinformatics.de/inm7/dump-things-server) instance.
+
+Data must conform to the data models defined in or referenced by the [demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml) ([docs](https://concepts.datalad.org/s/demo-research-information/unreleased/)). The relevant data model classes are also available through the OpenAPI documentation of a dump-things-server instance's REST API.
+
+## Build & Development Commands
+
+- **Install**: `pip install -e .` (or use `hatch`)
+- **Run CLI**: `dump-research-info` or `python -m dump_research_info`
+- **Type check**: `hatch run types:check`
+- **Build**: `hatch build`
+
+## Architecture
+
+- **Build system**: Hatchling (configured in `pyproject.toml`)
+- **CLI framework**: Click
+- **Python**: >= 3.11
+
+### Source Layout
+
+- `src/dump_research_info/` — main package (src layout)
+  - `cli/__init__.py` — Click command group entry point (`dump_research_info`)
+  - `__about__.py` — version (dynamic, read by Hatch)
+  - `__main__.py` — enables `python -m` invocation
+- `tests/` — test package
+- `data/` — gathered metadata storage (JSON files organized by source)
+
+### Data Organization
+
+Metadata is stored as JSON files in `data/<source_name>/<ClassName>.json`. Each file contains all records of that class from that source. Class names come from the demo-research-information-schema and schemas it references.
+
+## Conventions
+
+- **Commits**: conventional commits (`feat:`, `fix:`, `docs:`, `build:`)
