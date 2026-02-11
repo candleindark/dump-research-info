@@ -31,12 +31,6 @@ in the subdirectory named after the source. All subdirectories are stored in the
 
 - [License](#license)
 
-## Installation
-
-```console
-pip install dump-research-info
-```
-
 ## License
 
 `dump-research-info` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
