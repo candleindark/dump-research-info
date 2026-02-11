@@ -28,4 +28,10 @@ Execute the following steps to gather metadata:
 3. For each record of metadata gathered, validate it against the target data model (class) using
    the REST API of the dump-things-server instance. (This can be done by sending a POST request to the
    `/{collection}/validate/record/{class}` endpoint, where `{collection}` is `research_info` and `{class}` is the name 
-   of the data model (class) that the record is supposed to conform to. The body of the POST request should be the JSON record to validate.)
+   of the data model (class) that the record is supposed to conform to. The body of the POST request should be the JSON record to validate.
+   In the POST request, the HTTP header `X-DumpThings-Token` with the value of `write_collection_token` must be provided for authentication.
+   If the server responds with a 200 status code and a response body of "true" in JSON format, then the record is valid. Otherwise, the record is invalid.)
+   If the record is valid, do substep 1. If the record is invalid, adjust it with information from the source until it is valid, then do substep 1. 
+   The adjustments should be done with increasing amount of thinking. However, after 3 attempts of adjusting the record, 
+   if it is still invalid, discard the record and move on to the next one.
+   1. Add it to the file `data/<source_name>/<ClassName>.json`. (If the file does not exist, create it. If it already exists, append the record to the existing file.)
