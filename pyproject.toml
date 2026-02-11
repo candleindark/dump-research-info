@@ -1,0 +1,66 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dump-research-info"
+dynamic = ["version"]
+description = 'A tool that dumps research information related to Center for Open Neuroscience to an instance of dump-things-server'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Isaac To", email = "candleindark@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "click",
+]
+
+[project.urls]
+Documentation = "https://github.com/Isaac To/dump-research-info#readme"
+Issues = "https://github.com/Isaac To/dump-research-info/issues"
+Source = "https://github.com/Isaac To/dump-research-info"
+
+[project.scripts]
+dump-research-info = "dump_research_info.cli:dump_research_info"
+
+[tool.hatch.version]
+path = "src/dump_research_info/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/dump_research_info tests}"
+
+[tool.coverage.run]
+source_pkgs = ["dump_research_info", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/dump_research_info/__about__.py",
+]
+
+[tool.coverage.paths]
+dump_research_info = ["src/dump_research_info", "*/dump-research-info/src/dump_research_info"]
+tests = ["tests", "*/dump-research-info/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
