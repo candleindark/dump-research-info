@@ -35,7 +35,11 @@ Data must conform to the data models defined in or referenced by the [demo-resea
 
 ### Data Organization
 
-Metadata is stored as JSON files in `data/<source_name>/<ClassName>.json`. Each file contains all records of that class from that source. Class names come from the demo-research-information-schema and schemas it references.
+Metadata is stored as JSON files at `data/<source_name>/<ClassName>.json`:
+- `<source_name>` — a name given to the source from which the metadata is gathered
+- `<ClassName>` — the name of a class defined or referenced in `demo-research-information-schema` that the contained records must conform to
+
+Each JSON file contains an array of records conforming to `<ClassName>`.
 
 ## Conventions
 
