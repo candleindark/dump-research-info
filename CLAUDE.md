@@ -41,6 +41,10 @@ Metadata is stored as JSON files at `data/<source_name>/<ClassName>.json`:
 
 Each JSON file contains an array of records conforming to `<ClassName>`.
 
+## Terminology
+
+- **dump-things-server** and **dump-things-service** are used interchangeably. `dump-things-service` is the PyPI package name and the command to start the server; `dump-things-server` is the general name for the server/project.
+
 ## Conventions
 
 - **Commits**: conventional commits (`feat:`, `fix:`, `docs:`, `build:`)
