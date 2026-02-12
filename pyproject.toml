@@ -36,6 +36,14 @@ dump-research-info = "dump_research_info.cli:dump_research_info"
 [tool.hatch.version]
 path = "src/dump_research_info/__about__.py"
 
+[tool.hatch.envs.dump-server]
+detached = true
+dependencies = [
+  "dump-things-service",
+]
+[tool.hatch.envs.dump-server.scripts]
+start = 'dump-things-service --origins "http://localhost:8000" --host localhost --port 8111 "store"'
+
 [tool.hatch.envs.types]
 extra-dependencies = [
   "mypy>=1.0.0",
