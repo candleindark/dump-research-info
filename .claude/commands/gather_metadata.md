@@ -14,7 +14,7 @@ which is set up to receive records of the schema. The OpenAPI documentation is l
 `http://localhost:8111/openapi.json`.
 
 
-Execute the following steps to gather metadata:
+## Execute the following steps to gather metadata
 1. Ensure the instance of the dump-things-server is running. (This can be done through a
    GET request its `/server` endpoint, which should return a 200 status code if the server is running.)
    If the server is not running, start the server by executing the following command in the terminal:
