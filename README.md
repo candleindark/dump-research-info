@@ -4,7 +4,7 @@
 
 This repo provides a setup to gather research information related to 
 Center for Open Neuroscience (CON) as (meta)data and a tool to dump the gathered 
-(meta)data to an instance of [dump-things-server](https://hub.psychoinformatics.de/inm7/dump-things-server).
+(meta)data to an instance of [dump-things-server](https://hub.psychoinformatics.de/datalink/dump-things-server).
 The (meta)data gathered must conform to the data models defined in the 
 [demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml),
 which is documented at [DataLad Concepts](https://concepts.datalad.org/s/demo-research-information/unreleased/),
