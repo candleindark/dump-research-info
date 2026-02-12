@@ -1,0 +1,29 @@
+[
+  {
+    "pid": "https://reporter.nih.gov/search/xLyGTK4YgUu0dn6pqlHDHQ/project-details/10260526",
+    "title": "DANDI: Distributed Archives for Neurophysiology Data Integration",
+    "short_name": "NIH 1R24MH117295-01A1",
+    "display_label": "NIH DANDI Grant",
+    "description": "NIH grant supporting the DANDI platform for publishing, sharing, and processing neurophysiology data.",
+    "identifiers": [{"notation": "1R24MH117295-01A1"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  },
+  {
+    "pid": "https://reporter.nih.gov/search/x1x1x1x1x1/project-details/1R24MH136632-01",
+    "title": "EMBER: Ecosystem for Multi-modal Brain-behavior Experimentation and Research",
+    "short_name": "NIH 1R24MH136632-01",
+    "display_label": "NIH EMBER Grant",
+    "description": "NIH grant supporting the EMBER BRAIN Initiative archive for multi-modal neurophysiological and behavioral data.",
+    "identifiers": [{"notation": "1R24MH136632-01"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  },
+  {
+    "pid": "https://reporter.nih.gov/search/x2x2x2x2x2/project-details/5R24MH117179-07",
+    "title": "OpenNeuro",
+    "short_name": "NIH 5R24MH117179-07",
+    "display_label": "NIH OpenNeuro Grant",
+    "description": "NIH grant supporting the OpenNeuro neuroimaging data archive.",
+    "identifiers": [{"notation": "5R24MH117179-07"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  }
+]

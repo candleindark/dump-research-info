@@ -1,0 +1,65 @@
+[
+  {
+    "pid": "https://doi.org/10.3389/fninf.2012.00022",
+    "title": "Open is not enough. Let's take the next step: an integrated, community-driven computing platform for neuroscience",
+    "display_label": "Halchenko & Hanke 2012",
+    "identifiers": [{"notation": "10.3389/fninf.2012.00022", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/"]
+  },
+  {
+    "pid": "https://doi.org/10.12688/f1000research.7628.1",
+    "title": "Four aspects to make science open by design and not as an after-thought",
+    "display_label": "Halchenko & Hanke 2015",
+    "identifiers": [{"notation": "10.12688/f1000research.7628.1", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/"]
+  },
+  {
+    "pid": "https://doi.org/10.1146/annurev-neuro-100119-110036",
+    "title": "Open Neuroscience",
+    "display_label": "Halchenko, Poldrack, Hanke 2022",
+    "identifiers": [{"notation": "10.1146/annurev-neuro-100119-110036", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/"]
+  },
+  {
+    "pid": "https://doi.org/10.21105/joss.05839",
+    "title": "HeuDiConv - flexible DICOM conversion into structured directory layouts",
+    "display_label": "Halchenko et al. 2024 JOSS",
+    "identifiers": [{"notation": "10.21105/joss.05839", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  },
+  {
+    "pid": "https://doi.org/10.1007/s12021-008-9041-y",
+    "title": "PyMVPA: A Python toolbox for multivariate pattern analysis of fMRI data",
+    "display_label": "Hanke et al. 2009 Neuroinformatics",
+    "identifiers": [{"notation": "10.1007/s12021-008-9041-y", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  },
+  {
+    "pid": "https://doi.org/10.1038/sdata.2016.44",
+    "title": "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments",
+    "display_label": "Gorgolewski et al. 2016",
+    "identifiers": [{"notation": "10.1038/sdata.2016.44", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  },
+  {
+    "pid": "https://doi.org/10.1002/hbm.25351",
+    "title": "The Open Brain Consent: Informing research participants and obtaining consent to share brain imaging data",
+    "display_label": "Open Brain Consent 2021",
+    "identifiers": [{"notation": "10.1002/hbm.25351", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  },
+  {
+    "pid": "https://doi.org/10.21105/joss.00424",
+    "title": "Quail: A Python toolbox for analyzing and plotting free recall data",
+    "display_label": "Manning et al. 2017 JOSS",
+    "identifiers": [{"notation": "10.21105/joss.00424", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  },
+  {
+    "pid": "https://doi.org/10.7490/f1000research.1116363.1",
+    "title": "YODA: YODA's Organigram on Data Analysis",
+    "display_label": "YODA 2018 F1000Research",
+    "identifiers": [{"notation": "10.7490/f1000research.1116363.1", "schema_type": "dlthings:DOI"}],
+    "about": ["https://centerforopenneuroscience.org/projects"]
+  }
+]

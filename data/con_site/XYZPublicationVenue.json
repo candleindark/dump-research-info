@@ -1,0 +1,42 @@
+[
+  {
+    "pid": "https://www.frontiersin.org/journals/neuroinformatics",
+    "title": "Frontiers in Neuroinformatics",
+    "display_label": "Frontiers in Neuroinformatics"
+  },
+  {
+    "pid": "https://joss.theoj.org/",
+    "title": "Journal of Open Source Software",
+    "display_label": "JOSS"
+  },
+  {
+    "pid": "https://www.springer.com/journal/12021",
+    "title": "Neuroinformatics",
+    "display_label": "Neuroinformatics"
+  },
+  {
+    "pid": "https://www.nature.com/sdata/",
+    "title": "Scientific Data",
+    "display_label": "Scientific Data"
+  },
+  {
+    "pid": "https://onlinelibrary.wiley.com/journal/10970193",
+    "title": "Human Brain Mapping",
+    "display_label": "Human Brain Mapping"
+  },
+  {
+    "pid": "https://www.annualreviews.org/loi/neuro",
+    "title": "Annual Review of Neuroscience",
+    "display_label": "Annual Review of Neuroscience"
+  },
+  {
+    "pid": "https://f1000research.com/",
+    "title": "F1000Research",
+    "display_label": "F1000Research"
+  },
+  {
+    "pid": "https://www.jmlr.org/",
+    "title": "Journal of Machine Learning Research",
+    "display_label": "JMLR"
+  }
+]

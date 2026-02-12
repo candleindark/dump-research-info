@@ -1,0 +1,52 @@
+[
+  {
+    "pid": "https://ror.org/04tfhh831",
+    "name": "Center for Open Neuroscience",
+    "short_name": "CON",
+    "description": "Provides open software frameworks, platforms, data and methodologies for neuroscience and beyond.",
+    "at_location": "https://www.wikidata.org/entity/Q131908",
+    "about": [
+      "https://centerforopenneuroscience.org/"
+    ],
+    "display_label": "Center for Open Neuroscience (CON)"
+  },
+  {
+    "pid": "https://ror.org/049s0rh22",
+    "name": "Dartmouth College",
+    "at_location": "https://www.wikidata.org/entity/Q131908",
+    "display_label": "Dartmouth College"
+  },
+  {
+    "pid": "https://ror.org/02nv7yv05",
+    "name": "Forschungszentrum Jülich",
+    "short_name": "FZJ",
+    "display_label": "Research Centre Jülich"
+  },
+  {
+    "pid": "https://ror.org/042nb2s44",
+    "name": "McGill University",
+    "display_label": "McGill University"
+  },
+  {
+    "pid": "https://ror.org/042nb2s44",
+    "name": "Massachusetts Institute of Technology",
+    "short_name": "MIT",
+    "display_label": "MIT"
+  },
+  {
+    "pid": "https://ror.org/04b6nzv94",
+    "name": "University of Texas at Austin",
+    "display_label": "University of Texas at Austin"
+  },
+  {
+    "pid": "https://ror.org/0190ak572",
+    "name": "Harvard Medical School",
+    "display_label": "Harvard Medical School"
+  },
+  {
+    "pid": "https://ror.org/00hj8s172",
+    "name": "University of Massachusetts Chan Medical School",
+    "short_name": "UMass Chan",
+    "display_label": "UMass Chan Medical School"
+  }
+]
