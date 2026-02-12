@@ -1,1 +1,6 @@
 .idea
+
+# Ignore all files in store directory except .dumpthings.yaml
+store/**
+!store/**/
+!store/**/.dumpthings.yaml
