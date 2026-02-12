@@ -32,6 +32,7 @@ Data must conform to the data models defined in or referenced by the [demo-resea
   - `__main__.py` — enables `python -m` invocation
 - `tests/` — test package
 - `data/` — gathered metadata storage (JSON files organized by source)
+- `store/` — data store for the dump-things-server instance used for validation; contains both configuration and data records, but only the configuration files (`.dumpthings.yaml`) are tracked by git
 
 ### Data Organization
 
