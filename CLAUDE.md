@@ -50,4 +50,4 @@ Each JSON file contains an array of records conforming to `<ClassName>`.
 ## Conventions
 
 - **Commits**: conventional commits (`feat:`, `fix:`, `docs:`, `build:`)
-- **Data README**: A `README.md` file should be maintained for each subdirectory of `data/`. It should provide an up-to-date summary of the gathered metadata within the subdirectory, including but not exclusive to the strategies used and decisions made in the process of gathering the metadata and a description of the gathered data. The `README.md` should be checked and updated, if and only if appropriate, whenever the metadata within the subdirectory is updated.
+- **Data README**: A `README.md` file should be maintained for each subdirectory of `data/`. It should provide an up-to-date summary of the gathered metadata within the subdirectory, including but not exclusive to the strategies used and decisions made in the process of gathering the metadata, a description of the gathered metadata, and known issues of the gathered metadata. The `README.md` should be checked and updated, if and only if appropriate, whenever the metadata within the subdirectory is updated.
