@@ -12,7 +12,13 @@ defined in or referenced by the [demo-research-information-schema](https://conce
 are also specified by the OpenAPI documentation of the REST API of a dump-things-server instance 
 which is set up to receive records of the schema. The OpenAPI documentation is located at
 `http://localhost:8111/openapi.json`.
-
+- In gathering metadata, priority should be given to gather information as records for data classes lower in the class hierarchy.
+  For example, if a piece of information can be stored as part of a record of the class `XYZPerson` and also as part
+  a record of the class `Person`, store it as part of a record of the class `XYZPerson` since `XYZPerson` is a 
+  subclass of `Person`. In the same vein, if a piece of information can be stored as a full record of a subclass and
+  also as a full record of the subclass's superclass, store it as a full record of the subclass. For example, if a piece of 
+  information can be stored as a full record of the subclass `XYZProject` and as a full record of the corresponding superclass `Project`, 
+  store it as a full record of `XYZProject`.
 
 ## Execute the following steps to gather metadata
 1. Ensure the instance of the dump-things-server is running. (This can be done through a
