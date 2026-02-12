@@ -1,0 +1,48 @@
+type: collections     # has to be "collections"
+version: 1            # has to be 1
+
+# All collections are listed in "collections"
+collections:
+  research_info:
+    default_token: read_curated_token
+    curated: research_info_records/curated
+    incoming: research_info_records/incoming
+    # backend:  # let this default to record_dir+stl
+    auth_sources:
+      - type: config
+    # submission_tags: # Let this default
+    # use_classes:  # Let this default to an empty list
+    # ignore_classes:  # Let this default to an empty list
+
+tokens:
+  read_curated_token:
+    user_id: read_curated_user
+    collections:
+      research_info:
+        mode: READ_CURATED
+        incoming_label: ""
+    # hashed:  # Let it default to false
+
+  read_collection_token:
+    user_id: read_collection_user
+    collections:
+      research_info:
+        mode: READ_COLLECTION
+        incoming_label: user_posted_records
+    # hashed:  # Let it default to false
+
+  write_collection_token:
+    user_id: write_collection_user
+    collections:
+      research_info:
+        mode: WRITE_COLLECTION
+        incoming_label: user_posted_records
+    # hashed:  # Let it default to false
+
+  curator_token:
+    user_id: curator_user
+    collections:
+      research_info:
+        mode: CURATOR
+        incoming_label: user_posted_records
+    # hashed:  # Let it default to false
