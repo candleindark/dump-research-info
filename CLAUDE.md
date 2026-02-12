@@ -45,6 +45,7 @@ Each JSON file contains an array of records conforming to `<ClassName>`.
 ## Terminology
 
 - **dump-things-server** and **dump-things-service** are used interchangeably. `dump-things-service` is the PyPI package name and the command to start the server; `dump-things-server` is the general name for the server/project.
+- **data model**, **data class**, and **data model (class)** are used interchangeably. Generally, "data model" refers to the concept and "data class" refers to the implementation, but the distinction is not strict in this project.
 
 ## Conventions
 
