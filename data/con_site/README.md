@@ -92,9 +92,9 @@ Nine publications were identified from explicit references on the website
 
 ## Known Issues
 
-- **Duplicate PID for McGill / MIT**: The `XYZOrganization` records for McGill
-  University and MIT incorrectly share the same ROR ID (`https://ror.org/042nb2s44`,
-  which is McGill's). MIT's correct ROR ID needs to be looked up and corrected.
+- **No ROR ID for Harvard Medical School**: Harvard Medical School does not
+  appear to have a ROR entry. Its homepage URL (`https://hms.harvard.edu`) is
+  used as the PID instead of a ROR ID.
 - **Placeholder grant PIDs**: The EMBER and OpenNeuro grant PIDs use fabricated
   NIH Reporter search paths (`x1x1x1x1x1`, `x2x2x2x2x2`) because the actual
   NIH Reporter URLs were not looked up. These should be replaced with the real
