@@ -90,6 +90,27 @@ Nine publications were identified from explicit references on the website
 (main page and project descriptions). All had DOIs which were used as both
 `pid` and in the `identifiers` array.
 
+### Inter-record relationships
+
+Relationships between records were populated using PROV-O-based fields where
+the `object` property references another record's PID:
+
+- **XYZOrganization `part_of`**: CON is part of Dartmouth College (stated on
+  the website).
+- **XYZProject `associated_with`**: Projects were linked to persons explicitly
+  named on the `/projects` and `/whoweare` pages (e.g., DataLad lists Hanke,
+  Visconti di Oleggio Castello, Meyer, Poldrack, and Halchenko). 17 of 22
+  projects have at least one association. Projects without named contributors
+  on the website (con/duct, con/tinuous, pyout, NWB, distribits) have none.
+- **XYZPublication `attributed_to`**: Publications were linked to their authors
+  where those authors have records in `XYZPerson.json`. Only authors explicitly
+  named on the website were included. All 9 publications have at least one
+  attribution.
+- **XYZGrant `attributed_to`**: Grants were linked to PIs and Co-Is named on
+  the `/projects` page. Roles (PI, Co-I) are not included in the `attributed_to`
+  objects because the `roles` field requires URIs/CURIEs rather than plain
+  strings.
+
 ## Known Issues
 
 - **No ROR ID for Harvard Medical School**: Harvard Medical School does not
@@ -102,8 +123,3 @@ Nine publications were identified from explicit references on the website
 - **No ORCID identifiers**: Person records use GitHub profile URLs as PIDs.
   These could be enriched with ORCID identifiers (in the `identifiers` field)
   if looked up from an external source.
-- **No inter-record relationships**: Records do not yet use fields like
-  `associated_with`, `part_of`, `influenced_by`, or `attributed_to` to link
-  persons to organizations, projects to grants, publications to authors, etc.
-  The schema supports these relationships but they were not populated in this
-  initial gathering pass.
