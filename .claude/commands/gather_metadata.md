@@ -14,6 +14,10 @@ defined in or referenced by the [demo-research-information-schema](https://conce
   are also specified by the OpenAPI documentation of the REST API of a dump-things-server instance
   which is set up to receive records of the schema. The OpenAPI documentation is located at
   `http://localhost:8111/openapi.json`.
+- When relationships between gathered records can be identified from the source (e.g., a person is associated
+  with a project, a publication is attributed to a person, an organization is part of another), these should
+  be captured using the appropriate relationship fields (e.g., `associated_with`, `attributed_to`, `part_of`).
+  The `object` property in relationship fields should reference the PID of the related record.
 - In gathering metadata, priority should be given to gather information as records for data classes lower in the class hierarchy.
   For example, if a piece of information can be stored as part of a record of the class `XYZPerson` and also as part
   a record of the class `Person`, store it as part of a record of the class `XYZPerson` since `XYZPerson` is a 
