@@ -1,7 +1,7 @@
 Gather metadata from: $ARGUMENTS
 
 ## Goal
-Gather metadata from the resource specified by the provided arguments. 
+Gather metadata from the source specified by the provided arguments. 
 
 ## Context and requirements
 The gathered metadata should be in records of JSON format that conform to the data models (classes)
@@ -32,7 +32,7 @@ defined in or referenced by the [demo-research-information-schema](https://conce
    (Please note the above command is blocking in the terminal, so you may want to start it in a separate terminal window.)
    Once the server is started, you should verify that it is running by checking the `/server` endpoint again.
    Once the server is running, you can proceed to the next step.
-2. Gather metadata from the specified resource.
+2. Gather metadata from the specified source.
 3. For each record of metadata gathered, validate it against the target data model (class) using
    the REST API of the dump-things-server instance. (This can be done by sending a POST request to the
    `/{collection}/validate/record/{class}` endpoint, where `{collection}` is `research_info` and `{class}` is the name 
