@@ -8,8 +8,10 @@ The gathered metadata should be in records of JSON format that conform to the da
 defined in or referenced by the [demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml). 
 
 ### Notes
+- Gathered metadata should be constructed from the information obtained from the provided source or be validated.
+  If a piece of metadata is constructed from an AI system's memory, e.g., the `pid` of an entity, it must be verified.
 - The data models (classes) defined in or referenced by the [demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml)
-are also specified by the OpenAPI documentation of the REST API of a dump-things-server instance 
+are also specified by the OpenAPI documentation of the REST API of a dump-things-server instance
 which is set up to receive records of the schema. The OpenAPI documentation is located at
 `http://localhost:8111/openapi.json`.
 - In gathering metadata, priority should be given to gather information as records for data classes lower in the class hierarchy.
