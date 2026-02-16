@@ -29,11 +29,21 @@ in the subdirectory named after the source. All subdirectories are stored in the
 
 ## Table of Contents
 
+- [Server Configuration](#server-configuration)
 - [Commands and Tools](#commands-and-tools)
   - [CLI](#cli)
   - [Hatch Commands](#hatch-commands)
   - [Claude Code Slash Commands](#claude-code-slash-commands)
 - [License](#license)
+
+## Server Configuration
+
+Tokens for accessing the dump-things-server instance for validating
+gathered metadata are defined in `.dumpthings.yaml` in the `store/`
+directory. The interpretation of the token modes is documented at
+[christian-monch/dump-things-server#67 (comment)](https://github.com/christian-monch/dump-things-server/issues/67#issuecomment-2834900042)
+and
+[dump-things-server#118](https://hub.psychoinformatics.de/datalink/dump-things-server/issues/118).
 
 ## Commands and Tools
 
