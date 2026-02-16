@@ -29,7 +29,46 @@ in the subdirectory named after the source. All subdirectories are stored in the
 
 ## Table of Contents
 
+- [Commands and Tools](#commands-and-tools)
+  - [CLI](#cli)
+  - [Hatch Commands](#hatch-commands)
+  - [Claude Code Slash Commands](#claude-code-slash-commands)
 - [License](#license)
+
+## Commands and Tools
+
+### CLI
+
+- **`dump-research-info`** — Main CLI entry point
+  (also invocable via `python -m dump_research_info`).
+  Used for dumping the gathered (meta)data in this repo
+  to a dump-things-server instance.
+
+### Hatch Commands
+
+- **`hatch run dump-server:start`** — Start a local dump-things-server
+  instance configured to serve the `store/` directory.
+  The server listens on `localhost:8111` and allows CORS requests
+  from `http://localhost:8000`.
+  Used for validating gathered metadata against the
+  demo-research-information-schema.
+- **`hatch run tools:serve-frontend`** — Serve the frontend web UI
+  from `_ext/pool.psychoinformatics.de-ui/dist/` on `http://localhost:8000`.
+  Used for browsing and inspecting data in the dump-things-server instance.
+- **`hatch run types:check`** — Run mypy type checking on the source
+  and test packages.
+
+### Claude Code Slash Commands
+
+- **`/gather_metadata <source>`** — Gather metadata from a specified source.
+  This command guides Claude Code through fetching information from
+  the source, constructing records conforming to the
+  demo-research-information-schema, validating each record against a
+  running dump-things-server instance, and storing valid records as
+  JSON files in `data/<source_name>/`.
+- **`/start_frontend`** — Launch the local frontend web UI for the
+  dump-things-server. This command handles cloning and building the
+  frontend repo (if needed) and serving it on `http://localhost:8000`.
 
 ## License
 
