@@ -4,3 +4,6 @@
 store/**
 !store/**/
 !store/**/.dumpthings.yaml
+
+# External repo clones
+_ext
