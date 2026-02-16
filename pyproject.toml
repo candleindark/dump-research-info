@@ -36,7 +36,11 @@ dump-research-info = "dump_research_info.cli:dump_research_info"
 [tool.hatch.version]
 path = "src/dump_research_info/__about__.py"
 
+[tool.hatch.envs.default]
+installer = "uv"
+
 [tool.hatch.envs.dump-server]
+installer = "uv"
 detached = true
 dependencies = [
   "dump-things-service",
