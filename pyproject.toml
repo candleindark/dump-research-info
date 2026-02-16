@@ -48,6 +48,12 @@ dependencies = [
 [tool.hatch.envs.dump-server.scripts]
 start = 'dump-things-service --origins "http://localhost:8000" --host localhost --port 8111 "{root}/store"'
 
+[tool.hatch.envs.tools]
+installer = "uv"
+detached = true
+[tool.hatch.envs.tools.scripts]
+serve-frontend = 'python -m http.server --directory "{root}/_ext/pool.psychoinformatics.de-ui/dist" 8000'
+
 [tool.hatch.envs.types]
 extra-dependencies = [
   "mypy>=1.0.0",
