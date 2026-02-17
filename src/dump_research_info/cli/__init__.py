@@ -15,7 +15,7 @@ def version_callback(value: bool) -> None:
 app = typer.Typer()
 
 
-@app.callback(invoke_without_command=True)
+@app.command()
 def main(
     version: bool = typer.Option(
         False,
