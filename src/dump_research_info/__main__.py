@@ -4,6 +4,6 @@
 import sys
 
 if __name__ == "__main__":
-    from dump_research_info.cli import dump_research_info
+    from dump_research_info.cli import app
 
-    sys.exit(dump_research_info())
+    sys.exit(app())

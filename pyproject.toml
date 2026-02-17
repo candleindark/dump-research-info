@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "click",
+  "typer",
 ]
 
 [project.urls]
@@ -31,7 +31,7 @@ Issues = "https://github.com/Isaac To/dump-research-info/issues"
 Source = "https://github.com/Isaac To/dump-research-info"
 
 [project.scripts]
-dump-research-info = "dump_research_info.cli:dump_research_info"
+dump-research-info = "dump_research_info.cli:app"
 
 [tool.hatch.version]
 path = "src/dump_research_info/__about__.py"
