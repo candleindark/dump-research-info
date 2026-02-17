@@ -26,4 +26,5 @@ def main(
         help="Show version and exit.",
     ),
 ) -> None:
+    """Dump gathered research metadata to a dump-things-server instance."""
     typer.echo("Hello world!")
