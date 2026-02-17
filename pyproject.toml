@@ -38,9 +38,22 @@ dump-research-info = "dump_research_info.cli:app"
 [tool.hatch.version]
 path = "src/dump_research_info/__about__.py"
 
+[dependency-groups]
+test = ["pytest"]
+types = [{include-group = "test"}, "mypy>=1.0.0"]
+dev = [{include-group = "test"}]
+
 [tool.hatch.envs.default]
 installer = "uv"
 python = "3.11"
+
+[tool.hatch.envs.test]
+dependency-groups = ["test"]
+[tool.hatch.envs.test.scripts]
+run = "pytest {args:tests}"
+
+[tool.hatch.envs.dev]
+dependency-groups = ["dev"]
 
 [tool.hatch.envs.dump-server]
 installer = "uv"
@@ -58,9 +71,7 @@ detached = true
 serve-frontend = 'python -m http.server --directory "{root}/_ext/pool.psychoinformatics.de-ui/dist" 8000'
 
 [tool.hatch.envs.types]
-extra-dependencies = [
-  "mypy>=1.0.0",
-]
+dependency-groups = ["types"]
 [tool.hatch.envs.types.scripts]
 check = "mypy --install-types --non-interactive {args:src/dump_research_info tests}"
 
