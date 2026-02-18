@@ -1,4 +1,5 @@
 import asyncio
+from pathlib import Path
 from typing import Any
 
 import httpx
@@ -34,6 +35,34 @@ async def _post_record(
         return f"HTTP {e.response.status_code}: {e.response.text}"
 
     return None
+
+
+async def _post_class_file(
+    client: httpx.AsyncClient,
+    file_path: Path,
+    collection: str,
+    token: str,
+) -> None:
+    """POST all records in a single class JSON file to the server."""
+    records = _records_adapter.validate_json(file_path.read_bytes())
+    if not records:
+        return
+
+    class_name = file_path.stem
+    endpoint = f"{collection}/record/{class_name}"
+
+    async with asyncio.TaskGroup() as tg:
+        tasks = [
+            tg.create_task(_post_record(client, endpoint, record, token))
+            for record in records
+        ]
+
+    errors = [t.result() for t in tasks]
+    n_ok = sum(1 for e in errors if e is None)
+    print(f"{class_name}: {n_ok}/{len(records)} records posted successfully")
+    for i, error in enumerate(errors):
+        if error is not None:
+            print(f"  Record {i + 1}: {error}")
 
 
 @validate_call
@@ -92,22 +121,8 @@ async def dump_records(
         return
 
     async with httpx.AsyncClient(base_url=base) as client:
-        for file_path in class_files:
-            records = _records_adapter.validate_json(file_path.read_bytes())
-            if not records:
-                continue
-            class_name = file_path.stem
-            endpoint = f"{collection}/record/{class_name}"
-
-            async with asyncio.TaskGroup() as tg:
-                tasks = [
-                    tg.create_task(_post_record(client, endpoint, record, token))
-                    for record in records
-                ]
-
-            errors = [t.result() for t in tasks]
-            n_ok = sum(1 for e in errors if e is None)
-            print(f"{class_name}: {n_ok}/{len(records)} records posted successfully")
-            for i, error in enumerate(errors):
-                if error is not None:
-                    print(f"  Record {i + 1}: {error}")
+        async with asyncio.TaskGroup() as tg:
+            for file_path in class_files:
+                tg.create_task(
+                    _post_class_file(client, file_path, collection, token)
+                )
