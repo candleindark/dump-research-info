@@ -1,7 +1,39 @@
-# SPDX-FileCopyrightText: 2026-present Isaac To <candleindark@gmail.com>
-#
-# SPDX-License-Identifier: MIT
-from pydantic import DirectoryPath, HttpUrl, validate_call
+import asyncio
+from typing import Any
+
+import httpx
+from pydantic import DirectoryPath, HttpUrl, TypeAdapter, validate_call
+
+_records_adapter: TypeAdapter[list[dict[str, Any]]] = TypeAdapter(
+    list[dict[str, Any]]
+)
+
+
+async def _post_record(
+    client: httpx.AsyncClient,
+    endpoint: str,
+    record: dict[str, Any],
+    token: str,
+) -> str | None:
+    """POST a single record to the server.
+
+    Returns an error message on failure, `None` on success.
+    """
+    try:
+        response = await client.post(
+            endpoint,
+            json=record,
+            headers={"X-DumpThings-Token": token},
+        )
+    except httpx.RequestError as e:
+        return str(e)
+
+    try:
+        response.raise_for_status()
+    except httpx.HTTPStatusError as e:
+        return f"HTTP {e.response.status_code}: {e.response.text}"
+
+    return None
 
 
 @validate_call
@@ -38,7 +70,44 @@ async def dump_records(
         counts per class and target URLs) without making any HTTP
         requests.
     """
-    raise NotImplementedError(
-        "dump_records is not yet implemented. "
-        "This stub will be replaced in Step 2."
-    )
+    class_files = sorted(source.glob("*.json"), key=lambda f: f.stem)
+
+    if not class_files:
+        print(f"No JSON files found in {source}.")
+        return
+
+    # service_url always has a trailing slash as a Pydantic HttpUrl
+    base = str(service_url)
+
+    if dry_run:
+        for file_path in class_files:
+            records = _records_adapter.validate_json(file_path.read_bytes())
+            if not records:
+                continue
+            class_name = file_path.stem
+            print(
+                f"{len(records)} {class_name} record(s)"
+                f" → POST {base}{collection}/record/{class_name}"
+            )
+        return
+
+    async with httpx.AsyncClient(base_url=base) as client:
+        for file_path in class_files:
+            records = _records_adapter.validate_json(file_path.read_bytes())
+            if not records:
+                continue
+            class_name = file_path.stem
+            endpoint = f"{collection}/record/{class_name}"
+
+            async with asyncio.TaskGroup() as tg:
+                tasks = [
+                    tg.create_task(_post_record(client, endpoint, record, token))
+                    for record in records
+                ]
+
+            errors = [t.result() for t in tasks]
+            n_ok = sum(1 for e in errors if e is None)
+            print(f"{class_name}: {n_ok}/{len(records)} records posted successfully")
+            for i, error in enumerate(errors):
+                if error is not None:
+                    print(f"  Record {i + 1}: {error}")
