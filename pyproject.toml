@@ -77,6 +77,9 @@ dependency-groups = ["types"]
 [tool.hatch.envs.types.scripts]
 check = "mypy --install-types --non-interactive {args:src/dump_research_info tests}"
 
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 
