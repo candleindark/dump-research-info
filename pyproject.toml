@@ -41,7 +41,7 @@ dump-research-info = "dump_research_info.cli:app"
 path = "src/dump_research_info/__about__.py"
 
 [dependency-groups]
-test = ["pytest"]
+test = ["pytest", "pytest-asyncio"]
 types = [{include-group = "test"}, "mypy>=1.0.0"]
 dev = [{include-group = "test"}]
 
@@ -76,6 +76,9 @@ serve-frontend = 'python -m http.server --directory "{root}/_ext/pool.psychoinfo
 dependency-groups = ["types"]
 [tool.hatch.envs.types.scripts]
 check = "mypy --install-types --non-interactive {args:src/dump_research_info tests}"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
 
 [tool.coverage.run]
 source_pkgs = ["dump_research_info", "tests"]
