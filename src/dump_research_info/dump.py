@@ -44,7 +44,9 @@ async def _post_class_file(
     token: str,
 ) -> None:
     """POST all records in a single class JSON file to the server."""
-    records = _records_adapter.validate_json(file_path.read_bytes())
+    records = _records_adapter.validate_json(
+        await asyncio.to_thread(file_path.read_bytes)
+    )
     if not records:
         return
 
@@ -110,7 +112,9 @@ async def dump_records(
 
     if dry_run:
         for file_path in class_files:
-            records = _records_adapter.validate_json(file_path.read_bytes())
+            records = _records_adapter.validate_json(
+                await asyncio.to_thread(file_path.read_bytes)
+            )
             if not records:
                 continue
             class_name = file_path.stem
