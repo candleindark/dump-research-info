@@ -49,6 +49,11 @@ Each JSON file contains an array of records conforming to `<ClassName>`.
 - **data**, **metadata**, and **(meta)data** are used interchangeably. Whether a piece of data is "meta" is relative, and we don't make that distinction in this project.
 - **this project** and **this repo** are used interchangeably, referring to the same thing from different perspectives.
 
+## Instructions for Claude Code Agents
+
+- By default, user-specified notes should be added to `CLAUDE.md`
+  unless specified otherwise.
+
 ## Conventions
 
 - **Commits**: conventional commits (`feat:`, `fix:`, `docs:`, `build:`)
@@ -57,3 +62,4 @@ Each JSON file contains an array of records conforming to `<ClassName>`.
 - **Line length in text files**: When modifying or editing text files
   (e.g., markdown files), keep lines at a reasonable length for human
   readability. Break long lines into multiple shorter lines.
+- **Pytest**: Organize related tests in classes and use parametrization.
