@@ -14,13 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
       - name: Install Hatch
-        uses: pypa/hatch-install-action@v1
+        uses: pypa/hatch@install
 
       - name: Run mypy
         run: hatch run types:check
