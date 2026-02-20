@@ -6,7 +6,7 @@ from typer.testing import CliRunner
 from dump_research_info.__about__ import __version__
 from dump_research_info.cli import app
 
-runner = CliRunner()
+runner = CliRunner(env={"TERM": "dumb"})
 
 
 class TestCLIInfo:
