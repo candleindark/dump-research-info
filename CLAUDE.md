@@ -42,6 +42,19 @@ Metadata is stored as JSON files at `data/<source_name>/<ClassName>.json`:
 
 Each JSON file contains an array of records conforming to `<ClassName>`.
 
+#### `pool_psychoinformatics_de`
+
+Records in `data/pool_psychoinformatics_de/` were downloaded directly from the
+public REST API at `https://pool.psychoinformatics.de/api/` (collection:
+`public`, endpoint: `GET /public/records/{ClassName}`). They were **not**
+gathered by an AI agent analyzing source content — they are verbatim copies of
+the records served by the API. Only a selected subset of available classes was
+downloaded: those considered useful as a controlled vocabulary for building a
+knowledge pool (`Rule`, `XYZPublicationVenue`, `XYZAgentRole`,
+`XYZBibliographicType`, `XYZQuality`, `XYZTopic`, `Property`,
+`XYZInstrument`, `AnnotationTag`, `XYZEntityRole`, `XYZInstrumentType`,
+`XYZCompetitionType`, `XYZObjective`).
+
 ## Terminology
 
 - **dump-things-server** and **dump-things-service** are used interchangeably. `dump-things-service` is the PyPI package name and the command to start the server; `dump-things-server` is the general name for the server/project.

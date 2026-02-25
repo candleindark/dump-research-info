@@ -1,0 +1,8 @@
+[
+  {
+    "description": "A part of a grant application that provides a description of a proposed project and gives reasons why it is worthy of funding.",
+    "display_label": "Case for support",
+    "schema_type": "xyzri:XYZEntityRole",
+    "pid": "fabio:CaseForSupport"
+  }
+]

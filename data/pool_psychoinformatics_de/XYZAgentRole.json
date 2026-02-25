@@ -1,0 +1,595 @@
+[
+  {
+    "description": "A person or organization that reviews, examines and interprets data or information in a specific area",
+    "display_label": "Analyst",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:anl"
+  },
+  {
+    "description": "A person who makes manuscript annotations on an item",
+    "display_label": "Annotator",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:ann"
+  },
+  {
+    "description": "A person or organization responsible for the submission of an application or who is named as eligible for the results of the processing of the application (e.g., bestowing of rights, reward, title, position)",
+    "display_label": "Applicant",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:app"
+  },
+  {
+    "description": "A person or organization associated with or found in an item or collection, which cannot be determined to be that of a Former owner [fmo] or other designated relationship indicative of provenance",
+    "display_label": "Associated name",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:asn"
+  },
+  {
+    "description": "An author, artist, etc., relating him/her to a resource for which there is or once was substantial authority for designating that person as author, creator, etc. of the work indicative of provenance",
+    "display_label": "Attributed name",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:att"
+  },
+  {
+    "description": "A person, family, or organization responsible for creating a work that is primarily textual in content, regardless of media type (e.g., printed text, spoken word, electronic text, tactile text) or genre (e.g., poems, novels, screenplays, blogs). Use also for persons, etc., creating a new work by paraphrasing, rewriting, or adapting works by another creator such that the modification has substantially changed the nature and content of the original or changed the medium of expression",
+    "display_label": "Author",
+    "display_note": "More specific roles, such as 'first/senior author' should be used in the context of academic publications.",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:aut"
+  },
+  {
+    "description": "A person or organization responsible for the production of books and other print media",
+    "display_label": "Book producer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:bkp"
+  },
+  {
+    "description": "A person or organization for whom another person or organization is acting",
+    "display_label": "Client",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:cli"
+  },
+  {
+    "description": "A performer contributing to a work by providing interpretation, analysis, or a discussion of the subject matter on a recording, film, or other audiovisual medium",
+    "display_label": "Commentator",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:cmm"
+  },
+  {
+    "description": "A curator who brings together items from various sources that are then arranged, described, and cataloged as a collection. A collector is neither the creator of the material nor a person to whom manuscripts in the collection may have been addressed",
+    "display_label": "Collector",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:col"
+  },
+  {
+    "description": "A person or organization listed as a copyright owner at the time of registration. Copyright can be granted or later transferred to another person or organization, at which time the claimant becomes the copyright holder",
+    "display_label": "Copyright claimant",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:cpc"
+  },
+  {
+    "description": "A person or organization to whom copy and legal rights have been granted or transferred for the intellectual content of a work. The copyright holder, although not necessarily the creator of the work, usually has the exclusive right to benefit financially from the sale and use of the work to which the associated copyright protection applies",
+    "display_label": "Copyright holder",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:cph"
+  },
+  {
+    "description": "A person or organization responsible for the intellectual or artistic content of a resource",
+    "display_label": "Creator",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:cre"
+  },
+  {
+    "description": "A person or organization who was either the writer or recipient of a letter or other communication",
+    "display_label": "Correspondent",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:crp"
+  },
+  {
+    "description": "A person or organization relevant to a resource, who is called upon for professional advice or services in a specialized field of knowledge or training",
+    "display_label": "Consultant",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:csl"
+  },
+  {
+    "description": "A person or organization relevant to a resource, who is engaged specifically to provide an intellectual overview of a strategic or operational task and by analysis, specification, or instruction, to create or propose a cost-effective course of action or solution",
+    "display_label": "Consultant to a project",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:csp"
+  },
+  {
+    "description": "A person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator",
+    "display_label": "Contributor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:ctb"
+  },
+  {
+    "description": "A person or organization relevant to a resource, who enters into a contract with another person or organization to perform a specific",
+    "display_label": "Contractor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:ctr"
+  },
+  {
+    "description": "A place from which a resource, e.g., a serial, is distributed",
+    "display_label": "Distribution place",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dbp"
+  },
+  {
+    "description": "A organization granting an academic degree",
+    "display_label": "Degree granting institution",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dgg"
+  },
+  {
+    "description": "A person overseeing a higher level academic degree",
+    "display_label": "Degree supervisor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dgs"
+  },
+  {
+    "description": "A person who presents a thesis for a university or higher-level educational degree",
+    "display_label": "Dissertant",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dis"
+  },
+  {
+    "description": "An entity depicted or portrayed in a work, particularly in a work of art",
+    "display_label": "Depicted",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dpc"
+  },
+  {
+    "description": "A person, family, or organization responsible for creating a design for an object",
+    "display_label": "Designer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dsr"
+  },
+  {
+    "description": "A person or organization that submits data for inclusion in a database or other collection of data",
+    "display_label": "Data contributor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dtc"
+  },
+  {
+    "description": "A person or organization responsible for managing databases or other data sources",
+    "display_label": "Data manager",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:dtm"
+  },
+  {
+    "description": "A person, family, or organization contributing to a collective or aggregate work by selecting and putting together works, or parts of works, by one or more creators. For compilations of data, information, etc., that result in new works, see compiler",
+    "display_label": "Editor of compilation",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:edc"
+  },
+  {
+    "description": "A person, family, or organization contributing to a resource by revising or elucidating the content, e.g., adding an introduction, notes, or other critical matter. An editor may also prepare a resource for production, publication, or distribution. For major revisions, adaptations, etc., that substantially change the nature and content of the original work, resulting in a new work, see author",
+    "display_label": "Editor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:edt"
+  },
+  {
+    "description": "A jurisdiction enacting a law, regulation, constitution, court rule, etc.",
+    "display_label": "Enacting jurisdiction",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:enj"
+  },
+  {
+    "description": "A place where an event such as a conference or a concert took place",
+    "display_label": "Event place",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:evp"
+  },
+  {
+    "description": "A person or organization in charge of the description and appraisal of the value of goods, particularly rare items, works of art, etc.",
+    "display_label": "Expert",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:exp"
+  },
+  {
+    "description": "A person or organization that manages or supervises the work done to collect raw data or do research in an actual setting or environment (typically applies to the natural and social sciences)",
+    "display_label": "Field director",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:fld"
+  },
+  {
+    "description": "A person or organization that furnished financial support for the production of the work",
+    "display_label": "Funder",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:fnd"
+  },
+  {
+    "description": "A person, family, or organization honored by a work or item (e.g., the honoree of a festschrift, a person to whom a copy is presented)",
+    "display_label": "Honoree",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:hnr"
+  },
+  {
+    "description": "A person, family, or organization responsible for creating a new device or process",
+    "display_label": "Inventor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:inv"
+  },
+  {
+    "description": "A person, family or organization issuing a work, such as an official organ of the body",
+    "display_label": "Issuing body",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:isb"
+  },
+  {
+    "description": "A person, family or organization responsible for creating or contributing to a resource by responding to an interviewer, usually a reporter, pollster, or some other information gathering agent",
+    "display_label": "Interviewee",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:ive"
+  },
+  {
+    "description": "A person, family, or organization responsible for creating or contributing to a resource by acting as an interviewer, reporter, pollster, or some other information gathering agent",
+    "display_label": "Interviewer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:ivr"
+  },
+  {
+    "description": "An organization that provides scientific analyses of material samples",
+    "display_label": "Laboratory",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:lbr"
+  },
+  {
+    "description": "A person or organization that manages or supervises work done in a controlled setting or environment",
+    "display_label": "Laboratory director",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:ldr"
+  },
+  {
+    "description": "A person or organization that takes primary responsibility for a particular activity or endeavor. May be combined with another relator term or code to show the greater importance this person or organization has regarding that particular role. If more than one relator is assigned to a heading, use the Lead relator only if it applies to all the relators",
+    "display_label": "Lead",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:led"
+  },
+  {
+    "description": "A person or organization who is an original recipient of the right to print or publish",
+    "display_label": "Licensee",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:lse"
+  },
+  {
+    "description": "A person or organization who is a signer of the license, imprimatur, etc",
+    "display_label": "Licensor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:lso"
+  },
+  {
+    "description": "A person or organization primarily responsible for compiling and maintaining the original description of a metadata set (e.g., geospatial metadata set)",
+    "display_label": "Metadata contact",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:mdc"
+  },
+  {
+    "description": "The place of manufacture (e.g., printing, duplicating, casting, etc.) of a resource in a published form",
+    "display_label": "Manufacture place",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:mfp"
+  },
+  {
+    "description": "A performer contributing to a resource by leading a program (often broadcast) where topics are discussed, usually with participation of experts in fields related to the discussion",
+    "display_label": "Moderator",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:mod"
+  },
+  {
+    "description": "A person or organization that supervises compliance with the contract and is responsible for the report and controls its distribution. Sometimes referred to as the grantee, or controlling agency",
+    "display_label": "Monitor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:mon"
+  },
+  {
+    "description": "A person or organization performing the coding of SGML, HTML, or XML markup of metadata, text, etc.",
+    "display_label": "Markup editor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:mrk"
+  },
+  {
+    "description": "A person, family, or organization responsible for recording the minutes of a meeting",
+    "display_label": "Minute taker",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:mtk"
+  },
+  {
+    "description": "A performer contributing to a resource by reading or speaking in order to give an account of an act, occurrence, course of events, etc",
+    "display_label": "Narrator",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:nrt"
+  },
+  {
+    "description": "A person or organization responsible for opposing a thesis or dissertation",
+    "display_label": "Opponent",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:opn"
+  },
+  {
+    "description": "A person or organization performing the work, i.e., the name of a person or organization associated with the intellectual content of the work. This category does not include the publisher or personal affiliation, or sponsor except where it is also the corporate author",
+    "display_label": "Originator",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:org"
+  },
+  {
+    "description": "A person, family, or organization organizing the exhibit, event, conference, etc., which gave rise to a resource",
+    "display_label": "Organizer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:orm"
+  },
+  {
+    "description": "A role that has no equivalent in the MARC list.",
+    "display_label": "Other",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:oth"
+  },
+  {
+    "description": "A person, family, or organization that currently owns an item or collection, i.e.has legal possession of a resource",
+    "display_label": "Owner",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:own"
+  },
+  {
+    "description": "A performer contributing to a resource by participating in a program (often broadcast) where topics are discussed, usually with participation of experts in fields related to the discussion",
+    "display_label": "Panelist",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:pan"
+  },
+  {
+    "description": "A person or organization with primary responsibility for all essential aspects of a project, has overall responsibility for managing projects, or provides overall direction to a project manager",
+    "display_label": "Project director",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:pdr"
+  },
+  {
+    "description": "A person, family, or organization responsible for creating a photographic work",
+    "display_label": "Photographer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:pht"
+  },
+  {
+    "description": "An organization (usually a government agency) that issues permits under which work is accomplished",
+    "display_label": "Permitting agency",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:pma"
+  },
+  {
+    "description": "A person or organization primarily responsible for performing or initiating a process, such as is done with the collection of metadata sets",
+    "display_label": "Process contact",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:prc"
+  },
+  {
+    "description": "A person, family, or organization responsible for creating a computer program",
+    "display_label": "Programmer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:prg"
+  },
+  {
+    "description": "The place of production (e.g., inscription, fabrication, construction, etc.) of a resource in an unpublished form",
+    "display_label": "Production place",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:prp"
+  },
+  {
+    "description": "A person, family, or organization involved in manufacturing a manifestation of printed text, notated music, etc., from type or plates, such as a book, newspaper, magazine, broadside, score, etc",
+    "display_label": "Printer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:prt"
+  },
+  {
+    "description": "A person or organization that was granted the patent referred to by the item",
+    "display_label": "Patent holder",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:pth"
+  },
+  {
+    "description": "The place where a resource is published",
+    "display_label": "Publication place",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:pup"
+  },
+  {
+    "description": "A person, family, or organization to whom the correspondence in a work is addressed",
+    "display_label": "Addressee",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:rcp"
+  },
+  {
+    "description": "A person or organization responsible for performing research",
+    "display_label": "Researcher",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:res"
+  },
+  {
+    "description": "A person or organization responsible for the review of a book, motion picture, performance, etc.",
+    "display_label": "Reviewer",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:rev"
+  },
+  {
+    "description": "An organization that hosts data or material culture objects and provides services to promote long term, consistent and shared use of those data or objects",
+    "display_label": "Repository",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:rps"
+  },
+  {
+    "description": "A person or organization who writes or presents reports of news or current events on air or in print",
+    "display_label": "Reporter",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:rpt"
+  },
+  {
+    "description": "A person or organization legally responsible for the content of the published material",
+    "display_label": "Responsible party",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:rpy"
+  },
+  {
+    "description": "A person who directed or managed a research project",
+    "display_label": "Research team head",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:rth"
+  },
+  {
+    "description": "A person who participated in a research project but whose role did not involve direction or management of it",
+    "display_label": "Research team member",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:rtm"
+  },
+  {
+    "description": "A person or organization who brings scientific, pedagogical, or historical competence to the conception and realization on a work, particularly in the case of audio-visual items",
+    "display_label": "Scientific advisor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:sad"
+  },
+  {
+    "description": "A person or organization who is a recorder, redactor, or other person responsible for expressing the views of a organization",
+    "display_label": "Secretary",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:sec"
+  },
+  {
+    "description": "A person or organization that supports (by allocating facilities, staff, or other resources) a project, program, meeting, event, data objects, material culture objects, or other entities capable of support",
+    "display_label": "Supporting host",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:sht"
+  },
+  {
+    "description": "A performer contributing to a resource by speaking words, such as a lecture, speech, etc.",
+    "display_label": "Speaker",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:spk"
+  },
+  {
+    "description": "A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event",
+    "display_label": "Sponsor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:spn"
+  },
+  {
+    "description": "An entity in which the activity or plot of a work takes place, e.g. a geographic place, a time period, a building, an event",
+    "display_label": "Setting",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:stg"
+  },
+  {
+    "description": "An organization responsible for the development or enforcement of a standard",
+    "display_label": "Standards body",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:stn"
+  },
+  {
+    "description": "A person who is ultimately in charge of scenery, props, lights and sound for a production",
+    "display_label": "Technical director",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:tcd"
+  },
+  {
+    "description": "A performer contributing to a resource by giving instruction or providing a demonstration",
+    "display_label": "Teacher",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:tch"
+  },
+  {
+    "description": "A person under whose supervision a degree candidate develops and presents a thesis, mémoire, or text of a dissertation",
+    "display_label": "Thesis advisor",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:ths"
+  },
+  {
+    "description": "A person or organization who renders a text from one language into another, or from an older form of a language into the modern form",
+    "display_label": "Translator",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:trl"
+  },
+  {
+    "description": "A place where a university that is associated with a resource is located, for example, a university where an academic dissertation or thesis was presented",
+    "display_label": "University place",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "marcrel:uvp"
+  },
+  {
+    "description": "A role taken by a person who serves as a contact for some process.",
+    "display_label": "Contact person",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:MS_1002030"
+  },
+  {
+    "broad_mappings": [
+      "marcrel:aut"
+    ],
+    "description": "The first of a set of authors associated with a publication or release. There may be more than one first author in cases where several authors share primary attribution.",
+    "display_label": "First author",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:MS_1002034"
+  },
+  {
+    "broad_mappings": [
+      "marcrel:aut"
+    ],
+    "description": "The last of a set of authors associated with a publication or release. There may be more than one senior author in cases where several authors share senior attribution.",
+    "display_label": "Senior author",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:MS_1002035"
+  },
+  {
+    "broad_mappings": [
+      "marcrel:aut"
+    ],
+    "description": "One of a set of authors associated with a publication or release.",
+    "display_label": "Co-author",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:MS_1002036"
+  },
+  {
+    "close_mappings": [
+      "marcrel:ldr",
+      "marcrel:pdr",
+      "marcrel:rth"
+    ],
+    "description": "Holder of an independent grant and the lead researcher for the grant project, usually in the sciences, such as a laboratory study or a clinical trial. This role is often a synonym for 'head of the laboratory' or 'research group leader'. While the expression is common in the sciences, it is used widely for the person or persons who make final decisions and supervise funding and expenditures on a given research project.",
+    "display_label": "Principal investigator (PI)",
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:NCIT_C19924"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-14T21:58:59.526429"
+    },
+    "display_label": "Employer",
+    "exact_mappings": [
+      "http://purl.obolibrary.org/obo/OMRSE_00000087"
+    ],
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "xyzrins:agent-roles/7f9ac7fa-6f5a-4651-88aa-914689eb4e87",
+    "name": "Employer"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-14T22:27:22.400807"
+    },
+    "display_label": "Professor",
+    "exact_mappings": [
+      "http://purl.obolibrary.org/obo/NCIT_C69170"
+    ],
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "xyzrins:agent-roles/80708441-16c9-4290-975e-77235aae95f6",
+    "name": "Professor"
+  },
+  {
+    "annotations": {
+      "sio:SIO_001083": "2025-12-15T06:48:40.322168",
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de"
+    },
+    "exact_mappings": [
+      "http://purl.obolibrary.org/obo/NCIT_C134832"
+    ],
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "xyzrins:agent-roles/b248c1cc-135c-4e06-8366-6d38539fb825",
+    "name": "Supervisor"
+  }
+]

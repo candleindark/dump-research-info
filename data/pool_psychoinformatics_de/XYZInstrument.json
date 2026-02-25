@@ -1,0 +1,73 @@
+[
+  {
+    "generated_by": [
+      {
+        "schema_type": "dlthings:Generation",
+        "object": "xyzrins:projects/9fa7b1f5-a6e6-446e-aa52-7057f769c0ee"
+      }
+    ],
+    "annotations": {
+      "sio:SIO_001083": "2025-12-14T11:02:30.617501",
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de"
+    },
+    "kind": "obo:IAO_0000010",
+    "schema_type": "xyzri:XYZInstrument",
+    "pid": "xyzrins:instruments/datalad",
+    "name": "DataLad"
+  },
+  {
+    "attributed_to": [
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": [
+          "marcrel:aut",
+          "marcrel:cre"
+        ]
+      }
+    ],
+    "generated_by": [
+      {
+        "schema_type": "dlthings:Generation",
+        "object": "xyzrins:."
+      }
+    ],
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-14T11:05:03.289877"
+    },
+    "kind": "obo:IAO_0000010",
+    "schema_type": "xyzri:XYZInstrument",
+    "pid": "xyzrins:instruments/datalad-next",
+    "name": "datalad-next",
+    "part_of": [
+      "xyzrins:instruments/datalad"
+    ]
+  },
+  {
+    "attributed_to": [
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": [
+          "marcrel:aut",
+          "marcrel:cre"
+        ]
+      }
+    ],
+    "generated_by": [
+      {
+        "schema_type": "dlthings:Generation",
+        "object": "xyzrins:."
+      }
+    ],
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-14T11:05:03.249722"
+    },
+    "kind": "obo:IAO_0000010",
+    "schema_type": "xyzri:XYZInstrument",
+    "pid": "xyzrins:instruments/datasalad",
+    "name": "datasalad"
+  }
+]

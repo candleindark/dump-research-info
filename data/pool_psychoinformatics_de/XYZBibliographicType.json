@@ -1,0 +1,368 @@
+[
+  {
+    "description": "A scholarly academic article, typically published in a journal.",
+    "display_label": "Academic Article",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:AcademicArticle"
+  },
+  {
+    "description": "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine.",
+    "display_label": "Article",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Article"
+  },
+  {
+    "description": "An audio document; aka record.",
+    "display_label": "audio document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:AudioDocument"
+  },
+  {
+    "description": "An audio-visual document; film, video, and so forth.",
+    "display_label": "audio-visual document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:AudioVisualDocument"
+  },
+  {
+    "description": "Draft legislation presented for discussion to a legal body.",
+    "display_label": "Bill",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Bill"
+  },
+  {
+    "description": "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers.",
+    "display_label": "Book",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Book"
+  },
+  {
+    "description": "A section of a book.",
+    "display_label": "Book Section",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:BookSection"
+  },
+  {
+    "description": "A written argument submitted to a court.",
+    "display_label": "Brief",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Brief"
+  },
+  {
+    "description": "A chapter of a book.",
+    "display_label": "Chapter",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Chapter"
+  },
+  {
+    "description": "A collection of statutes.",
+    "display_label": "Code",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Code"
+  },
+  {
+    "description": "A document that simultaneously contains other documents.",
+    "display_label": "Collected Document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:CollectedDocument"
+  },
+  {
+    "description": "A collection of Documents or Collections",
+    "display_label": "Collection",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Collection"
+  },
+  {
+    "description": "A meeting for consultation or discussion.",
+    "display_label": "Conference",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Conference"
+  },
+  {
+    "description": "A collection of legal cases.",
+    "display_label": "Court Reporter",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:CourtReporter"
+  },
+  {
+    "description": "A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information.",
+    "display_label": "Document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Document"
+  },
+  {
+    "description": "a distinct part of a larger document or collected document.",
+    "display_label": "document part",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:DocumentPart"
+  },
+  {
+    "description": "The status of the publication of a document.",
+    "display_label": "Document Status",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:DocumentStatus"
+  },
+  {
+    "description": "An edited book.",
+    "display_label": "Edited Book",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:EditedBook"
+  },
+  {
+    "description": "A written communication addressed to a person or organization and transmitted electronically.",
+    "display_label": "EMail",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Email"
+  },
+  {
+    "description": "A passage selected from a larger work.",
+    "display_label": "Excerpt",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Excerpt"
+  },
+  {
+    "description": "aka movie.",
+    "display_label": "Film",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Film"
+  },
+  {
+    "description": "An instance or a session in which testimony and arguments are presented, esp. before an official, as a judge in a lawsuit.",
+    "display_label": "Hearing",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Hearing"
+  },
+  {
+    "description": "A document that presents visual or diagrammatic information.",
+    "display_label": "Image",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Image"
+  },
+  {
+    "description": "A formalized discussion between two or more people.",
+    "display_label": "Interview",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Interview"
+  },
+  {
+    "description": "something that is printed or published and distributed, esp. a given number of a periodical",
+    "display_label": "Issue",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Issue"
+  },
+  {
+    "description": "A periodical of scholarly journal Articles.",
+    "display_label": "Journal",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Journal"
+  },
+  {
+    "description": "A document accompanying a legal case.",
+    "display_label": "Legal Case Document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:LegalCaseDocument"
+  },
+  {
+    "description": "A document containing an authoritative determination (as a decree or judgment) made after consideration of facts or law.",
+    "display_label": "Decision",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:LegalDecision"
+  },
+  {
+    "description": "A legal document; for example, a court decision, a brief, and so forth.",
+    "display_label": "Legal Document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:LegalDocument"
+  },
+  {
+    "description": "A legal document proposing or enacting a law or a group of laws.",
+    "display_label": "Legislation",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Legislation"
+  },
+  {
+    "description": "A written or printed communication addressed to a person or organization and usually transmitted by mail.",
+    "display_label": "Letter",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Letter"
+  },
+  {
+    "description": "A periodical of magazine Articles. A magazine is a publication that is issued periodically, usually bound in a paper cover, and typically contains essays, stories, poems, etc., by many writers, and often photographs and drawings, frequently specializing in a particular subject or area, as hobbies, news, or sports.",
+    "display_label": "Magazine",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Magazine"
+  },
+  {
+    "description": "A small reference book, especially one giving instructions.",
+    "display_label": "Manual",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Manual"
+  },
+  {
+    "description": "An unpublished Document, which may also be submitted to a publisher for publication.",
+    "display_label": "Manuscript",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Manuscript"
+  },
+  {
+    "description": "A graphical depiction of geographic features.",
+    "display_label": "Map",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Map"
+  },
+  {
+    "description": "A loose, thematic, collection of Documents, often Books.",
+    "display_label": "Multivolume Book",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:MultiVolumeBook"
+  },
+  {
+    "description": "A periodical of documents, usually issued daily or weekly, containing current news, editorials, feature articles, and usually advertising.",
+    "display_label": "Newspaper",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Newspaper"
+  },
+  {
+    "description": "Notes or annotations about a resource.",
+    "display_label": "Note",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Note"
+  },
+  {
+    "description": "A document describing the exclusive right granted by a government to an inventor to manufacture, use, or sell an invention for a certain number of years.",
+    "display_label": "Patent",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Patent"
+  },
+  {
+    "description": "A public performance.",
+    "display_label": "Performance",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Performance"
+  },
+  {
+    "description": "A group of related documents issued at regular intervals.",
+    "display_label": "Periodical",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Periodical"
+  },
+  {
+    "description": "A communication between an agent and one or more specific recipients.",
+    "display_label": "Personal Communication",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:PersonalCommunication"
+  },
+  {
+    "description": "A personal communication manifested in some document.",
+    "display_label": "Personal Communication Document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:PersonalCommunicationDocument"
+  },
+  {
+    "description": "A compilation of documents published from an event, such as a conference.",
+    "display_label": "Proceedings",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Proceedings"
+  },
+  {
+    "description": "An excerpted collection of words.",
+    "display_label": "Quote",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Quote"
+  },
+  {
+    "description": "A document that presents authoritative reference information, such as a dictionary or encylopedia .",
+    "display_label": "Reference Source",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:ReferenceSource"
+  },
+  {
+    "description": "A document describing an account or statement describing in detail an event, situation, or the like, usually as the result of observation, inquiry, etc..",
+    "display_label": "Report",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Report"
+  },
+  {
+    "description": "A loose, thematic, collection of Documents, often Books.",
+    "display_label": "Series",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Series"
+  },
+  {
+    "description": "A slide in a slideshow",
+    "display_label": "Slide",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Slide"
+  },
+  {
+    "description": "A presentation of a series of slides, usually presented in front of an audience with written text and images.",
+    "display_label": "Slideshow",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Slideshow"
+  },
+  {
+    "description": "A document describing a specification.",
+    "display_label": "Specification",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Specification"
+  },
+  {
+    "description": "A document describing a standard: a specification organized through a standards body.",
+    "display_label": "Standard",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Standard"
+  },
+  {
+    "description": "A bill enacted into law.",
+    "display_label": "Statute",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Statute"
+  },
+  {
+    "description": "A document created to summarize research findings associated with the completion of an academic degree.",
+    "display_label": "Thesis",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Thesis"
+  },
+  {
+    "description": "The academic degree of a Thesis",
+    "display_label": "Thesis degree",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:ThesisDegree"
+  },
+  {
+    "description": "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print.",
+    "display_label": "Webpage",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Webpage"
+  },
+  {
+    "description": "A group of Webpages accessible on the Web.",
+    "display_label": "Website",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Website"
+  },
+  {
+    "description": "A seminar, discussion group, or the like, that emphasizes zxchange of ideas and the demonstration and application of techniques, skills, etc.",
+    "display_label": "Workshop",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "bibo:Workshop"
+  },
+  {
+    "description": "A document containing the case for support for a particular project, usually contained within a grant application document but sometimes distributed separately, without the financial and organizational information that the grant application document also contains.",
+    "display_label": "Case for support document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "fabio:CaseForSupportDocument"
+  },
+  {
+    "description": "The realization of a grant application, usually containing a case for support document. This is a document containing the case for support for a particular project, usually contained within a grant application document but sometimes distributed separately, without the financial and organizational information that the grant application document also contains.",
+    "display_label": "Grant application document",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "fabio:GrantApplicationDocument"
+  },
+  {
+    "description": "A chronological schedule of when activities or events occurred or will occur.",
+    "display_label": "Timeline",
+    "schema_type": "xyzri:XYZBibliographicType",
+    "pid": "obo:NCIT_C54576"
+  }
+]

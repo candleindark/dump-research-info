@@ -1,0 +1,109 @@
+[
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2026-01-07T13:42:36.957229"
+    },
+    "description": "The citing entity cites the cited entity as one that provides an authoritative description or definition of the subject under discussion.",
+    "display_label": "cites as authority",
+    "schema_type": "dlthings:Property",
+    "pid": "CiTO:citesAsAuthority"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2026-01-07T13:42:37.046191"
+    },
+    "description": "The citing entity cites the cited entity as an item of recommended reading. This property can be used, for example, to describe references in a lecture reading list, where the cited references are relevant to the general topic of the lecture, but might not be individually cited within the text of the lecture. Similarly, it could be used to describe items in a 'Suggested further reading' list at the end of a book chapter.",
+    "display_label": "cites as recommended reading",
+    "schema_type": "dlthings:Property",
+    "pid": "CiTO:citesAsRecommendedReading"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2026-01-07T13:42:37.002268"
+    },
+    "description": "The citing entity cites the cited entity as one that is related.",
+    "display_label": "cites as related",
+    "schema_type": "dlthings:Property",
+    "pid": "CiTO:citesAsRelated"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2026-01-07T13:42:37.068130"
+    },
+    "description": "The citing entity acknowledges contributions made by the cited entity.",
+    "display_label": "credits",
+    "schema_type": "dlthings:Property",
+    "pid": "CiTO:credits"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2026-01-07T13:42:37.129288"
+    },
+    "description": "The citing entity describes the cited entity.",
+    "display_label": "describes",
+    "schema_type": "dlthings:Property",
+    "pid": "CiTO:describes"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2026-01-07T13:42:37.163748"
+    },
+    "description": "The cited entity is described by the citing entity.",
+    "display_label": "is described by",
+    "schema_type": "dlthings:Property",
+    "pid": "CiTO:isDescribedBy"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-17T14:48:03.447229"
+    },
+    "display_label": "Homepage",
+    "schema_type": "dlthings:Property",
+    "pid": "foaf:homepage"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-18T13:10:28.731832"
+    },
+    "display_label": "Download URL",
+    "schema_type": "dlthings:Property",
+    "pid": "http://www.w3.org/ns/dcat#downloadUrl"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-17T15:06:45.438054"
+    },
+    "description": "Specifies whether the Free Software Foundation (FSF) has listed a License as \"free\" in their commentary on licenses, located at the time of this writing at Various Licenses and Comments about Them. A value of \"true\" indicates that the license is in the list of licenses that FSF publishes as libre. A value of \"false\" indicates that the license is explicitly not in the corresponding list of FSF libre licenses (e.g., FSF has the license on a non-free list).",
+    "display_label": "FSF libre",
+    "schema_type": "dlthings:Property",
+    "pid": "spdx:isFsfLibre"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-17T15:06:45.401293"
+    },
+    "description": "Specifies whether the Open Source Initiative (OSI) has listed a License as \"approved\" in their list of OSI Approved Licenses, located at the time of this writing at OSI Approved Licenses. A value of \"true\" indicates that the license is in the list of licenses that OSI publishes as approved. A value of \"false\" indicates that the license is explicitly not in the corresponding list of OSI licenses (e.g., OSI has stated publicly that a license is not approved).",
+    "display_label": "OSI approved",
+    "schema_type": "dlthings:Property",
+    "pid": "spdx:isOsiApproved"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-17T17:12:59.727829"
+    },
+    "display_label": "Email address",
+    "schema_type": "dlthings:Property",
+    "pid": "vcard:Email"
+  }
+]

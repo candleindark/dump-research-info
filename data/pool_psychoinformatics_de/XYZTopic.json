@@ -1,0 +1,118 @@
+[
+  {
+    "display_label": "Cognitive science",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/cognitive-science",
+    "part_of": [
+      "xyzrins:topics/research"
+    ]
+  },
+  {
+    "display_label": "Data management",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/data-management"
+  },
+  {
+    "display_label": "Distributed systems",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/distributed-systems"
+  },
+  {
+    "display_label": "Education",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/education"
+  },
+  {
+    "display_label": "Free and open culture",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/free-and-open-culture"
+  },
+  {
+    "display_label": "High-throughput computing",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/high-throughput-computing"
+  },
+  {
+    "display_label": "Naturalistic neuroimaging",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/naturalistic-neuroimaging",
+    "part_of": [
+      "xyzrins:topics/naturalistic-neuroimaging",
+      "xyzrins:topics/neuroimaging"
+    ]
+  },
+  {
+    "display_label": "Naturalistic stimulation",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/naturalistic-stimulation"
+  },
+  {
+    "display_label": "Neuroimaging",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/neuroimaging"
+  },
+  {
+    "display_label": "Predictive data analysis",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/predictive-data-analysis"
+  },
+  {
+    "display_label": "Provenance",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/provenance"
+  },
+  {
+    "display_label": "Representational brain spaces",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/representational-brain-spaces"
+  },
+  {
+    "display_label": "Research",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/research"
+  },
+  {
+    "display_label": "Research data",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/research-data",
+    "part_of": [
+      "xyzrins:topics/research"
+    ]
+  },
+  {
+    "display_label": "Research data management (RDM)",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/research-data-management",
+    "part_of": [
+      "xyzrins:topics/research",
+      "xyzrins:topics/data-management"
+    ]
+  },
+  {
+    "display_label": "Research methods",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/research-methods",
+    "part_of": [
+      "xyzrins:topics/research"
+    ]
+  },
+  {
+    "display_label": "Research software engineering (RSE)",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/research-software-engineering",
+    "part_of": [
+      "xyzrins:topics/research",
+      "xyzrins:topics/software-engineering"
+    ]
+  },
+  {
+    "display_label": "Software engineering",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/software-engineering"
+  },
+  {
+    "display_label": "Standards",
+    "schema_type": "xyzri:XYZTopic",
+    "pid": "xyzrins:topics/standards"
+  }
+]
