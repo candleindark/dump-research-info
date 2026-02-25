@@ -124,7 +124,11 @@ async def dump_records(
             )
         return
 
-    async with httpx.AsyncClient(base_url=base) as client:
+    async with httpx.AsyncClient(
+        base_url=base,
+        limits=httpx.Limits(max_connections=50),
+        timeout=httpx.Timeout(5.0, pool=None),
+    ) as client:
         async with asyncio.TaskGroup() as tg:
             for file_path in class_files:
                 tg.create_task(
