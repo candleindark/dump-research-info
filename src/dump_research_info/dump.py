@@ -27,7 +27,10 @@ async def _post_record(
             headers={"X-DumpThings-Token": token},
         )
     except httpx.RequestError as e:
-        return str(e)
+        msg = type(e).__name__
+        if details := str(e):
+            msg += f": {details}"
+        return msg
 
     try:
         response.raise_for_status()
