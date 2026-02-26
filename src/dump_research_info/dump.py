@@ -27,7 +27,10 @@ async def _post_record(
             headers={"X-DumpThings-Token": token},
         )
     except httpx.RequestError as e:
-        return str(e)
+        msg = type(e).__name__
+        if details := str(e):
+            msg += f": {details}"
+        return msg
 
     try:
         response.raise_for_status()
@@ -124,7 +127,11 @@ async def dump_records(
             )
         return
 
-    async with httpx.AsyncClient(base_url=base) as client:
+    async with httpx.AsyncClient(
+        base_url=base,
+        limits=httpx.Limits(max_connections=50),
+        timeout=httpx.Timeout(5.0, pool=None),
+    ) as client:
         async with asyncio.TaskGroup() as tg:
             for file_path in class_files:
                 tg.create_task(
