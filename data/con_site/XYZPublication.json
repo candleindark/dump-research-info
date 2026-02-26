@@ -14,10 +14,14 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002034"]
       },
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["obo:MS_1002035"]
       }
     ]
   },
@@ -36,10 +40,14 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002034"]
       },
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["obo:MS_1002035"]
       }
     ]
   },
@@ -58,10 +66,14 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002034"]
       },
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["obo:MS_1002035"]
       }
     ]
   },
@@ -80,13 +92,19 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002034"]
       },
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["obo:MS_1002036"]
       },
       {
-        "object": "https://github.com/JamesVHaxby"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/james-haxby",
+        "roles": ["obo:MS_1002036"]
       }
     ]
   },
@@ -105,10 +123,14 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["obo:MS_1002034"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002036"]
       }
     ]
   },
@@ -127,7 +149,9 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002036"]
       }
     ]
   },
@@ -146,10 +170,14 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002036"]
       },
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["obo:MS_1002036"]
       }
     ]
   },
@@ -168,7 +196,9 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/jeremymanning"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/jeremy-manning",
+        "roles": ["obo:MS_1002034"]
       }
     ]
   },
@@ -187,19 +217,72 @@
     ],
     "attributed_to": [
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["obo:MS_1002034"]
       },
       {
-        "object": "https://github.com/kyleam"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/kyle-meyer",
+        "roles": ["obo:MS_1002036"]
       },
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["obo:MS_1002036"]
       },
       {
-        "object": "https://github.com/bpoldrack"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/benjamin-poldrack",
+        "roles": ["obo:MS_1002036"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:MS_1002036"]
+      }
+    ]
+  },
+  {
+    "pid": "http://jmlr.org/papers/v18/17-434.html",
+    "title": "HyperTools: a Python Toolbox for Gaining Geometric Insights into High-Dimensional Data",
+    "display_label": "Heusser et al. 2018 JMLR",
+    "identifiers": [
+      {
+        "schema_type": "dlthings:Identifier",
+        "notation": "17-434",
+        "creator": "https://www.jmlr.org/"
+      }
+    ],
+    "about": [
+      "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributed_to": [
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/jeremy-manning",
+        "roles": ["obo:MS_1002035"]
+      }
+    ]
+  },
+  {
+    "pid": "https://doi.org/10.1093/cercor/bhaa115",
+    "title": "A Gaussian Process Model of Human Electrocorticographic Data",
+    "display_label": "Owen et al. 2020 Cerebral Cortex",
+    "identifiers": [
+      {
+        "notation": "10.1093/cercor/bhaa115",
+        "schema_type": "dlthings:DOI"
+      }
+    ],
+    "about": [
+      "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributed_to": [
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/jeremy-manning",
+        "roles": ["obo:MS_1002035"]
       }
     ]
   }

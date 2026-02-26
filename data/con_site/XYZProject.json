@@ -1,6 +1,6 @@
 [
   {
-    "pid": "https://datalad.org",
+    "pid": "xyzrins:projects/datalad",
     "title": "DataLad",
     "short_name": "DataLad",
     "display_label": "DataLad",
@@ -8,26 +8,39 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://datalad.org", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["marcrel:led"]
       },
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/kyleam"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/kyle-meyer",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/bpoldrack"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/benjamin-poldrack",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "https://dandiarchive.org",
+    "pid": "xyzrins:projects/dandi",
     "title": "Distributed Archives for Neurophysiology Data Integration",
     "short_name": "DANDI",
     "display_label": "DANDI",
@@ -35,17 +48,24 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://dandiarchive.org", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/satra"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": ["obo:NCIT_C19924"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:NCIT_C19924"]
       }
     ]
   },
   {
-    "pid": "https://emberarchive.org",
+    "pid": "xyzrins:projects/ember",
     "title": "Ecosystem for Multi-modal Brain-behavior Experimentation and Research",
     "short_name": "EMBER",
     "display_label": "EMBER",
@@ -53,14 +73,24 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://emberarchive.org", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/brock-wester",
+        "roles": ["obo:NCIT_C19924"]
+      },
+      {
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:rtm"]
       }
     ]
   },
   {
-    "pid": "https://openneuro.org",
+    "pid": "xyzrins:projects/openneuro",
     "title": "OpenNeuro",
     "short_name": "OpenNeuro",
     "display_label": "OpenNeuro",
@@ -68,14 +98,24 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://openneuro.org", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": ["obo:NCIT_C19924"]
+      },
+      {
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:rtm"]
       }
     ]
   },
   {
-    "pid": "https://registry.datalad.org",
+    "pid": "xyzrins:projects/datalad-registry",
     "title": "DataLad Registry",
     "short_name": "DataLad-Registry",
     "display_label": "DataLad Registry",
@@ -83,14 +123,19 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://registry.datalad.org", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/candleindark"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/isaac-to",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "https://github.com/duecredit/duecredit",
+    "pid": "xyzrins:projects/duecredit",
     "title": "DueCredit",
     "short_name": "DueCredit",
     "display_label": "DueCredit",
@@ -98,17 +143,24 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/duecredit/duecredit", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:cre"]
       },
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["marcrel:cre"]
       }
     ]
   },
   {
-    "pid": "https://github.com/nipy/heudiconv",
+    "pid": "xyzrins:projects/heudiconv",
     "title": "HeuDiConv",
     "short_name": "HeuDiConv",
     "display_label": "HeuDiConv / ReproIn",
@@ -116,20 +168,29 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/nipy/heudiconv", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/JamesVHaxby"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/james-haxby",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "https://neuro.debian.net",
+    "pid": "xyzrins:projects/neurodebian",
     "title": "NeuroDebian",
     "short_name": "NeuroDebian",
     "display_label": "NeuroDebian",
@@ -137,17 +198,24 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://neuro.debian.net", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:led"]
       },
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "http://pymvpa.org",
+    "pid": "xyzrins:projects/pymvpa",
     "title": "PyMVPA",
     "short_name": "PyMVPA",
     "display_label": "PyMVPA",
@@ -155,17 +223,24 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "http://pymvpa.org", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["marcrel:led"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "http://reproman.repronim.org",
+    "pid": "xyzrins:projects/reproman",
     "title": "ReproMan - Reproducible Computational Environments Manager",
     "short_name": "ReproMan",
     "display_label": "ReproMan",
@@ -173,47 +248,63 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "http://reproman.repronim.org", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/kyleam"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/kyle-meyer",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "https://github.com/con/duct",
+    "pid": "xyzrins:projects/con-duct",
     "title": "con/duct",
     "short_name": "duct",
     "display_label": "con/duct",
     "description": "Lightweight wrapper that collects execution data for an arbitrary command including execution time, system information, and resource usage statistics. Particularly suited for HPC environments.",
     "about": [
       "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/con/duct", "predicate": "foaf:homepage"}
     ]
   },
   {
-    "pid": "https://github.com/con/tinuous",
+    "pid": "xyzrins:projects/con-tinuous",
     "title": "con/tinuous",
     "short_name": "tinuous",
     "display_label": "con/tinuous",
     "description": "Command for downloading build logs, artifacts, and release assets for a GitHub repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional DataLad control for backup and distribution.",
     "about": [
       "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/con/tinuous", "predicate": "foaf:homepage"}
     ]
   },
   {
-    "pid": "https://github.com/pyout/pyout",
+    "pid": "xyzrins:projects/pyout",
     "title": "pyout",
     "short_name": "pyout",
     "display_label": "pyout",
     "description": "Python package that defines an interface for writing structured records as a table in a terminal.",
     "about": [
       "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/pyout/pyout", "predicate": "foaf:homepage"}
     ]
   },
   {
-    "pid": "https://cdl-quail.readthedocs.io/en/latest/",
+    "pid": "xyzrins:projects/quail",
     "title": "Quail",
     "short_name": "Quail",
     "display_label": "Quail",
@@ -221,14 +312,19 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://cdl-quail.readthedocs.io/en/latest/", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/jeremymanning"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/jeremy-manning",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "https://hypertools.readthedocs.io/en/latest/",
+    "pid": "xyzrins:projects/hypertools",
     "title": "HyperTools",
     "short_name": "HyperTools",
     "display_label": "HyperTools",
@@ -236,14 +332,19 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://hypertools.readthedocs.io/en/latest/", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/jeremymanning"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/jeremy-manning",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "https://supereeg.readthedocs.io/en/latest/",
+    "pid": "xyzrins:projects/supereeg",
     "title": "SuperEEG",
     "short_name": "SuperEEG",
     "display_label": "SuperEEG",
@@ -251,14 +352,19 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://supereeg.readthedocs.io/en/latest/", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/jeremymanning"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/jeremy-manning",
+        "roles": ["marcrel:led"]
       }
     ]
   },
   {
-    "pid": "http://bids.neuroimaging.io",
+    "pid": "xyzrins:projects/bids",
     "title": "Brain Imaging Data Structure",
     "short_name": "BIDS",
     "display_label": "BIDS",
@@ -266,24 +372,32 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "http://bids.neuroimaging.io", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:ctb"]
       }
     ]
   },
   {
-    "pid": "https://www.nwb.org/",
+    "pid": "xyzrins:projects/nwb",
     "title": "Neurodata Without Borders: Neurophysiology",
     "short_name": "NWB",
     "display_label": "NWB",
     "description": "A data standard providing neuroscientists with a common standard to share, archive, use, and build analysis tools for neurophysiology data.",
     "about": [
       "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://www.nwb.org/", "predicate": "foaf:homepage"}
     ]
   },
   {
-    "pid": "https://github.com/myyoda/myyoda",
+    "pid": "xyzrins:projects/yoda",
     "title": "YODA's Organigram on Data Analysis",
     "short_name": "YODA",
     "display_label": "YODA",
@@ -291,26 +405,39 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/myyoda/myyoda", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/hanke"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": ["marcrel:led"]
       },
       {
-        "object": "https://github.com/kyleam"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/kyle-meyer",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/bpoldrack"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/benjamin-poldrack",
+        "roles": ["marcrel:ctb"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:ctb"]
       }
     ]
   },
   {
-    "pid": "https://open-brain-consent.readthedocs.io/",
+    "pid": "xyzrins:projects/open-brain-consent",
     "title": "Open Brain Consent",
     "short_name": "Open Brain Consent",
     "display_label": "Open Brain Consent",
@@ -318,37 +445,52 @@
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://open-brain-consent.readthedocs.io/", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:led"]
       },
       {
-        "object": "https://github.com/mvdoc"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": ["marcrel:ctb"]
       }
     ]
   },
   {
-    "pid": "http://www.reproducibleimaging.org/module-reproducible-basics",
+    "pid": "xyzrins:projects/repronim-reproducible-basics",
     "title": "ReproNim: Reproducible Basics",
     "display_label": "ReproNim: Reproducible Basics",
     "description": "Training module presenting daily core tools (shell, version control, etc) and demonstrating research reproducibility improvement. Part of the ReproNim training curriculum.",
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "http://www.reproducibleimaging.org/module-reproducible-basics", "predicate": "foaf:homepage"}
+    ],
     "associated_with": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Association",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:ctb"]
       }
     ]
   },
   {
-    "pid": "https://www.distribits.live/",
+    "pid": "xyzrins:projects/distribits",
     "title": "distribits",
     "short_name": "distribits",
     "display_label": "distribits",
     "description": "Community for enthusiasts of tools and workflows in the domain of distributed data.",
     "about": [
       "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://www.distribits.live/", "predicate": "foaf:homepage"}
     ]
   }
 ]

@@ -1,64 +1,106 @@
 [
   {
-    "pid": "https://reporter.nih.gov/search/xLyGTK4YgUu0dn6pqlHDHQ/project-details/10260526",
+    "pid": "xyzrins:grants/nih-dandi",
     "title": "DANDI: Distributed Archives for Neurophysiology Data Integration",
     "short_name": "NIH 1R24MH117295-01A1",
     "display_label": "NIH DANDI Grant",
     "description": "NIH grant supporting the DANDI platform for publishing, sharing, and processing neurophysiology data.",
     "identifiers": [
       {
+        "schema_type": "dlthings:Identifier",
         "notation": "1R24MH117295-01A1"
       }
     ],
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://reporter.nih.gov/search/xLyGTK4YgUu0dn6pqlHDHQ/project-details/10260526",
+        "predicate": "foaf:homepage"
+      }
+    ],
     "attributed_to": [
       {
-        "object": "https://github.com/satra"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": ["obo:NCIT_C19924"]
       },
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["obo:NCIT_C19924"]
       }
     ]
   },
   {
-    "pid": "https://reporter.nih.gov/search/x1x1x1x1x1/project-details/1R24MH136632-01",
+    "pid": "xyzrins:grants/nih-ember",
     "title": "EMBER: Ecosystem for Multi-modal Brain-behavior Experimentation and Research",
     "short_name": "NIH 1R24MH136632-01",
     "display_label": "NIH EMBER Grant",
     "description": "NIH grant supporting the EMBER BRAIN Initiative archive for multi-modal neurophysiological and behavioral data.",
     "identifiers": [
       {
+        "schema_type": "dlthings:Identifier",
         "notation": "1R24MH136632-01"
       }
     ],
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://reporter.nih.gov/search/x1x1x1x1x1/project-details/1R24MH136632-01",
+        "predicate": "foaf:homepage"
+      }
+    ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/brock-wester",
+        "roles": ["obo:NCIT_C19924"]
+      },
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:rtm"]
       }
     ]
   },
   {
-    "pid": "https://reporter.nih.gov/search/x2x2x2x2x2/project-details/5R24MH117179-07",
+    "pid": "xyzrins:grants/nih-openneuro",
     "title": "OpenNeuro",
     "short_name": "NIH 5R24MH117179-07",
     "display_label": "NIH OpenNeuro Grant",
     "description": "NIH grant supporting the OpenNeuro neuroimaging data archive.",
     "identifiers": [
       {
+        "schema_type": "dlthings:Identifier",
         "notation": "5R24MH117179-07"
       }
     ],
     "about": [
       "https://centerforopenneuroscience.org/projects"
     ],
+    "attributes": [
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://reporter.nih.gov/search/x2x2x2x2x2/project-details/5R24MH117179-07",
+        "predicate": "foaf:homepage"
+      }
+    ],
     "attributed_to": [
       {
-        "object": "https://github.com/yarikoptic"
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": ["obo:NCIT_C19924"]
+      },
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": ["marcrel:rtm"]
       }
     ]
   }
