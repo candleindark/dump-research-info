@@ -1,0 +1,117 @@
+[
+  {
+    "display_label": "Completed",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000034"
+  },
+  {
+    "display_label": "Ongoing",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000035"
+  },
+  {
+    "display_label": "True",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000269"
+  },
+  {
+    "display_label": "False",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000270"
+  },
+  {
+    "display_label": "Real",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000960"
+  },
+  {
+    "display_label": "Virtual",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000962"
+  },
+  {
+    "display_label": "Suspended",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000995"
+  },
+  {
+    "display_label": "Canceled",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000996"
+  },
+  {
+    "display_label": "Aborted",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_000997"
+  },
+  {
+    "display_label": "Peer-reviewed",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001035"
+  },
+  {
+    "display_label": "Draft",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001036"
+  },
+  {
+    "display_label": "Finalized",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001037"
+  },
+  {
+    "display_label": "Editor reviewed",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001038"
+  },
+  {
+    "display_label": "Planned",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001060"
+  },
+  {
+    "display_label": "Homogeneous",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001090"
+  },
+  {
+    "display_label": "Heterogeneous",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001091"
+  },
+  {
+    "display_label": "Positive",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001210"
+  },
+  {
+    "display_label": "Negative",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001211"
+  },
+  {
+    "display_label": "Never",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001289"
+  },
+  {
+    "display_label": "Always",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001292"
+  },
+  {
+    "display_label": "Empty",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001339"
+  },
+  {
+    "display_label": "Full",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_001340"
+  },
+  {
+    "display_label": "Dead",
+    "schema_type": "xyzri:XYZQuality",
+    "pid": "sio:SIO_010059"
+  }
+]

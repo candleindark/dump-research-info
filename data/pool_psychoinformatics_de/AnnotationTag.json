@@ -1,0 +1,21 @@
+[
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2026-01-16T08:45:24.340966"
+    },
+    "display_label": "Deprecated class",
+    "schema_type": "dlthings:AnnotationTag",
+    "pid": "owl:DeprecatedClass"
+  },
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-20T06:21:27.811349"
+    },
+    "description": "Tag indicating that the tagged content must be access protected, and must not be made publicly available. The annotation value should detail acceptable target audiences.",
+    "display_label": "Do not publish",
+    "schema_type": "dlthings:AnnotationTag",
+    "pid": "xyzrins:tags/5b6d882c-2135-495e-82ad-0bc34675feac"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "annotations": {
+      "obo:NCIT_C54269": "m.hanke@fz-juelich.de",
+      "sio:SIO_001083": "2025-12-11T21:53:44.173880"
+    },
+    "display_label": "Funding programme",
+    "schema_type": "xyzri:XYZCompetitionType",
+    "pid": "xyzrins:competition-types/4e49ac7d-d6da-4131-806b-6425491e26fd"
+  }
+]

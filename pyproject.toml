@@ -30,9 +30,9 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/Isaac To/dump-research-info#readme"
-Issues = "https://github.com/Isaac To/dump-research-info/issues"
-Source = "https://github.com/Isaac To/dump-research-info"
+Documentation = "https://github.com/con/dump-research-info#readme"
+Issues = "https://github.com/con/dump-research-info/issues"
+Source = "https://github.com/con/dump-research-info"
 
 [project.scripts]
 dump-research-info = "dump_research_info.cli:app"

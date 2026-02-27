@@ -1,0 +1,3698 @@
+[
+  {
+    "display_note": "ISSN:0002-953X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0002-953X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0002-953X",
+    "title": "The American Journal Of Psychiatry"
+  },
+  {
+    "display_note": "ISSN:0003-6420",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0003-6420",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0003-6420",
+    "title": "Aperture"
+  },
+  {
+    "display_note": "ISSN:0003-990X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0003-990X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0003-990X",
+    "title": "JAMA Psychiatry"
+  },
+  {
+    "display_note": "ISSN:0005-7878",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0005-7878",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0005-7878",
+    "title": "Behavior Research Methods"
+  },
+  {
+    "display_note": "ISSN:0006-3223",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0006-3223",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0006-3223",
+    "title": "Biological Psychiatry"
+  },
+  {
+    "display_note": "ISSN:0006-8950",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0006-8950",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0006-8950",
+    "title": "Brain"
+  },
+  {
+    "display_note": "ISSN:0007-1269",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0007-1269",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0007-1269",
+    "title": "British Journal Of Psychology"
+  },
+  {
+    "display_note": "ISSN:0010-9452",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0010-9452",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0010-9452",
+    "title": "Cortex"
+  },
+  {
+    "display_note": "ISSN:0012-1630",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0012-1630",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0012-1630",
+    "title": "Developmental Psychobiology"
+  },
+  {
+    "display_note": "ISSN:0016-5751",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0016-5751",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0016-5751",
+    "title": "Geburtshilfe Und Frauenheilkunde"
+  },
+  {
+    "display_note": "ISSN:0022-3956",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0022-3956",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0022-3956",
+    "title": "Anatomical Science International"
+  },
+  {
+    "display_note": "ISSN:0022-5363",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0022-5363",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0022-5363",
+    "title": "The Journal Of Value Inquiry"
+  },
+  {
+    "display_note": "ISSN:0023-8236",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0023-8236",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0023-8236",
+    "title": "Langenbeck's Archives Of Surgery"
+  },
+  {
+    "display_note": "ISSN:0027-8424",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0027-8424",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0027-8424",
+    "title": "Proceedings Of The National Academy Of Sciences Of The United States Of America"
+  },
+  {
+    "display_note": "ISSN:0028-0836",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0028-0836",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0028-0836",
+    "title": "Nature"
+  },
+  {
+    "display_note": "ISSN:0028-2804",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0028-2804",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0028-2804",
+    "title": "Der Nervenarzt"
+  },
+  {
+    "display_note": "ISSN:0028-3932",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0028-3932",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0028-3932",
+    "title": "Neuropsychologia"
+  },
+  {
+    "display_note": "ISSN:0028-3940",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0028-3940",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0028-3940",
+    "title": "Neuroradiology"
+  },
+  {
+    "display_note": "ISSN:0028-4793",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0028-4793",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0028-4793",
+    "title": "The New England Journal Of Medicine"
+  },
+  {
+    "display_note": "ISSN:0031-9007",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0031-9007",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0031-9007",
+    "title": "Physical Review Letters"
+  },
+  {
+    "display_note": "ISSN:0033-2909",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0033-2909",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0033-2909",
+    "title": "Psychological Bulletin"
+  },
+  {
+    "display_note": "ISSN:0033-3026",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0033-3026",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0033-3026",
+    "title": "Psychological Research"
+  },
+  {
+    "display_note": "ISSN:0035-9254",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0035-9254",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0035-9254",
+    "title": "Journal Of The Royal Statistical Society / C"
+  },
+  {
+    "display_note": "ISSN:0044-2232",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0044-2232",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0044-2232",
+    "title": "Brain Structure & Function"
+  },
+  {
+    "display_note": "ISSN:0044-3301",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0044-3301",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0044-3301",
+    "title": "Zeitschrift Für Philosophische Forschung"
+  },
+  {
+    "display_note": "ISSN:0044-3433",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0044-3433",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0044-3433",
+    "title": "International Journal Of Legal Medicine"
+  },
+  {
+    "display_note": "ISSN:0048-5772",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0048-5772",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0048-5772",
+    "title": "Psychophysiology"
+  },
+  {
+    "display_note": "ISSN:0079-6107",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0079-6107",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0079-6107",
+    "title": "Progress In Biophysics & Molecular Biology"
+  },
+  {
+    "display_note": "ISSN:0096-1523",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0096-1523",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0096-1523",
+    "title": "Journal Of Experimental Psychology / Human Perception And Performance"
+  },
+  {
+    "display_note": "ISSN:0097-9058",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0097-9058",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0097-9058",
+    "title": "Journal Of Nuclear Medicine"
+  },
+  {
+    "display_note": "ISSN:0129-0657",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0129-0657",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0129-0657",
+    "title": "International Journal Of Neural Systems"
+  },
+  {
+    "display_note": "ISSN:0149-7634",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0149-7634",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0149-7634",
+    "title": "Neuroscience & Biobehavioral Reviews"
+  },
+  {
+    "display_note": "ISSN:0160-2896",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0160-2896",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0160-2896",
+    "title": "Intelligence"
+  },
+  {
+    "display_note": "ISSN:0161-8105",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0161-8105",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0161-8105",
+    "title": "Sleep"
+  },
+  {
+    "display_note": "ISSN:0165-0270",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0165-0270",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0165-0270",
+    "title": "Journal Of Neuroscience Methods"
+  },
+  {
+    "display_note": "ISSN:0165-0327",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0165-0327",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0165-0327",
+    "title": "Journal Of Affective Disorders"
+  },
+  {
+    "display_note": "ISSN:0166-2236",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0166-2236",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0166-2236",
+    "title": "Trends In Neurosciences"
+  },
+  {
+    "display_note": "ISSN:0167-7411",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0167-7411",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0167-7411",
+    "title": "Topoi"
+  },
+  {
+    "display_note": "ISSN:0167-8655",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0167-8655",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0167-8655",
+    "title": "Pattern Recognition Letters"
+  },
+  {
+    "display_note": "ISSN:0179-1958",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0179-1958",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0179-1958",
+    "title": "International Journal Of Colorectal Disease"
+  },
+  {
+    "display_note": "ISSN:0218-1274",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0218-1274",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0218-1274",
+    "title": "International Journal Of Bifurcation And Chaos (IJBC)"
+  },
+  {
+    "display_note": "ISSN:0270-6474",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0270-6474",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0270-6474",
+    "title": "The Journal Of Neuroscience"
+  },
+  {
+    "display_note": "ISSN:0272-7358",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0272-7358",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0272-7358",
+    "title": "Clinical Psychology Review"
+  },
+  {
+    "display_note": "ISSN:0278-2626",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0278-2626",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0278-2626",
+    "title": "Brain And Cognition"
+  },
+  {
+    "display_note": "ISSN:0278-5846",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0278-5846",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0278-5846",
+    "title": "Progress In Neuro-Psychopharmacology & Biological Psychiatry"
+  },
+  {
+    "display_note": "ISSN:0301-0082",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0301-0082",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0301-0082",
+    "title": "Progress In Neurobiology"
+  },
+  {
+    "display_note": "ISSN:0301-0511",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0301-0511",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0301-0511",
+    "title": "Biological Psychology"
+  },
+  {
+    "display_note": "ISSN:0302-072X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0302-072X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0302-072X",
+    "title": "Journal de physique. Lettres"
+  },
+  {
+    "display_note": "ISSN:0303-2647",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0303-2647",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0303-2647",
+    "title": "Biosystems"
+  },
+  {
+    "display_note": "ISSN:0304-3959",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0304-3959",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0304-3959",
+    "title": "Pain"
+  },
+  {
+    "display_note": "ISSN:0306-4522",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0306-4522",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0306-4522",
+    "title": "Neuroscience"
+  },
+  {
+    "display_note": "ISSN:0306-4530",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0306-4530",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0306-4530",
+    "title": "Psychoneuroendocrinology"
+  },
+  {
+    "display_note": "ISSN:0340-1200",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0340-1200",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0340-1200",
+    "title": "Biological Cybernetics"
+  },
+  {
+    "display_note": "ISSN:0340-6199",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0340-6199",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0340-6199",
+    "title": "European Journal Of Pediatrics"
+  },
+  {
+    "display_note": "ISSN:0340-6997",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0340-6997",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0340-6997",
+    "title": "European Journal Of Nuclear Medicine And Molecular Imaging"
+  },
+  {
+    "display_note": "ISSN:0361-9230",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0361-9230",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0361-9230",
+    "title": "Brain Research Bulletin"
+  },
+  {
+    "display_note": "ISSN:0364-5134",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0364-5134",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0364-5134",
+    "title": "Annals Of Neurology"
+  },
+  {
+    "display_note": "ISSN:0367-0031",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0367-0031",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0367-0031",
+    "title": "International Journal Of Legal Medicine"
+  },
+  {
+    "display_note": "ISSN:0376-8716",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0376-8716",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0376-8716",
+    "title": "Drug And Alcohol Dependence"
+  },
+  {
+    "display_note": "ISSN:0586-7614",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0586-7614",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0586-7614",
+    "title": "Schizophrenia Bulletin"
+  },
+  {
+    "display_note": "ISSN:0722-1541",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0722-1541",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0722-1541",
+    "title": "Nervenheilkunde"
+  },
+  {
+    "display_note": "ISSN:0723-8886",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0723-8886",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0723-8886",
+    "title": "Medizinrecht"
+  },
+  {
+    "display_note": "ISSN:0732-8893",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0732-8893",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0732-8893",
+    "title": "Diagnostic Microbiology And Infectious Disease"
+  },
+  {
+    "display_note": "ISSN:0737-5999",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0737-5999",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0737-5999",
+    "title": "Journal Of Neurotrauma"
+  },
+  {
+    "display_note": "ISSN:0885-3185",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0885-3185",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0885-3185",
+    "title": "Movement Disorders"
+  },
+  {
+    "display_note": "ISSN:0889-1591",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0889-1591",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0889-1591",
+    "title": "Brain, Behavior And Immunity"
+  },
+  {
+    "display_note": "ISSN:0890-8567",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0890-8567",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0890-8567",
+    "title": "Journal Of The American Academy Of Child And Adolescent Psychiatry"
+  },
+  {
+    "display_note": "ISSN:0893-133X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0893-133X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0893-133X",
+    "title": "Neuropsychopharmacology"
+  },
+  {
+    "display_note": "ISSN:0893-7648",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0893-7648",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0893-7648",
+    "title": "Molecular Neurobiology"
+  },
+  {
+    "display_note": "ISSN:0896-0267",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0896-0267",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0896-0267",
+    "title": "Brain Topography"
+  },
+  {
+    "display_note": "ISSN:0896-6273",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0896-6273",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0896-6273",
+    "title": "Neuron"
+  },
+  {
+    "display_note": "ISSN:0898-2643",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0898-2643",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0898-2643",
+    "title": "Journal Of Aging And Health"
+  },
+  {
+    "display_note": "ISSN:0898-929X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0898-929X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0898-929X",
+    "title": "Journal Of Cognitive Neuroscience"
+  },
+  {
+    "display_note": "ISSN:0905-7161",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0905-7161",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0905-7161",
+    "title": "Clinical Oral Implants Research"
+  },
+  {
+    "display_note": "ISSN:0920-1211",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0920-1211",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0920-1211",
+    "title": "Epilepsy Research"
+  },
+  {
+    "display_note": "ISSN:0920-427X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0920-427X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0920-427X",
+    "title": "Argumentation"
+  },
+  {
+    "display_note": "ISSN:0920-9964",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0920-9964",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0920-9964",
+    "title": "Schizophrenia Research"
+  },
+  {
+    "display_note": "ISSN:0922-6028",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0922-6028",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0922-6028",
+    "title": "Restorative Neurology And Neuroscience"
+  },
+  {
+    "display_note": "ISSN:0925-2312",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0925-2312",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0925-2312",
+    "title": "Neurocomputing"
+  },
+  {
+    "display_note": "ISSN:0935-7335",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0935-7335",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0935-7335",
+    "title": "Ethik In Der Medizin"
+  },
+  {
+    "display_note": "ISSN:0937-9819",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0937-9819",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0937-9819",
+    "title": "Rechtsmedizin"
+  },
+  {
+    "display_note": "ISSN:0938-8478",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0938-8478",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0938-8478",
+    "title": "Ärzteblatt Sachsen"
+  },
+  {
+    "display_note": "ISSN:0945-6627",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0945-6627",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0945-6627",
+    "title": "Aufklärung Und Kritik"
+  },
+  {
+    "display_note": "ISSN:0947-0875",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0947-0875",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0947-0875",
+    "title": "Neuroforum"
+  },
+  {
+    "display_note": "ISSN:0951-5089",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0951-5089",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0951-5089",
+    "title": "Philosophical Psychology"
+  },
+  {
+    "display_note": "ISSN:0951-5666",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0951-5666",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0951-5666",
+    "title": "AI & Society"
+  },
+  {
+    "display_note": "ISSN:0962-1105",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0962-1105",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0962-1105",
+    "title": "Journal Of Sleep Research"
+  },
+  {
+    "display_note": "ISSN:0963-1801",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0963-1801",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0963-1801",
+    "title": "Cambridge Quarterly Of Healthcare Ethics"
+  },
+  {
+    "display_note": "ISSN:0968-5243",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0968-5243",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0968-5243",
+    "title": "Magnetic Resonance Materials In Physics, Biology And Medicine"
+  },
+  {
+    "display_note": "ISSN:0969-9961",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "0969-9961",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:0969-9961",
+    "title": "Neurobiology Of Disease"
+  },
+  {
+    "display_note": "ISSN:1040-7308",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1040-7308",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1040-7308",
+    "title": "Neuropsychology Review"
+  },
+  {
+    "display_note": "ISSN:1047-3211",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1047-3211",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1047-3211",
+    "title": "Cerebral Cortex"
+  },
+  {
+    "display_note": "ISSN:1051-2284",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1051-2284",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1051-2284",
+    "title": "Journal Of Neuroimaging"
+  },
+  {
+    "display_note": "ISSN:1053-8119",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1053-8119",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1053-8119",
+    "title": "NeuroImage"
+  },
+  {
+    "display_note": "ISSN:1054-1500",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1054-1500",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1054-1500",
+    "title": "Chaos"
+  },
+  {
+    "display_note": "ISSN:1065-9471",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1065-9471",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1065-9471",
+    "title": "Human Brain Mapping"
+  },
+  {
+    "display_note": "ISSN:1067-1633",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1067-1633",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1067-1633",
+    "title": "European Eating Disorders Review"
+  },
+  {
+    "display_note": "ISSN:1072-4133",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1072-4133",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1072-4133",
+    "title": "European Eating Disorders Review"
+  },
+  {
+    "display_note": "ISSN:1079-5014",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1079-5014",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1079-5014",
+    "title": "The Journals Of Gerontology / B"
+  },
+  {
+    "display_note": "ISSN:1087-0792",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1087-0792",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1087-0792",
+    "title": "Sleep Medicine Reviews"
+  },
+  {
+    "display_note": "ISSN:1091-6490",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1091-6490",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1091-6490",
+    "title": "Proceedings Of The National Academy Of Sciences Of The United States Of America"
+  },
+  {
+    "display_note": "ISSN:1097-0193",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1097-0193",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1097-0193",
+    "title": "Human Brain Mapping"
+  },
+  {
+    "display_note": "ISSN:1097-6256",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1097-6256",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1097-6256",
+    "title": "Nature Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1099-0798",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1099-0798",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1099-0798",
+    "title": "Behavioral Sciences & The Law"
+  },
+  {
+    "display_note": "ISSN:1099-4300",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1099-4300",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1099-4300",
+    "title": "Entropy"
+  },
+  {
+    "display_note": "ISSN:1353-8020",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1353-8020",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1353-8020",
+    "title": "Parkinsonism & Related Disorders"
+  },
+  {
+    "display_note": "ISSN:1357-650X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1357-650X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1357-650X",
+    "title": "Laterality"
+  },
+  {
+    "display_note": "ISSN:1359-4184",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1359-4184",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1359-4184",
+    "title": "Molecular Psychiatry"
+  },
+  {
+    "display_note": "ISSN:1361-8415",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1361-8415",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1361-8415",
+    "title": "Medical Image Analysis"
+  },
+  {
+    "display_note": "ISSN:1364-6613",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1364-6613",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1364-6613",
+    "title": "Trends In Cognitive Sciences"
+  },
+  {
+    "display_note": "ISSN:1365-2141",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1365-2141",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1365-2141",
+    "title": "British Journal Of Haematology"
+  },
+  {
+    "display_note": "ISSN:1365-2966",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1365-2966",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1365-2966",
+    "title": "Monthly Notices Of The Royal Astronomical Society"
+  },
+  {
+    "display_note": "ISSN:1367-2630",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1367-2630",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1367-2630",
+    "title": "New Journal Of Physics"
+  },
+  {
+    "display_note": "ISSN:1388-2457",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1388-2457",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1388-2457",
+    "title": "Clinical Neurophysiology"
+  },
+  {
+    "display_note": "ISSN:1389-9457",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1389-9457",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1389-9457",
+    "title": "Sleep Medicine"
+  },
+  {
+    "display_note": "ISSN:1392-1932",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1392-1932",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1392-1932",
+    "title": "Lithuanian Journal Of Physics"
+  },
+  {
+    "display_note": "ISSN:1424-8220",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1424-8220",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1424-8220",
+    "title": "Sensors"
+  },
+  {
+    "display_note": "ISSN:1430-2772",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1430-2772",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1430-2772",
+    "title": "Psychological Research"
+  },
+  {
+    "display_note": "ISSN:1432-0711",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1432-0711",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1432-0711",
+    "title": "Archives Of Gynecology And Obstetrics"
+  },
+  {
+    "display_note": "ISSN:1432-0770",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1432-0770",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1432-0770",
+    "title": "Biological Cybernetics"
+  },
+  {
+    "display_note": "ISSN:1432-1084",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1432-1084",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1432-1084",
+    "title": "European Radiology"
+  },
+  {
+    "display_note": "ISSN:1432-9360",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1432-9360",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1432-9360",
+    "title": "Computing And Visualization In Science"
+  },
+  {
+    "display_note": "ISSN:1433-0407",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1433-0407",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1433-0407",
+    "title": "Der Nervenarzt"
+  },
+  {
+    "display_note": "ISSN:1433-8491",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1433-8491",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1433-8491",
+    "title": "European Archives of Psychiatry and Clinical Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1435-5655",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1435-5655",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1435-5655",
+    "title": "AI & Society"
+  },
+  {
+    "display_note": "ISSN:1437-1596",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1437-1596",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1437-1596",
+    "title": "International Journal Of Legal Medicine"
+  },
+  {
+    "display_note": "ISSN:1438-8871",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1438-8871",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1438-8871",
+    "title": "Journal Of Medical Internet Research"
+  },
+  {
+    "display_note": "ISSN:1439-4456",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1439-4456",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1439-4456",
+    "title": "Journal Of Medical Internet Research"
+  },
+  {
+    "display_note": "ISSN:1460-2156",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1460-2156",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1460-2156",
+    "title": "Brain"
+  },
+  {
+    "display_note": "ISSN:1460-2199",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1460-2199",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1460-2199",
+    "title": "Cerebral Cortex"
+  },
+  {
+    "display_note": "ISSN:1461-7285",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1461-7285",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1461-7285",
+    "title": "Journal Of Psychopharmacology"
+  },
+  {
+    "display_note": "ISSN:1467-7687",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1467-7687",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1467-7687",
+    "title": "Developmental Science"
+  },
+  {
+    "display_note": "ISSN:1469-8978",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1469-8978",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1469-8978",
+    "title": "Psychological Medicine"
+  },
+  {
+    "display_note": "ISSN:1471-003X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1471-003X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1471-003X",
+    "title": "Nature Reviews / Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1471-0048",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1471-0048",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1471-0048",
+    "title": "Nature Reviews / Neuroscience Neuroscience [...]"
+  },
+  {
+    "display_note": "ISSN:1471-2318",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1471-2318",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1471-2318",
+    "title": "BMC Geriatrics"
+  },
+  {
+    "display_note": "ISSN:1471-244X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1471-244X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1471-244X",
+    "title": "BMC Psychiatry"
+  },
+  {
+    "display_note": "ISSN:1472-6939",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1472-6939",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1472-6939",
+    "title": "BMC Medical Ethics"
+  },
+  {
+    "display_note": "ISSN:1473-4222",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1473-4222",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1473-4222",
+    "title": "The Cerebellum"
+  },
+  {
+    "display_note": "ISSN:1476-5578",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1476-5578",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1476-5578",
+    "title": "Molecular Psychiatry"
+  },
+  {
+    "display_note": "ISSN:1477-7525",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1477-7525",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1477-7525",
+    "title": "Health And Quality Of Life Outcomes"
+  },
+  {
+    "display_note": "ISSN:1496-4155",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1496-4155",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1496-4155",
+    "title": "Journal Of Esthetic And Restorative Dentistry"
+  },
+  {
+    "display_note": "ISSN:1530-7026",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1530-7026",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1530-7026",
+    "title": "Cognitive, Affective, & Behavioral Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1530-8022",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1530-8022",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1530-8022",
+    "title": "Journal Of Biomaterials Applications"
+  },
+  {
+    "display_note": "ISSN:1531-135X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1531-135X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1531-135X",
+    "title": "Cognitive, Affective, & Behavioral Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1531-8249",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1531-8249",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1531-8249",
+    "title": "Annals Of Neurology"
+  },
+  {
+    "display_note": "ISSN:1531-8257",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1531-8257",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1531-8257",
+    "title": "Movement Disorders"
+  },
+  {
+    "display_note": "ISSN:1535-7228",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1535-7228",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1535-7228",
+    "title": "The American Journal Of Psychiatry"
+  },
+  {
+    "display_note": "ISSN:1539-2791",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1539-2791",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1539-2791",
+    "title": "Neuroinformatics"
+  },
+  {
+    "display_note": "ISSN:1539-3755",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1539-3755",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1539-3755",
+    "title": "Physical Review / E"
+  },
+  {
+    "display_note": "ISSN:1541-4108",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1541-4108",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1541-4108",
+    "title": "Focus"
+  },
+  {
+    "display_note": "ISSN:1541-6933",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1541-6933",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1541-6933",
+    "title": "Neurocritical Care"
+  },
+  {
+    "display_note": "ISSN:1544-9173",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1544-9173",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1544-9173",
+    "title": "PLoS Biology"
+  },
+  {
+    "display_note": "ISSN:1545-7885",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1545-7885",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1545-7885",
+    "title": "PLoS Biology"
+  },
+  {
+    "display_note": "ISSN:1546-1718",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1546-1718",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1546-1718",
+    "title": "Nature Genetics"
+  },
+  {
+    "display_note": "ISSN:1548-7091",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1548-7091",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1548-7091",
+    "title": "Nature Methods"
+  },
+  {
+    "display_note": "ISSN:1552-5260",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1552-5260",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1552-5260",
+    "title": "Alzheimer's And Dementia"
+  },
+  {
+    "display_note": "ISSN:1553-734X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1553-734X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1553-734X",
+    "title": "PLoS Computational Biology"
+  },
+  {
+    "display_note": "ISSN:1553-7358",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1553-7358",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1553-7358",
+    "title": "PLoS Computational Biology"
+  },
+  {
+    "display_note": "ISSN:1556-4029",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1556-4029",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1556-4029",
+    "title": "Journal Of Forensic Sciences"
+  },
+  {
+    "display_note": "ISSN:1556-5068",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1556-5068",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1556-5068",
+    "title": "SSRN ELibrary"
+  },
+  {
+    "display_note": "ISSN:1558-9137",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1558-9137",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1558-9137",
+    "title": "American Journal Of Audiology"
+  },
+  {
+    "display_note": "ISSN:1559-0089",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1559-0089",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1559-0089",
+    "title": "Neuroinformatics"
+  },
+  {
+    "display_note": "ISSN:1559-1182",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1559-1182",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1559-1182",
+    "title": "Molecular Neurobiology"
+  },
+  {
+    "display_note": "ISSN:1561-4085",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1561-4085",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1561-4085",
+    "title": "Nonlinear Phenomena In Complex Systems"
+  },
+  {
+    "display_note": "ISSN:1613-6810",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1613-6810",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1613-6810",
+    "title": "Small"
+  },
+  {
+    "display_note": "ISSN:1618-8519",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1618-8519",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1618-8519",
+    "title": "Gehirn & Geist"
+  },
+  {
+    "display_note": "ISSN:1662-453X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1662-453X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1662-453X",
+    "title": "Frontiers In Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1662-5129",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1662-5129",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1662-5129",
+    "title": "Frontiers In Neuroanatomy"
+  },
+  {
+    "display_note": "ISSN:1662-5137",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1662-5137",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1662-5137",
+    "title": "Frontiers In Systems Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1662-5161",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1662-5161",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1662-5161",
+    "title": "Frontiers In Human Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1662-5188",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1662-5188",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1662-5188",
+    "title": "Frontiers In Computational Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1662-5196",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1662-5196",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1662-5196",
+    "title": "Frontiers In Neuroinformatics"
+  },
+  {
+    "display_note": "ISSN:1662-6443",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1662-6443",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1662-6443",
+    "title": "Frontiers In Neuroengineering"
+  },
+  {
+    "display_note": "ISSN:1663-4365",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1663-4365",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1663-4365",
+    "title": "Frontiers In Aging Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1664-042X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1664-042X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1664-042X",
+    "title": "Frontiers In Physiology"
+  },
+  {
+    "display_note": "ISSN:1664-0640",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1664-0640",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1664-0640",
+    "title": "Frontiers In Psychiatry"
+  },
+  {
+    "display_note": "ISSN:1664-1078",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1664-1078",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1664-1078",
+    "title": "Frontiers In Psychology"
+  },
+  {
+    "display_note": "ISSN:1664-2295",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1664-2295",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1664-2295",
+    "title": "Frontiers In Neurology"
+  },
+  {
+    "display_note": "ISSN:1664-8021",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1664-8021",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1664-8021",
+    "title": "Frontiers In Genetics"
+  },
+  {
+    "display_note": "ISSN:1673-7067",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1673-7067",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1673-7067",
+    "title": "Neuroscience Bulletin"
+  },
+  {
+    "display_note": "ISSN:1697-2600",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1697-2600",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1697-2600",
+    "title": "International Journal Of Clinical And Health Psychology"
+  },
+  {
+    "display_note": "ISSN:1741-2560",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1741-2560",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1741-2560",
+    "title": "Journal Of Neural Engineering"
+  },
+  {
+    "display_note": "ISSN:1741-7015",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1741-7015",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1741-7015",
+    "title": "BMC Medicine"
+  },
+  {
+    "display_note": "ISSN:1742-5689",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1742-5689",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1742-5689",
+    "title": "Interface"
+  },
+  {
+    "display_note": "ISSN:1743-6095",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1743-6095",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1743-6095",
+    "title": "The Journal Of Sexual Medicine"
+  },
+  {
+    "display_note": "ISSN:1745-1701",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1745-1701",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1745-1701",
+    "title": "Schizophrenia Bulletin"
+  },
+  {
+    "display_note": "ISSN:1747-0161",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1747-0161",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1747-0161",
+    "title": "Research Ethics"
+  },
+  {
+    "display_note": "ISSN:1747-0919",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1747-0919",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1747-0919",
+    "title": "Social Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1748-880X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1748-880X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1748-880X",
+    "title": "The British Journal Of Radiology"
+  },
+  {
+    "display_note": "ISSN:1749-5024",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1749-5024",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1749-5024",
+    "title": "Social Cognitive And Affective Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1758-8928",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1758-8928",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1758-8928",
+    "title": "Cognitive Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1863-2653",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1863-2653",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1863-2653",
+    "title": "Brain Structure & Function"
+  },
+  {
+    "display_note": "ISSN:1863-2661",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1863-2661",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1863-2661",
+    "title": "Brain Structure & Function"
+  },
+  {
+    "display_note": "ISSN:1866-0452",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1866-0452",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1866-0452",
+    "title": "Deutsches Ärzteblatt International"
+  },
+  {
+    "display_note": "ISSN:1873-734X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1873-734X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1873-734X",
+    "title": "European Journal Of Cardio-Thoracic Surgery"
+  },
+  {
+    "display_note": "ISSN:1874-5490",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1874-5490",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1874-5490",
+    "title": "Neuroethics"
+  },
+  {
+    "display_note": "ISSN:1875-8908",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1875-8908",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1875-8908",
+    "title": "Journal Of Alzheimer's Disease"
+  },
+  {
+    "display_note": "ISSN:1878-8750",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1878-8750",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1878-8750",
+    "title": "World Neurosurgery"
+  },
+  {
+    "display_note": "ISSN:1878-9293",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1878-9293",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1878-9293",
+    "title": "Developmental Cognitive Neuroscience"
+  },
+  {
+    "display_note": "ISSN:1931-7565",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1931-7565",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1931-7565",
+    "title": "Brain Imaging And Behavior"
+  },
+  {
+    "display_note": "ISSN:1932-6203",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1932-6203",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1932-6203",
+    "title": "PLOS ONE"
+  },
+  {
+    "display_note": "ISSN:1939-134X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1939-134X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1939-134X",
+    "title": "Psychological Assessment"
+  },
+  {
+    "display_note": "ISSN:1946-6242",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1946-6242",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1946-6242",
+    "title": "Science Translational Medicine"
+  },
+  {
+    "display_note": "ISSN:1951-6401",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1951-6401",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1951-6401",
+    "title": "European Physical Journal Special Topics"
+  },
+  {
+    "display_note": "ISSN:1996-1944",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "1996-1944",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:1996-1944",
+    "title": "Materials"
+  },
+  {
+    "display_note": "ISSN:2040-2392",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2040-2392",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2040-2392",
+    "title": "Molecular Autism"
+  },
+  {
+    "display_note": "ISSN:2041-1723",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2041-1723",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2041-1723",
+    "title": "Nature Communications"
+  },
+  {
+    "display_note": "ISSN:2045-2322",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2045-2322",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2045-2322",
+    "title": "Scientific Reports"
+  },
+  {
+    "display_note": "ISSN:2046-1402",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2046-1402",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2046-1402",
+    "title": "F1000Research"
+  },
+  {
+    "display_note": "ISSN:2047-217X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2047-217X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2047-217X",
+    "title": "GigaScience"
+  },
+  {
+    "display_note": "ISSN:2050-084X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2050-084X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2050-084X",
+    "title": "eLife"
+  },
+  {
+    "display_note": "ISSN:2052-4436",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2052-4436",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2052-4436",
+    "title": "Scientific Data"
+  },
+  {
+    "display_note": "ISSN:2052-4463",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2052-4463",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2052-4463",
+    "title": "Scientific Data"
+  },
+  {
+    "display_note": "ISSN:2053-9517",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2053-9517",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2053-9517",
+    "title": "Big Data & Society"
+  },
+  {
+    "display_note": "ISSN:2054-5703",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2054-5703",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2054-5703",
+    "title": "Royal Society Open Science"
+  },
+  {
+    "display_note": "ISSN:2055-5784",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2055-5784",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2055-5784",
+    "title": "Pilot And Feasibility Studies"
+  },
+  {
+    "display_note": "ISSN:2057-2107",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2057-2107",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2057-2107",
+    "title": "Neuroscience Of Consciousness"
+  },
+  {
+    "display_note": "ISSN:2076-3425",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2076-3425",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2076-3425",
+    "title": "Brain Sciences"
+  },
+  {
+    "display_note": "ISSN:2077-0383",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2077-0383",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2077-0383",
+    "title": "Journal Of Clinical Medicine"
+  },
+  {
+    "display_note": "ISSN:2090-6765",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2090-6765",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2090-6765",
+    "title": "Case Reports In Otolaryngology"
+  },
+  {
+    "display_note": "ISSN:2095-9907",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2095-9907",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2095-9907",
+    "title": "Signal Transduction And Targeted Therapy"
+  },
+  {
+    "display_note": "ISSN:2157-3107",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2157-3107",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2157-3107",
+    "title": "Journal Of The American Academy Of Audiology"
+  },
+  {
+    "display_note": "ISSN:2158-3188",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2158-3188",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2158-3188",
+    "title": "Translational Psychiatry"
+  },
+  {
+    "display_note": "ISSN:2162-3279",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2162-3279",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2162-3279",
+    "title": "Brain And Behavior"
+  },
+  {
+    "display_note": "ISSN:2168-6203",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2168-6203",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2168-6203",
+    "title": "JAMA Pediatrics"
+  },
+  {
+    "display_note": "ISSN:2168-622X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2168-622X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2168-622X",
+    "title": "JAMA Psychiatry"
+  },
+  {
+    "display_note": "ISSN:2169-3536",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2169-3536",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2169-3536",
+    "title": "IEEE Access"
+  },
+  {
+    "display_note": "ISSN:2210-5433",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2210-5433",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2210-5433",
+    "title": "Philosophy & Technology"
+  },
+  {
+    "display_note": "ISSN:2211-1247",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2211-1247",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2211-1247",
+    "title": "Cell Reports"
+  },
+  {
+    "display_note": "ISSN:2213-1582",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2213-1582",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2213-1582",
+    "title": "NeuroImage: Clinical"
+  },
+  {
+    "display_note": "ISSN:2218-1989",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2218-1989",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2218-1989",
+    "title": "Metabolites"
+  },
+  {
+    "display_note": "ISSN:2296-2565",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2296-2565",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2296-2565",
+    "title": "Frontiers In Public Health"
+  },
+  {
+    "display_note": "ISSN:2296-858X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2296-858X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2296-858X",
+    "title": "Frontiers In Medicine"
+  },
+  {
+    "display_note": "ISSN:2314-6141",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2314-6141",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2314-6141",
+    "title": "BioMed Research International"
+  },
+  {
+    "display_note": "ISSN:2352-3409",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2352-3409",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2352-3409",
+    "title": "Data In Brief"
+  },
+  {
+    "display_note": "ISSN:2352-3964",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2352-3964",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2352-3964",
+    "title": "EBioMedicine"
+  },
+  {
+    "display_note": "ISSN:2352-8729",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2352-8729",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2352-8729",
+    "title": "Alzheimer's & Dementia / Diagnosis, Assessment & Disease Monitoring"
+  },
+  {
+    "display_note": "ISSN:2363-7013",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2363-7013",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2363-7013",
+    "title": "Neuroforum"
+  },
+  {
+    "display_note": "ISSN:2373-8057",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2373-8057",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2373-8057",
+    "title": "npj Parkinson's Disease"
+  },
+  {
+    "display_note": "ISSN:2375-2548",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2375-2548",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2375-2548",
+    "title": "Science Advances"
+  },
+  {
+    "display_note": "ISSN:2383-4196",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2383-4196",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2383-4196",
+    "title": "Journal Of Biostatistics And Epidemiology"
+  },
+  {
+    "display_note": "ISSN:2397-334X",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2397-334X",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2397-334X",
+    "title": "Nature Ecology & Evolution"
+  },
+  {
+    "display_note": "ISSN:2397-3374",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2397-3374",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2397-3374",
+    "title": "Nature Human Behaviour"
+  },
+  {
+    "display_note": "ISSN:2398-6352",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2398-6352",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2398-6352",
+    "title": "npj Digital Medicine"
+  },
+  {
+    "display_note": "ISSN:2399-3642",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2399-3642",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2399-3642",
+    "title": "Communications Biology"
+  },
+  {
+    "display_note": "ISSN:2451-9022",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2451-9022",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2451-9022",
+    "title": "Biological Psychiatry / Cognitive Neuroscience And Neuroimaging"
+  },
+  {
+    "display_note": "ISSN:2470-0045",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2470-0045",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2470-0045",
+    "title": "Physical Review / E"
+  },
+  {
+    "display_note": "ISSN:2472-1751",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2472-1751",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2472-1751",
+    "title": "Network Neuroscience"
+  },
+  {
+    "display_note": "ISSN:2474-4662",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2474-4662",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2474-4662",
+    "title": "The American Journal Of Psychiatry"
+  },
+  {
+    "display_note": "ISSN:2475-9066",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2475-9066",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2475-9066",
+    "title": "The Journal Of Open Source Software"
+  },
+  {
+    "display_note": "ISSN:2574-3805",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2574-3805",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2574-3805",
+    "title": "JAMA Network Open"
+  },
+  {
+    "display_note": "ISSN:2589-0042",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2589-0042",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2589-0042",
+    "title": "iScience"
+  },
+  {
+    "display_note": "ISSN:2632-1297",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2632-1297",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2632-1297",
+    "title": "Brain Communications"
+  },
+  {
+    "display_note": "ISSN:2634-4386",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2634-4386",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2634-4386",
+    "title": "Neuromorphic Computing And Engineering"
+  },
+  {
+    "display_note": "ISSN:2638-6038",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2638-6038",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2638-6038",
+    "title": "Human-Machine Communication"
+  },
+  {
+    "display_note": "ISSN:2666-5212",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2666-5212",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2666-5212",
+    "title": "Intelligence-Based Medicine"
+  },
+  {
+    "display_note": "ISSN:2667-2421",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2667-2421",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2667-2421",
+    "title": "IBRO Neuroscience Reports"
+  },
+  {
+    "display_note": "ISSN:2709-4715",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2709-4715",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2709-4715",
+    "title": "GigaByte"
+  },
+  {
+    "display_note": "ISSN:2730-5953",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2730-5953",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2730-5953",
+    "title": "AI And Ethics"
+  },
+  {
+    "display_note": "ISSN:2730-5961",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2730-5961",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2730-5961",
+    "title": "AI And Ethics"
+  },
+  {
+    "display_note": "ISSN:2731-4383",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2731-4383",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2731-4383",
+    "title": "Discover Mental Health"
+  },
+  {
+    "display_note": "ISSN:2731-6076",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2731-6076",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2731-6076",
+    "title": "Nature Mental Health"
+  },
+  {
+    "display_note": "ISSN:2837-6056",
+    "identifiers": [
+      {
+        "creator": "ror:026ytr635",
+        "notation": "2837-6056",
+        "schema_type": "dlthings:Identifier"
+      }
+    ],
+    "kind": "bibo:Journal",
+    "schema_type": "xyzri:XYZPublicationVenue",
+    "pid": "ISSN:2837-6056",
+    "title": "Imaging Neuroscience"
+  }
+]
