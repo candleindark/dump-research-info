@@ -59,6 +59,14 @@ rendered people lists with roles in the body.
 | [`datalink/query-rse-group`](https://hub.psychoinformatics.de/datalink/query-rse-group) | CLI tool (`qrg`) for inlining, filtering, and rendering research information records |
 | [pool.psychoinformatics.de](https://pool.psychoinformatics.de) | dump-things-server instance (knowledge pool) |
 
+> **Note on repository forks:** The `orinoco` org on
+> hub.psychoinformatics.de hosts forks of both tools
+> ([`orinoco/dump-things-pyclient`](https://hub.psychoinformatics.de/orinoco/dump-things-pyclient),
+> [`orinoco/query-research-information`](https://hub.psychoinformatics.de/orinoco/query-research-information)).
+> These install the same packages (`dump-things-pyclient` / `qrg`)
+> and may appear in developer notes, but the canonical repos used
+> by the workflows are under `datalink/`.
+
 Unlike the TRR379 workflow, there is **no external code repository**
 to clone — the Jinja2 templates in
 [`page_templates/`](https://hub.psychoinformatics.de/www/www-from-model/src/branch/main/page_templates)
@@ -238,7 +246,13 @@ flowchart LR
    whose PID appears there (i.e., people associated with `xyzrins:.`)
 3. **Inline details** — resolves `delegated_by` (organizational
    delegations with roles) and `identifiers` (with their `creator`
-   for platform names like "GitHub", "ORCID")
+   for platform names like "GitHub", "ORCID").
+   Note: `-p delegated_by` is shorthand for `-p delegated_by::object`
+   and is **not** redundant with the default blank-node inlining of
+   `Delegation` records — while the `Delegation` itself is inlined
+   automatically, its `object` field (an organization PID like
+   `ror:02nv7yv05`) is only resolved if the pool has a matching
+   record, and `-p delegated_by` triggers that lookup.
 4. **Render** — produces `content/persons/<slug>/_index.md` with
    name, description, and identifier links
 
@@ -413,3 +427,49 @@ The directory names are derived from PID CURIE references
 (e.g., a record with PID `xyzrins:persons/michael-hanke` becomes
 `content/persons/michael-hanke/_index.md`), so the URL structure of
 the website directly mirrors the PID namespace of the knowledge pool.
+
+## Planned / in-progress work
+
+Based on the
+[developer notes](https://hedgedoc.psychoinformatics.de/GbtN4IvTTLaGDUJN6rkU-A)
+and commented-out workflow code:
+
+### Person page enrichment
+
+The `update_person_pages` workflow has a commented-out step that
+would clone
+[`pool-publication-page`](https://hub.trr379.de/q02/pool-publication-page)
+for additional filtering (e.g., joining project associations,
+inferring sites). The TODO notes that "that code needs to be
+generalized before being used here, maybe also come from a more
+central/generic repo." This would bring the person pages closer to
+the TRR379 approach with richer front matter.
+
+### Portrait images via `XYZDepiction`
+
+The developer notes describe a planned feature to add portrait
+images to person pages. The approach involves:
+
+1. Querying `XYZDepiction` records from the pool
+2. Filtering by depiction type (`Portrait` — PID
+   `xyzrins:depiction-types/e9a34f7d-d05e-4591-bb45-f8a0c499e07b`)
+3. Matching depictions to persons via the `about` field
+4. Inlining `XYZFile` distribution records to extract download URLs
+   (from `characterized_by` entries with
+   `predicate == dcat:downloadUrl`)
+5. Downloading images via git-annex-p2phttp URLs and placing them
+   alongside the person page (e.g.,
+   `content/persons/stephan-heunis/portrait.png`)
+6. Updating the person template to render the image if it exists
+   at the standard path
+
+This may become a separate workflow or be integrated into
+`update_person_pages`.
+
+## References
+
+- [Developer onboarding notes (HedgeDoc)](https://hedgedoc.psychoinformatics.de/GbtN4IvTTLaGDUJN6rkU-A)
+  — Stephan Heunis's notes on local development, pipeline
+  walkthrough with example records, and portrait image design
+- [TRR379 workflow reference](trr379-contributors-projects-workflow.md)
+  — the predecessor approach this work refactors
