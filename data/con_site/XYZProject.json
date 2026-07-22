@@ -492,5 +492,18 @@
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://www.distribits.live/", "predicate": "foaf:homepage"}
     ]
+  },
+  {
+    "pid": "xyzrins:projects/singularityhub-afterlife",
+    "title": "SingularityHub (after-life)",
+    "short_name": "SingularityHub",
+    "display_label": "SingularityHub (after-life)",
+    "description": "To provide archival and uninterrupted access to over 9TBs of singularity-hub.org Singularity containers, CON established the ///shub DataLad dataset and a service to serve the shub:// URLs.",
+    "about": [
+      "https://centerforopenneuroscience.org/projects"
+    ],
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://datasets.datalad.org/?dir=/shub", "predicate": "foaf:homepage"}
+    ]
   }
 ]

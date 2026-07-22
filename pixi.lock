@@ -42,6 +42,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/77/f5/21d2de20e8b8b0408f0681956ca2c69f1320a3848ac50e6e7f39c6159675/babel-2.18.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/38/26/ce90e9eed6f25aaa4a4fa305a2aaf2d2ad81fd69de8eb248ddd91c80d1e0/backports_zstd-1.6.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cb/51/3e7e021920cfe2f7d18b672642e13f7dc4f53545d530b52ee6533b6681ca/CFGraph-0.2.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/a8/b1/3338e121cbd4c8a126b8ccb1061170c2ce51a53f678c502793ea49c6fd6d/chardet-7.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
@@ -132,6 +133,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/86/72/b03ca1560615933f079ba7d291d3532ed95c2a3205911fe71d192654acaa/shexjsg-0.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4c/07/2ebca9b11fb9be7340a818d8d6f63feaebb146be2c4afbd6061701d6df6e/snowballstemmer-3.1.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/2c/437fe806897c2d6cfdc3ee43a18da8bf8e568530a4ae9bac781541ca9896/soupsieve-2.9.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1a/77/48ce09fce2836856588beb84f434c1f8812d1428326efd993b619d49d949/sparqlslurper-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/31/89/176e3db96e31e795d7dfd91dd67749d3d1f0316bb30c6931a6140e1a0477/SPARQLWrapper-2.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/73/f7/b1884cb3188ab181fc81fa00c266699dab600f927a964df02ec3d5d1916a/sphinx-9.1.0-py3-none-any.whl
@@ -188,6 +190,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/77/f5/21d2de20e8b8b0408f0681956ca2c69f1320a3848ac50e6e7f39c6159675/babel-2.18.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5c/39/87cf3d883d386c10ac52f5322604fb9afdd204229f4c47d4a820a839b8ff/backports_zstd-1.6.0-cp313-cp313-macosx_10_13_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cb/51/3e7e021920cfe2f7d18b672642e13f7dc4f53545d530b52ee6533b6681ca/CFGraph-0.2.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/7c/43/79ac9b4db5bc87020c9dbc419125371d80882d1d197e9c4765ba8682b605/chardet-7.4.3-cp313-cp313-macosx_10_13_x86_64.whl
@@ -278,6 +281,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/86/72/b03ca1560615933f079ba7d291d3532ed95c2a3205911fe71d192654acaa/shexjsg-0.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4c/07/2ebca9b11fb9be7340a818d8d6f63feaebb146be2c4afbd6061701d6df6e/snowballstemmer-3.1.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/2c/437fe806897c2d6cfdc3ee43a18da8bf8e568530a4ae9bac781541ca9896/soupsieve-2.9.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1a/77/48ce09fce2836856588beb84f434c1f8812d1428326efd993b619d49d949/sparqlslurper-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/31/89/176e3db96e31e795d7dfd91dd67749d3d1f0316bb30c6931a6140e1a0477/SPARQLWrapper-2.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/73/f7/b1884cb3188ab181fc81fa00c266699dab600f927a964df02ec3d5d1916a/sphinx-9.1.0-py3-none-any.whl
@@ -333,6 +337,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/77/f5/21d2de20e8b8b0408f0681956ca2c69f1320a3848ac50e6e7f39c6159675/babel-2.18.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5e/b6/9479e6f0f18824ad38e8d7dd85161ab0842a198be669421232925bb30960/backports_zstd-1.6.0-cp313-cp313-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/cb/51/3e7e021920cfe2f7d18b672642e13f7dc4f53545d530b52ee6533b6681ca/CFGraph-0.2.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/55/5f/25bdec773905bff0ff6cf35ca73b17bd05593b4f87bd8c5fa43705f7167d/chardet-7.4.3-cp313-cp313-macosx_11_0_arm64.whl
@@ -422,6 +427,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/86/72/b03ca1560615933f079ba7d291d3532ed95c2a3205911fe71d192654acaa/shexjsg-0.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4c/07/2ebca9b11fb9be7340a818d8d6f63feaebb146be2c4afbd6061701d6df6e/snowballstemmer-3.1.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/2c/437fe806897c2d6cfdc3ee43a18da8bf8e568530a4ae9bac781541ca9896/soupsieve-2.9.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1a/77/48ce09fce2836856588beb84f434c1f8812d1428326efd993b619d49d949/sparqlslurper-0.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/31/89/176e3db96e31e795d7dfd91dd67749d3d1f0316bb30c6931a6140e1a0477/SPARQLWrapper-2.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/73/f7/b1884cb3188ab181fc81fa00c266699dab600f927a964df02ec3d5d1916a/sphinx-9.1.0-py3-none-any.whl
@@ -623,6 +629,19 @@ packages:
   version: 1.6.0
   sha256: 4b6c8b02ab0ccb2431bb7bc238be91d158b308915e7b07937388e540466fe7e7
   requires_python: '>=3.10,<3.14'
+- pypi: https://files.pythonhosted.org/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl
+  name: beautifulsoup4
+  version: 4.15.0
+  sha256: d6f88de62e1d4e38ecb1077eb9724cd0eff29d2a08ca16a401e9b9e93f117cf9
+  requires_dist:
+  - soupsieve>=1.6.1
+  - typing-extensions>=4.0.0
+  - cchardet ; extra == 'cchardet'
+  - chardet ; extra == 'chardet'
+  - charset-normalizer ; extra == 'charset-normalizer'
+  - html5lib ; extra == 'html5lib'
+  - lxml ; extra == 'lxml'
+  requires_python: '>=3.7.0'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-hda65f42_9.conda
   sha256: 0b75d45f0bba3e95dc693336fa51f40ea28c980131fec438afb7ce6118ed05f6
   md5: d2ffd7602c02f2b316fd921d39876885
@@ -2320,6 +2339,11 @@ packages:
   version: 3.1.1
   sha256: 7e207fa178741da09cdee59d3ecec3827ad5f92b1fc5c9ff3755b639f71f5752
   requires_python: '>=3.3'
+- pypi: https://files.pythonhosted.org/packages/0f/2c/437fe806897c2d6cfdc3ee43a18da8bf8e568530a4ae9bac781541ca9896/soupsieve-2.9.1-py3-none-any.whl
+  name: soupsieve
+  version: 2.9.1
+  sha256: 4f4477399246b7a0c720a88ca2454b11cd6bb9ae4c9d170140786e916776c14c
+  requires_python: '>=3.10'
 - pypi: https://files.pythonhosted.org/packages/1a/77/48ce09fce2836856588beb84f434c1f8812d1428326efd993b619d49d949/sparqlslurper-0.5.1-py3-none-any.whl
   name: sparqlslurper
   version: 0.5.1

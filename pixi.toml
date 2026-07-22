@@ -17,7 +17,10 @@ validate-zotero = "python scripts/validate_records.py data/zotero_centerforopenn
 validate-data = "python scripts/validate_records.py data/* --report build/data-validation-report.json"
 site-build = "python scripts/build_site.py --data-root data --site-root site --output build/site --report build/site-merge-report.json --base-path /"
 site-serve = "python -m http.server --directory build/site 8000"
+con-site-refresh = "python scripts/con_site_ingest.py --refresh"
+con-site-audit = "python scripts/con_site_ingest.py"
 
 [pypi-dependencies]
 dump-things-service = ">=5.6, <6"
 jinja2 = ">=3.1, <4"
+beautifulsoup4 = ">=4.13, <5"

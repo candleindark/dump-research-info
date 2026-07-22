@@ -1,0 +1,24 @@
+{
+  "entity_aliases": [
+    {
+      "reason": "The live heading inserts the recorded nickname into the canonical formatted name.",
+      "source_name": "Matthijs (Matt) van der Meer",
+      "target_class": "XYZPerson",
+      "target_pid": "xyzrins:persons/matthijs-van-der-meer"
+    },
+    {
+      "reason": "The live heading appends the existing BIDS short name to the project title.",
+      "source_name": "Brain Imaging Data Structure (BIDS)",
+      "target_class": "XYZProject",
+      "target_pid": "xyzrins:projects/bids"
+    },
+    {
+      "reason": "The live heading appends the existing NWB short name to the project title.",
+      "source_name": "Neurodata Without Borders: Neurophysiology (NWB:N)",
+      "target_class": "XYZProject",
+      "target_pid": "xyzrins:projects/nwb"
+    }
+  ],
+  "format_version": 1,
+  "reviewed_against_commit": "e6e9200a0987a65097afff896105ff838be1659e"
+}
