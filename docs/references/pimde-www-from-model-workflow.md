@@ -1,4 +1,18 @@
-# Psychoinformatics Website-from-Model Workflows
+# Psychoinformatics Website-from-Model Workflows (historical snapshot)
+
+> **Superseded by [`psychoinformatics-de.md`](psychoinformatics-de.md).**
+> This document describes an **earlier state** of the
+> [`www/www-from-model`](https://hub.psychoinformatics.de/www/www-from-model)
+> pipeline: five per-class workflows using `qrg` (from
+> `datalink/query-rse-group`), with depictions listed as "planned"
+> and no navigation graph. The current pipeline is one consolidated
+> workflow using `qri` (from `orinoco/query-things`), with
+> depictions and the navigation graph implemented, and covers eight
+> content classes (adding publications, instruments, datasets, and
+> a root homepage record). See
+> [`psychoinformatics-de.md`](psychoinformatics-de.md) for the
+> current-state description. This file is kept for historical
+> reference — do not rely on it as a description of the live system.
 
 This document describes the automated Forgejo Actions workflows that
 generate the entire content of the
