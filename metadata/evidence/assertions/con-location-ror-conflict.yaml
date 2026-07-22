@@ -1,0 +1,14 @@
+id: con:assertion/con-location-ror-conflict
+schema_type: con:Assertion
+subject: con:organization/center-for-open-neuroscience
+predicate: at_location
+observed_value:
+  geonames_id: 4938836
+  name: Hanover
+  state: Massachusetts
+source: con:source/ror-con-2026-07-22
+method: registry_lookup
+evidence_strength: authoritative
+confidence: high
+review_status: conflict
+note: Conflicts with CON's published Hanover, New Hampshire address.

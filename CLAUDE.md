@@ -6,8 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repo serves two purposes:
 
-1. **Metadata gathering setup**: Provides a setup for AI coding agents to gather research metadata from CON (Center for Open Neuroscience) related websites and repositories. AI agents are responsible for validating gathered data using the REST API of a dump-things-server instance. Humans give final confirmation and commit the gathered metadata.
-2. **CLI tool**: A Python CLI tool (`dump-research-info`) for dumping the gathered metadata in this repo to a [dump-things-server](https://hub.psychoinformatics.de/datalink/dump-things-server) instance.
+1. **Research-information authority**: Git-tracked YAML records under
+   `metadata/` contain reviewed CON entities, relationships, and evidence. AI
+   agents propose sourced changes; humans approve canonical claims.
+2. **Source gathering setup**: Source-scoped observations and legacy JSON
+   imports remain under `data/` for reproducibility and migration.
+3. **CLI tool**: `dump-research-info` exports reviewed metadata to an optional
+   [Orinoco dump-things-service](https://hub.psychoinformatics.de/orinoco/dump-things-service)
+   instance for validation, indexing, APIs, and future editing.
 
 Data must conform to the data models defined in or referenced by the [demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml) ([docs](https://concepts.datalad.org/s/demo-research-information/unreleased/)). The relevant data model classes are also available through the OpenAPI documentation of a dump-things-server instance's REST API.
 
@@ -31,10 +37,21 @@ Data must conform to the data models defined in or referenced by the [demo-resea
   - `__about__.py` — version (dynamic, read by Hatch)
   - `__main__.py` — enables `python -m` invocation
 - `tests/` — test package
-- `data/` — gathered metadata storage (JSON files organized by source)
+- `data/` — source observations and legacy gathered metadata, organized by
+  source as JSON collections
+- `metadata/` — Git-native canonical YAML records, evidence, source policies,
+  and the draft CON profile
 - `store/` — data store for the dump-things-server instance used for validation; contains both configuration and data records, but only the configuration files (`.dumpthings.yaml`) are tracked by git
 
 ### Data Organization
+
+Canonical records use one YAML file per entity under
+`metadata/records/<record-type>/`. Claim-level observations are stored under
+`metadata/evidence/`, and contextual relationships are first-class records.
+JSONL, page content, joins, and other derived values are projections and must
+not be edited as authority data.
+
+The existing source format is retained for migration and evidence:
 
 Metadata is stored as JSON files at `data/<source_name>/<ClassName>.json`:
 - `<source_name>` — a name given to the source from which the metadata is gathered

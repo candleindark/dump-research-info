@@ -2,39 +2,47 @@
 
 -----
 
-This repo provides a setup to gather research information related to 
-Center for Open Neuroscience (CON) as (meta)data and a tool to dump the gathered 
-(meta)data to an instance of [dump-things-server](https://hub.psychoinformatics.de/datalink/dump-things-server).
-The (meta)data gathered must conform to the data models defined in the 
-[demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml),
-which is documented at [DataLad Concepts](https://concepts.datalad.org/s/demo-research-information/unreleased/),
-and the dump-things-server instance receives the (meta)data in a collection that must
-conform to the data models defined in the 
+This repository gathers and models research information related to the Center
+for Open Neuroscience (CON). Git-tracked YAML under `metadata/` is the initial
+authority for curated records. Source-scoped observations and legacy imports
+remain under `data/`.
+
+The model starts from the
 [demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml)
-as well.
+and records demonstrated CON extensions separately. A future formal schema can
+generate JSON Schema, linked-data exports, SHACL shapes, and `shacl-vue` forms.
 
-The setup is done in a way to facilitate AI coding agents, such as Claude Code, to gather
-the (meta)data from various sources, such as CON related websites and project repositories,
-and to validate the gathered (meta)data against the target data models through the
-REST API of a dump-things-server instance. Once any gathered (meta)data is validated,
-it will be added to this repository. The tool provided in this repository can be used
-for dumping all the gathered (meta)data in this repo to a dump-things-server instance.
+The CLI can export reviewed records to
+[Orinoco dump-things-service](https://hub.psychoinformatics.de/orinoco/dump-things-service).
+The service is an optional validator, index, API, and future editing backend;
+it is not the initial source of truth.
 
-The gathered (meta)data are stored in separate JSON files each named with the name of
-a model (or class) in the demo-research-information-schema, and the files are stored
-in a subdirectory named after the source of the (meta)data. All (meta)data records of
-a particular class from a particular source are stored in the file named after the class
-in the subdirectory named after the source. All subdirectories are stored in the 
-`data` directory in this repository.
+AI agents may gather observations and propose changes. Humans review and merge
+canonical facts, relationships, and public narratives. Generated website,
+grant, reporting, JSONL, and graph outputs are projections of the same records.
 
 ## Table of Contents
 
 - [Server Configuration](#server-configuration)
+- [Metadata Authority](#metadata-authority)
 - [Commands and Tools](#commands-and-tools)
   - [CLI](#cli)
   - [Hatch Commands](#hatch-commands)
   - [Claude Code Slash Commands](#claude-code-slash-commands)
 - [License](#license)
+
+## Metadata Authority
+
+The repository separates three concerns:
+
+- `data/`: source-scoped JSON snapshots and earlier gathered records;
+- `metadata/`: canonical YAML records, evidence, assertions, source policies,
+  and the draft CON profile;
+- generated projections: website pages, grant/report material, JSONL, and graph
+  data, which must not become canonical input.
+
+See [`metadata/README.md`](metadata/README.md) for record ownership, Zotero
+collection policy, the DataLad fixture, and current review boundaries.
 
 ## Server Configuration
 
@@ -43,7 +51,7 @@ gathered metadata are defined in `.dumpthings.yaml` in the `store/`
 directory. The interpretation of the token modes is documented at
 [christian-monch/dump-things-server#67 (comment)](https://github.com/christian-monch/dump-things-server/issues/67#issuecomment-2834900042)
 and
-[dump-things-server#118](https://hub.psychoinformatics.de/datalink/dump-things-server/issues/118).
+[dump-things-service#118](https://hub.psychoinformatics.de/orinoco/dump-things-service/issues/118).
 
 ## Commands and Tools
 

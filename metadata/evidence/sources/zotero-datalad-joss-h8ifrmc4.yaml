@@ -1,0 +1,12 @@
+id: con:source/zotero-item-h8ifrmc4
+schema_type: con:SourceObservation
+source_uri: https://api.zotero.org/groups/6197458/items/H8IFRMC4?v=3
+source_type: curated_library
+publisher: Center for Open Neuroscience Zotero group
+retrieved_at: '2026-07-22'
+method: registry_lookup
+visibility: public
+upstream_record_id: H8IFRMC4
+upstream_record_version: 3
+collection_membership:
+  - Articles

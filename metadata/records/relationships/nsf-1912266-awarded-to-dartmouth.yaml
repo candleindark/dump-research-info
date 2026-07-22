@@ -1,0 +1,10 @@
+pid: con:relationship/nsf-1912266-awarded-to-dartmouth
+schema_type: con:Relationship
+record_status: draft
+visibility: public
+subject: con:grant/nsf-1912266
+predicate: awarded_to
+object: con:organization/dartmouth-college
+evidence:
+  - con:source/nsf-1912266-2026-07-22
+review_status: proposed

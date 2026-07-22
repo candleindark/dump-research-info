@@ -1,0 +1,10 @@
+id: con:assertion/nsf-1912266-start-date
+schema_type: con:Assertion
+subject: con:grant/nsf-1912266
+predicate: start_date
+observed_value: '2019-12-01'
+source: con:source/nsf-1912266-2026-07-22
+method: registry_lookup
+evidence_strength: authoritative
+confidence: high
+review_status: proposed

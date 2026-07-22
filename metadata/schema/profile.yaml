@@ -1,0 +1,74 @@
+profile_id: con:profile/research-information
+version: 0.1.0
+status: draft
+authority: git
+canonical_format: yaml-one-record-per-file
+based_on:
+  - https://concepts.datalad.org/s/demo-research-information/unreleased.yaml
+
+prefixes:
+  con: https://centerforopenneuroscience.org/id/
+  doi: https://doi.org/
+  orcid: https://orcid.org/
+  ror: https://ror.org/
+
+required_entity_fields:
+  - pid
+  - schema_type
+  - record_status
+  - visibility
+
+con_extension_fields:
+  record_status: Editorial lifecycle of the canonical record.
+  visibility: Publication boundary independent of evidence confidence.
+  external_identifiers: Typed persistent identifiers and canonical URLs.
+  legacy_identifiers: Previous identifiers retained for migration and redirects.
+  status_as_of: Observation date for a time-varying status.
+  start_date: Inclusive relationship, project, or award start date.
+  end_date: Inclusive relationship, project, or award end date.
+
+record_classes:
+  Organization:
+    target_class: XYZOrganization
+  Person:
+    target_class: XYZPerson
+  Project:
+    target_class: XYZProject
+  Grant:
+    target_class: XYZGrant
+  Publication:
+    target_class: XYZPublication
+  Software:
+    target_class: XYZInstrument
+    con_profile: software
+  ResearchResource:
+    target_class: XYZInstrument
+    con_profile: service-resource
+  Document:
+    target_class: XYZDocument
+
+sidecar_classes:
+  Relationship:
+    description: Contextual, dated edge projected into target associations.
+  SourceObservation:
+    description: Dated description of an upstream source or API object.
+  Assertion:
+    description: >-
+      Claim-level observation keyed by subject, semantic predicate, and
+      optional qualifiers.
+
+assertion_fields:
+  id: Stable identifier for the assertion.
+  subject: PID of the entity or relationship described by the assertion.
+  predicate: Semantic property being observed, independent of YAML layout.
+  qualifiers: Optional keys that disambiguate repeatable properties.
+  observed_value: Value reported by the source.
+  source: Source observation supporting the claim.
+  sources: Multiple source observations supporting the same claim.
+  review_status: Human review lifecycle for the claim.
+
+projection_rules:
+  - Canonical records never contain generated inverse relationships.
+  - Evidence observations never silently overwrite canonical fields.
+  - Unsupported profile fields are translated or omitted for service export.
+  - Public prose requires accepted assertions or explicit human review.

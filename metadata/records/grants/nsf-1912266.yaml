@@ -1,0 +1,26 @@
+pid: con:grant/nsf-1912266
+schema_type: XYZGrant
+record_status: draft
+visibility: public
+title: >-
+  Collaborative Proposal: CRCNS US-German Data Sharing Proposal: DataLad - a
+  decentralized system for integrated discovery, management, and publication
+  of digital objects of science
+short_name: NSF 1912266
+display_label: NSF 1912266
+description: >-
+  NSF support for DataLad metadata management, repository interoperability,
+  data publication, discovery, and integration with brainlife.io.
+funder_name: U.S. National Science Foundation
+award_number: '1912266'
+start_date: '2019-12-01'
+end_date: '2023-11-30'
+status: completed
+amount:
+  value: 649643
+  currency: USD
+external_identifiers:
+  - scheme: NSF_AWARD
+    value: '1912266'
+about:
+  - https://www.nsf.gov/awardsearch/showAward?AWD_ID=1912266

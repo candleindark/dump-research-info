@@ -1,0 +1,16 @@
+pid: con:organization/dartmouth-college
+schema_type: XYZOrganization
+record_status: draft
+visibility: public
+name: Dartmouth College
+display_label: Dartmouth College
+external_identifiers:
+  - scheme: ROR
+    value: https://ror.org/049s0rh22
+legacy_identifiers:
+  - ror:049s0rh22
+at_location: https://www.wikidata.org/entity/Q131908
+attributes:
+  - schema_type: dlthings:AttributeSpecification
+    predicate: foaf:homepage
+    value: https://home.dartmouth.edu/

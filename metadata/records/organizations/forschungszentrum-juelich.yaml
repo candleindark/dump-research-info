@@ -1,0 +1,15 @@
+pid: con:organization/forschungszentrum-juelich
+schema_type: XYZOrganization
+record_status: draft
+visibility: public
+name: Forschungszentrum Jülich
+display_label: Forschungszentrum Jülich
+external_identifiers:
+  - scheme: ROR
+    value: https://ror.org/02nv7yv05
+legacy_identifiers:
+  - ror:02nv7yv05
+attributes:
+  - schema_type: dlthings:AttributeSpecification
+    predicate: foaf:homepage
+    value: https://www.fz-juelich.de/

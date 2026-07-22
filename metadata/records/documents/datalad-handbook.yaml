@@ -1,0 +1,18 @@
+pid: con:document/datalad-handbook
+schema_type: XYZDocument
+record_status: draft
+visibility: public
+title: The DataLad Handbook
+display_label: DataLad Handbook
+description: >-
+  An open learning resource for DataLad concepts, workflows, and reproducible
+  data management.
+status: active
+status_as_of: '2026-07-22'
+external_identifiers:
+  - scheme: homepage
+    value: https://handbook.datalad.org/
+  - scheme: repository
+    value: https://github.com/datalad-handbook/book
+about:
+  - https://handbook.datalad.org/

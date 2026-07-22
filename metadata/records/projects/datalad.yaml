@@ -1,0 +1,24 @@
+pid: con:project/datalad
+schema_type: XYZProject
+record_status: draft
+visibility: public
+title: DataLad
+short_name: DataLad
+display_label: DataLad
+description: >-
+  A distributed system for managing, discovering, publishing, and
+  collaborating on digital research objects while tracking their provenance.
+status: active
+status_as_of: '2026-07-22'
+external_identifiers:
+  - scheme: homepage
+    value: https://www.datalad.org/
+  - scheme: project_site
+    value: https://project.datalad.org/
+  - scheme: repository
+    value: https://github.com/datalad/datalad
+legacy_identifiers:
+  - xyzrins:projects/datalad
+about:
+  - https://centerforopenneuroscience.org/projects
+  - https://project.datalad.org/

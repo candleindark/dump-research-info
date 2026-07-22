@@ -1,0 +1,52 @@
+record_status:
+  - draft
+  - accepted
+  - deprecated
+  - archived
+
+visibility:
+  - public
+  - internal
+  - restricted
+
+review_status:
+  - proposed
+  - accepted
+  - rejected
+  - conflict
+  - superseded
+
+confidence:
+  - high
+  - medium
+  - low
+
+evidence_strength:
+  - authoritative
+  - primary
+  - corroborated
+  - self_reported
+  - inferred
+  - unverified
+  - deprecated
+
+source_type:
+  - con_live_site
+  - official_registry
+  - funder_api
+  - project_site
+  - bibliographic_registry
+  - curated_library
+  - repository
+  - agent_proposal
+
+relationship_predicate:
+  - affiliated_with
+  - associated_with
+  - awarded_to
+  - principal_investigator
+  - supports
+  - predecessor_of
+  - produces
+  - described_by
+  - provides

@@ -1,0 +1,12 @@
+id: con:assertion/datalad-joss-doi
+schema_type: con:Assertion
+subject: con:publication/doi-10.21105-joss.03262
+predicate: external_identifier
+qualifiers:
+  scheme: DOI
+observed_value: https://doi.org/10.21105/joss.03262
+source: con:source/crossref-datalad-joss-2026-07-22
+method: registry_lookup
+evidence_strength: authoritative
+confidence: high
+review_status: proposed

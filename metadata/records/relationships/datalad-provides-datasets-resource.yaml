@@ -1,0 +1,11 @@
+pid: con:relationship/datalad-provides-datasets-resource
+schema_type: con:Relationship
+record_status: draft
+visibility: public
+subject: con:project/datalad
+predicate: provides
+object: con:resource/datasets-datalad-org
+active: true
+evidence:
+  - con:source/datalad-project-site-2026-07-22
+review_status: proposed

@@ -1,0 +1,12 @@
+id: con:source/con-live-site-2026-07-22
+schema_type: con:SourceObservation
+source_uri: https://centerforopenneuroscience.org/
+source_type: con_live_site
+publisher: Center for Open Neuroscience
+retrieved_at: '2026-07-22'
+method: page_extraction
+visibility: public
+additional_uris:
+  - https://centerforopenneuroscience.org/whoweare
+  - https://centerforopenneuroscience.org/projects
+  - https://centerforopenneuroscience.org/support

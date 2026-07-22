@@ -1,0 +1,25 @@
+pid: con:grant/nsf-1429999
+schema_type: XYZGrant
+record_status: draft
+visibility: public
+title: >-
+  CRCNS US-German Data Sharing: DataGit - converging catalogues, warehouses,
+  and deployment logistics into a federated data distribution
+short_name: NSF 1429999
+display_label: NSF 1429999
+description: >-
+  NSF support for DataGit, the predecessor project that developed distributed
+  scientific data management and distribution capabilities leading to DataLad.
+funder_name: U.S. National Science Foundation
+award_number: '1429999'
+start_date: '2014-09-01'
+end_date: '2018-08-31'
+status: completed
+amount:
+  value: 690400
+  currency: USD
+external_identifiers:
+  - scheme: NSF_AWARD
+    value: '1429999'
+about:
+  - https://www.nsf.gov/awardsearch/showAward?AWD_ID=1429999

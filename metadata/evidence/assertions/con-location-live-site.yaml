@@ -1,0 +1,11 @@
+id: con:assertion/con-location-live-site
+schema_type: con:Assertion
+subject: con:organization/center-for-open-neuroscience
+predicate: at_location
+observed_value: https://www.wikidata.org/entity/Q131908
+source: con:source/con-live-site-2026-07-22
+method: page_extraction
+evidence_strength: primary
+confidence: high
+review_status: proposed
+note: The published address is Hanover, New Hampshire.

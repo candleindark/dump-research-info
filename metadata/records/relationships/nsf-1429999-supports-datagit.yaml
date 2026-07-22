@@ -1,0 +1,12 @@
+pid: con:relationship/nsf-1429999-supports-datagit
+schema_type: con:Relationship
+record_status: draft
+visibility: public
+subject: con:grant/nsf-1429999
+predicate: supports
+object: con:project/datagit
+start_date: '2014-09-01'
+end_date: '2018-08-31'
+evidence:
+  - con:source/nsf-1429999-2026-07-22
+review_status: proposed

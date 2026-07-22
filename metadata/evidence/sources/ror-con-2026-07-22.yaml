@@ -1,0 +1,9 @@
+id: con:source/ror-con-2026-07-22
+schema_type: con:SourceObservation
+source_uri: https://api.ror.org/v2/organizations/04tfhh831
+source_type: official_registry
+publisher: Research Organization Registry
+retrieved_at: '2026-07-22'
+method: registry_lookup
+visibility: public
+upstream_record_id: https://ror.org/04tfhh831

@@ -1,0 +1,8 @@
+id: con:source/datalad-project-site-2026-07-22
+schema_type: con:SourceObservation
+source_uri: https://project.datalad.org/
+source_type: project_site
+publisher: DataLad project
+retrieved_at: '2026-07-22'
+method: page_extraction
+visibility: public

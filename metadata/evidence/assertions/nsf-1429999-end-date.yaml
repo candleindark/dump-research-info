@@ -1,0 +1,10 @@
+id: con:assertion/nsf-1429999-end-date
+schema_type: con:Assertion
+subject: con:grant/nsf-1429999
+predicate: end_date
+observed_value: '2018-08-31'
+source: con:source/nsf-1429999-2026-07-22
+method: registry_lookup
+evidence_strength: authoritative
+confidence: high
+review_status: proposed
