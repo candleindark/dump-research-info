@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% from "macros.html" import record_card with context %}
+{% block content %}
+<section class="hero">
+  <div class="hero__signal" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <p class="eyebrow reveal">Open infrastructure / reusable knowledge</p>
+  <h1 class="reveal">Neuroscience works better <em>in the open.</em></h1>
+  <p class="hero__lede reveal">{{ mission }}</p>
+  <div class="hero__actions reveal">
+    <a class="button button--primary" href="{{ base_path }}projects/">Explore the work</a>
+    <a class="button button--text" href="{{ base_path }}publications/">Browse research outputs <span>&#8594;</span></a>
+  </div>
+</section>
+
+<section class="stats-band" aria-label="Center at a glance">
+  {% for stat in stats %}
+  <div class="stat reveal"><strong>{{ stat.value }}</strong><span>{{ stat.label }}</span></div>
+  {% endfor %}
+  <p class="stats-band__note">Counts are generated from the current modeled records, not typed into this page.</p>
+</section>
+
+<section class="section section--projects">
+  <header class="section-heading reveal">
+    <div><p class="eyebrow">Active knowledge</p><h2>Projects become infrastructure.</h2></div>
+    <a href="{{ base_path }}projects/">All projects <span>&#8594;</span></a>
+  </header>
+  <div class="card-grid card-grid--featured">
+    {% for item in projects %}{{ record_card(item) }}{% endfor %}
+  </div>
+</section>
+
+<section class="section section--outputs">
+  <header class="section-heading reveal">
+    <div><p class="eyebrow">Evidence, methods, ideas</p><h2>Recent research outputs.</h2></div>
+    <a href="{{ base_path }}publications/">All publications <span>&#8594;</span></a>
+  </header>
+  <div class="output-list">
+    {% for item in publications %}{{ record_card(item, true) }}{% endfor %}
+  </div>
+</section>
+
+{% if datasets %}
+<section class="section section--data">
+  <div class="data-intro reveal">
+    <p class="eyebrow">Research objects</p>
+    <h2>Data is an output,<br>not an afterthought.</h2>
+    <p>Datasets, software, publications, and people remain linked through persistent identifiers.</p>
+    <a class="button button--primary" href="{{ base_path }}datasets/">Open the data catalog</a>
+  </div>
+  <div class="data-stack">
+    {% for item in datasets %}{{ record_card(item, true) }}{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="manifesto reveal">
+  <p>Not another manually synchronized website.</p>
+  <h2>A public view of reusable research information.</h2>
+  <a href="{{ github_url }}">Inspect and improve the source data <span>&#8599;</span></a>
+</section>
+{% endblock %}

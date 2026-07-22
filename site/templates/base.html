@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ description }}">
+  <meta name="theme-color" content="#d8ff3f">
+  <title>{{ page_title }} | {{ site_title }}</title>
+  <link rel="stylesheet" href="{{ base_path }}assets/site.css">
+  {% block head %}{% endblock %}
+</head>
+<body class="{{ body_class }}" data-search-index="{{ search_index_url }}">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ base_path }}" aria-label="Center for Open Neuroscience home">
+      <span class="brand__mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand__name">Center for<br>Open Neuroscience</span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      {% for entry in nav[:4] %}<a href="{{ entry.href }}">{{ entry.label }}</a>{% endfor %}
+      <button class="search-open" type="button" data-open-search aria-label="Open site search">Search <kbd>/</kbd></button>
+    </nav>
+  </header>
+
+  <main id="content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="eyebrow">One model, many uses</p>
+      <p class="footer-statement">Research information maintained as reusable, validated data.</p>
+    </div>
+    <div class="footer-links">
+      <a href="{{ github_url }}">Metadata repository</a>
+      <a href="https://concepts.datalad.org/s/demo-research-information/unreleased/">Data model</a>
+      <button type="button" data-open-search>Search the graph</button>
+    </div>
+    <p class="footer-fineprint">Built directly from source-scoped Things v2 records.</p>
+  </footer>
+
+  <dialog class="search-dialog" data-search-dialog>
+    <form method="dialog" class="search-dialog__bar">
+      <label for="global-search">Search people, projects, outputs, and data</label>
+      <button value="close" aria-label="Close search">Close</button>
+    </form>
+    <input id="global-search" data-global-search type="search" autocomplete="off" placeholder="Try DataLad, BIDS, or a researcher name">
+    <div class="search-results" data-search-results aria-live="polite">
+      <p>Start typing to explore the modeled records.</p>
+    </div>
+  </dialog>
+  <script src="{{ base_path }}assets/site.js" defer></script>
+</body>
+</html>

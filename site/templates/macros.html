@@ -1,0 +1,17 @@
+{% macro record_card(item, compact=false) -%}
+<a class="record-card{% if compact %} record-card--compact{% endif %}" href="{{ item.href }}" data-search="{{ (item.label ~ ' ' ~ item.description ~ ' ' ~ item.kind_label)|lower }}">
+  <span class="record-card__index" aria-hidden="true"></span>
+  <div class="record-card__meta">
+    <span>{{ item.kind_label }}</span>
+    {% if item.date %}<time>{{ item.date }}</time>{% endif %}
+  </div>
+  <h3>{{ item.label }}</h3>
+  {% if item.description and not compact %}<p>{{ item.description|truncate(190) }}</p>{% endif %}
+  {% if item.topics %}
+  <ul class="tag-list" aria-label="Topics">
+    {% for topic in item.topics[:3] %}<li>{{ topic.label }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+  <span class="record-card__arrow" aria-hidden="true">&#8599;</span>
+</a>
+{%- endmacro %}

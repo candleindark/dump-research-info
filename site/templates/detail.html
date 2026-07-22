@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block head %}<script type="application/ld+json">{{ structured_json|safe }}</script>{% endblock %}
+{% block content %}
+<article class="record-detail">
+  <nav class="breadcrumb reveal" aria-label="Breadcrumb">
+    <a href="{{ base_path }}">Home</a><span>/</span>
+    <a href="{{ base_path }}{{ item.config.path }}/">{{ item.config.plural }}</a>
+  </nav>
+  <header class="record-hero">
+    <div class="record-hero__main reveal">
+      <p class="eyebrow">{{ item.kind_label }}</p>
+      <h1>{{ item.label }}</h1>
+      {% if item.description %}<p class="record-hero__description">{{ item.description }}</p>{% endif %}
+    </div>
+    <aside class="record-identity reveal">
+      <span>Persistent identity</span>
+      {% if item.pid.startswith('http') %}<a href="{{ item.pid }}">{{ item.pid }}</a>{% else %}<code>{{ item.pid }}</code>{% endif %}
+      <dl>
+        <div><dt>Type</dt><dd>{{ item.config.singular }}</dd></div>
+        {% if item.date %}<div><dt>Date</dt><dd>{{ item.date }}</dd></div>{% endif %}
+        <div><dt>Sources</dt><dd>{{ item.sources|length }}</dd></div>
+      </dl>
+    </aside>
+  </header>
+
+  <div class="record-layout">
+    <div class="record-main">
+      {% for group in item.relations %}
+      <section class="record-section reveal">
+        <p class="eyebrow">{{ group.heading }}</p>
+        <ul class="relation-list">
+    {% for relation in group["items"] %}
+          <li>
+            {% if relation.href %}<a href="{{ relation.href }}">{{ relation.label }}</a>{% else %}<span>{{ relation.label }}</span>{% endif %}
+            {% if relation.metadata %}<small>{{ relation.metadata|join(' / ') }}</small>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+
+      {% if item.backlinks %}
+      <section class="record-section reveal">
+        <p class="eyebrow">Referenced by</p>
+        <div class="backlink-grid">
+          {% for link in item.backlinks %}<a href="{{ link.href }}"><small>{{ link.kicker }}</small><strong>{{ link.label }}</strong></a>{% endfor %}
+        </div>
+      </section>
+      {% endif %}
+    </div>
+
+    <aside class="record-sidebar">
+      {% if item.identifiers %}
+      <section class="metadata-panel reveal">
+        <h2>Identifiers</h2>
+        <dl>
+          {% for identifier in item.identifiers %}
+          <div><dt>{{ identifier.label }}</dt><dd>{% if identifier.href %}<a href="{{ identifier.href }}">{{ identifier.value }}</a>{% else %}<code>{{ identifier.value }}</code>{% endif %}</dd></div>
+          {% endfor %}
+        </dl>
+      </section>
+      {% endif %}
+
+      {% if item.facts or item.attributes %}
+      <section class="metadata-panel reveal">
+        <h2>Modeled details</h2>
+        <dl>
+          {% for fact in item.facts %}<div><dt>{{ fact.label }}</dt><dd>{{ fact.value }}</dd></div>{% endfor %}
+          {% for attribute in item.attributes %}<div><dt>{{ attribute.label }}</dt><dd>{{ attribute.value }}</dd></div>{% endfor %}
+        </dl>
+      </section>
+      {% endif %}
+
+      <section class="metadata-panel metadata-panel--sources reveal">
+        <h2>Record sources</h2>
+        <ul>{% for source in item.sources %}<li>{{ source|replace('_', ' ') }}</li>{% endfor %}</ul>
+        <p>This page is generated. Corrections belong in the modeled source records.</p>
+      </section>
+    </aside>
+  </div>
+</article>
+{% endblock %}

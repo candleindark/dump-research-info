@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "macros.html" import record_card with context %}
+{% block content %}
+<header class="collection-hero">
+  <p class="eyebrow reveal">Modeled collection</p>
+  <div class="collection-hero__title reveal">
+    <h1>{{ config.plural }}</h1>
+    <strong>{{ items|length }}</strong>
+  </div>
+  <p class="collection-hero__intro reveal">{{ config.intro }}</p>
+</header>
+
+{% if items %}
+<section class="collection-tools" aria-label="Filter this collection">
+  <label for="collection-filter">Filter {{ config.plural|lower }}</label>
+  <input id="collection-filter" class="js-filter" type="search" placeholder="Type a name, title, or keyword">
+</section>
+<section class="card-grid card-grid--collection" data-filter-grid>
+  {% for item in items %}{{ record_card(item) }}{% endfor %}
+</section>
+<p class="empty-filter" data-filter-empty hidden>No matching modeled records.</p>
+{% else %}
+<section class="empty-state">
+  <p>No records are published in this collection yet.</p>
+  <a href="{{ base_path }}">Return to the home page</a>
+</section>
+{% endif %}
+{% endblock %}
