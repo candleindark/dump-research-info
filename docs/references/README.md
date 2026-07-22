@@ -40,11 +40,11 @@ planned work on portrait images and person-page enrichment.
   (including inlined JSON), `qrg` command semantics, and a design
   sketch for the portrait-image feature. Contains a clarification
   from Michal Szczepanik on the `-p delegated_by` inlining behavior.
-- [dump-things-service](https://hub.psychoinformatics.de/orinoco/dump-things-service)
+- [dump-things-server](https://hub.psychoinformatics.de/datalink/dump-things-server)
   — the knowledge pool server that both workflows query
-- [dump-things-pyclient (`dtc`)](https://hub.psychoinformatics.de/orinoco/dump-things-pyclient)
+- [dump-things-pyclient (`dtc`)](https://hub.psychoinformatics.de/datalink/dump-things-pyclient)
   — CLI client for the pool API
-- [query-things (`qri`/`qrg`)](https://hub.psychoinformatics.de/orinoco/query-things)
+- [query-rse-group (`qrg`)](https://hub.psychoinformatics.de/datalink/query-rse-group)
   — CLI toolkit for filtering, inlining, and rendering pool records
 - [demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml)
   ([docs](https://concepts.datalad.org/s/demo-research-information/unreleased/))

@@ -2,47 +2,54 @@
 
 -----
 
-This repository gathers and models research information related to the Center
-for Open Neuroscience (CON). Git-tracked YAML under `metadata/` is the initial
-authority for curated records. Source-scoped observations and legacy imports
-remain under `data/`.
+This repository gathers modeled research information about the Center for Open
+Neuroscience (CON) and provides a tool to load it into an
+[Orinoco dump-things-service](https://hub.psychoinformatics.de/orinoco/dump-things-service)
+instance.
 
-The model starts from the
-[demo-research-information-schema](https://concepts.datalad.org/s/demo-research-information/unreleased.yaml)
-and records demonstrated CON extensions separately. A future formal schema can
-generate JSON Schema, linked-data exports, SHACL shapes, and `shacl-vue` forms.
+The reviewed metadata contract is the existing source-scoped JSON layout:
+`data/<source_name>/<ClassName>.json`. Each file is a JSON array whose records
+conform to the named class in the
+[research-information demonstrator schema](https://concepts.datalad.org/s/demo-research-information/unreleased/).
+That schema uses the foundational [DataLad Things v2](https://concepts.datalad.org/s/things/v2/)
+model. The tracked JSON files are the ingestion targets; a parallel local entity
+schema is not maintained.
 
-The CLI can export reviewed records to
-[Orinoco dump-things-service](https://hub.psychoinformatics.de/orinoco/dump-things-service).
-The service is an optional validator, index, API, and future editing backend;
-it is not the initial source of truth.
-
-AI agents may gather observations and propose changes. Humans review and merge
-canonical facts, relationships, and public narratives. Generated website,
-grant, reporting, JSONL, and graph outputs are projections of the same records.
+AI agents and people may gather, reconcile, and improve candidate records, but
+only records validated against the configured dump-things collection are
+promoted into `data/`. The same modeled records can later drive the CON website,
+grant applications, reports, APIs, JSONL exports, and other projections.
 
 ## Table of Contents
 
 - [Server Configuration](#server-configuration)
-- [Metadata Authority](#metadata-authority)
+- [Metadata and Ingestion Contract](#metadata-and-ingestion-contract)
 - [Commands and Tools](#commands-and-tools)
   - [CLI](#cli)
   - [Hatch Commands](#hatch-commands)
   - [Claude Code Slash Commands](#claude-code-slash-commands)
 - [License](#license)
 
-## Metadata Authority
+## Metadata and Ingestion Contract
 
-The repository separates three concerns:
+- A source has one directory under `data/` and a README that documents its
+  origin, inclusion policy, retrieval date, and modeling decisions.
+- A file stem is an exact schema class name, such as `XYZPerson`,
+  `XYZProject`, `XYZDataset`, or `XYZPublication`.
+- Top-level records follow the existing endpoint convention: the file name
+  selects the class. Nested polymorphic values include `schema_type` where the
+  schema requires it.
+- Stable external identifiers are reused as `pid` values whenever possible.
+  Source-local identifiers are retained as additional identifiers rather than
+  creating a second identity for the same thing.
+- Source refreshes produce reviewable diffs. They do not blindly overwrite
+  curated records, and duplicate entities are reconciled before loading.
+- Acquisition and transformation should be reproducible with `datalad run`,
+  while Pixi provides the pinned execution environment.
 
-- `data/`: source-scoped JSON snapshots and earlier gathered records;
-- `metadata/`: canonical YAML records, evidence, assertions, source policies,
-  and the draft CON profile;
-- generated projections: website pages, grant/report material, JSONL, and graph
-  data, which must not become canonical input.
-
-See [`metadata/README.md`](metadata/README.md) for record ownership, Zotero
-collection policy, the DataLad fixture, and current review boundaries.
+The detailed target-class mapping, identity rules, validation gate, source
+sequence, and open decisions are in
+[`docs/references/ingestion-contract.md`](docs/references/ingestion-contract.md).
 
 ## Server Configuration
 

@@ -13,7 +13,7 @@ repository.
 
 The workflow fetches structured metadata about people and projects
 from the TRR379 knowledge pool (a
-[dump-things-service](https://hub.psychoinformatics.de/orinoco/dump-things-service)
+[dump-things-server](https://hub.psychoinformatics.de/datalink/dump-things-server)
 instance), transforms it through a pipeline of CLI tools and Python
 filters, and writes the results as Hugo Markdown page bundles into
 the website repository. It runs on weekday mornings (cron) and can
@@ -26,8 +26,8 @@ be triggered manually.
 | [`q04/www.trr379.de`](https://hub.trr379.de/q04/www.trr379.de) | Hugo website source; target for generated pages |
 | [`q02/pool-publication-page`](https://hub.trr379.de/q02/pool-publication-page) | Python formatters and filters that transform pool records into Hugo Markdown |
 | [`q02/ror-data-copy`](https://hub.trr379.de/q02/ror-data-copy) | Copy of the [ROR](https://ror.org/) dataset in Parquet format, used for inferring institutional affiliations |
-| [`orinoco/dump-things-pyclient`](https://hub.psychoinformatics.de/orinoco/dump-things-pyclient) | Python client & CLI (`dtc`) for interacting with dump-things-service |
-| [`orinoco/query-things`](https://hub.psychoinformatics.de/orinoco/query-things) | CLI tools (`qri`/`qrg`) for inlining, filtering, and rendering research information records |
+| [`datalink/dump-things-pyclient`](https://hub.psychoinformatics.de/datalink/dump-things-pyclient) | Python client & CLI (`dtc`) for interacting with dump-things-server |
+| [`datalink/query-rse-group`](https://hub.psychoinformatics.de/datalink/query-rse-group) | CLI tool (`qrg`) with commands for inlining and filtering research information records |
 | [`forgejo/datalad-clone-action`](https://hub.datalad.org/forgejo/datalad-clone-action) | Forgejo Action for cloning DataLad datasets (used instead of a plain checkout) |
 
 ## CLI tools

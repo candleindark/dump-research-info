@@ -1,9 +1,0 @@
-id: con:source/nsf-1912266-2026-07-22
-schema_type: con:SourceObservation
-source_uri: https://api.nsf.gov/services/v1/awards.json?id=1912266
-source_type: funder_api
-publisher: U.S. National Science Foundation
-retrieved_at: '2026-07-22'
-method: registry_lookup
-visibility: public
-upstream_record_id: '1912266'

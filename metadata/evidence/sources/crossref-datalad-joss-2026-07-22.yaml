@@ -1,9 +1,0 @@
-id: con:source/crossref-datalad-joss-2026-07-22
-schema_type: con:SourceObservation
-source_uri: https://api.crossref.org/works/10.21105/joss.03262
-source_type: bibliographic_registry
-publisher: Crossref
-retrieved_at: '2026-07-22'
-method: registry_lookup
-visibility: public
-upstream_record_id: 10.21105/joss.03262

@@ -1,8 +1,0 @@
-id: con:source/datalad-handbook-2026-07-22
-schema_type: con:SourceObservation
-source_uri: https://handbook.datalad.org/en/latest/acknowledgements.html
-source_type: project_site
-publisher: DataLad project
-retrieved_at: '2026-07-22'
-method: page_extraction
-visibility: public

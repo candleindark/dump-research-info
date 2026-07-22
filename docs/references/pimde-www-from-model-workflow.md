@@ -55,8 +55,8 @@ rendered people lists with roles in the body.
 | Repository / Tool | Role |
 |---|---|
 | [`www/www-from-model`](https://hub.psychoinformatics.de/www/www-from-model) | Hugo website source; target for generated pages; contains Jinja2 page templates |
-| [`orinoco/dump-things-pyclient`](https://hub.psychoinformatics.de/orinoco/dump-things-pyclient) | Python client & CLI (`dtc`) for interacting with dump-things-service |
-| [`orinoco/query-things`](https://hub.psychoinformatics.de/orinoco/query-things) | CLI tools (`qri`/`qrg`) for inlining, filtering, and rendering research information records |
+| [`datalink/dump-things-pyclient`](https://hub.psychoinformatics.de/datalink/dump-things-pyclient) | Python client & CLI (`dtc`) for interacting with dump-things-server |
+| [`datalink/query-rse-group`](https://hub.psychoinformatics.de/datalink/query-rse-group) | CLI tool (`qrg`) for inlining, filtering, and rendering research information records |
 | [pool.psychoinformatics.de](https://pool.psychoinformatics.de) | dump-things-server instance (knowledge pool) |
 
 > **Note on repository forks:** The `orinoco` org on
