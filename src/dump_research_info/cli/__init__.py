@@ -24,6 +24,7 @@ def main(
     source: Annotated[
         Path,
         typer.Argument(
+            metavar="SOURCE",
             exists=True,
             file_okay=False,
             dir_okay=True,
@@ -35,6 +36,7 @@ def main(
     service_url: Annotated[
         str,
         typer.Argument(
+            metavar="SERVICE_URL",
             help="Base URL of the dump-things-server instance.",
         ),
     ],
