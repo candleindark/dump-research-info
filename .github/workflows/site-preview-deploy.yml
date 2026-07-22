@@ -1,0 +1,68 @@
+name: Deploy site preview
+
+on:
+  workflow_run:
+    workflows: ["Site CI"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy-preview:
+    name: Deploy pull request preview
+    if: >-
+      ${{
+        github.event.workflow_run.event == 'pull_request' &&
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.pull_requests[0].number != null
+      }}
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+      pull-requests: write
+    concurrency:
+      group: pages-branch-deployment
+      cancel-in-progress: false
+    steps:
+      - name: Check out trusted default branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Download site artifact from the completed run
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: site-build
+          path: site-artifact
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check artifact boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f site-artifact/index.html
+
+          if find site-artifact -type l -print -quit | grep -q .; then
+            echo "Preview artifacts may not contain symbolic links." >&2
+            exit 1
+          fi
+
+          file_count=$(find site-artifact -type f | wc -l)
+          size_kib=$(du -sk site-artifact | cut -f1)
+          test "$file_count" -le 5000
+          test "$size_kib" -le 102400
+
+      - name: Publish preview and comment on the pull request
+        uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1.8.1
+        with:
+          action: deploy
+          source-dir: site-artifact
+          pr-number: ${{ github.event.workflow_run.pull_requests[0].number }}
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
+          comment: true
+          qr-code: false
+          deploy-commit-message: Deploy preview for PR ${{ github.event.workflow_run.pull_requests[0].number }}
