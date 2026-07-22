@@ -29,6 +29,9 @@ network access, with:
 pixi run con-site-audit
 ```
 
+CI runs `pixi run con-site-check` to rebuild both reports in memory and fail if
+metadata changed without refreshing the committed audit.
+
 These reports are evidence and candidate inputs. They are not a second metadata
 schema and are not consumed directly by the public site. Accepted information
 must be mapped into the source-scoped JSON arrays under `data/` and pass the

@@ -678,10 +678,16 @@ def build_coverage(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument(
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
         "--refresh",
         action="store_true",
         help="Fetch a new source snapshot before rebuilding reports",
+    )
+    mode.add_argument(
+        "--check",
+        action="store_true",
+        help="Fail if committed reports differ from the pinned snapshot and data",
     )
     parser.add_argument("--repository", default=SOURCE_REPOSITORY)
     parser.add_argument("--ref", help="Git ref to snapshot (default: upstream default branch)")
@@ -726,8 +732,28 @@ def main() -> None:
         else {}
     )
     coverage = build_coverage(inventory, args.data_root, resolutions)
-    write_json(args.inventory, inventory)
-    write_json(args.coverage, coverage)
+    if args.check:
+        stale: list[Path] = []
+        for path, generated in (
+            (args.inventory, inventory),
+            (args.coverage, coverage),
+        ):
+            committed = (
+                json.loads(path.read_text(encoding="utf-8"))
+                if path.exists()
+                else None
+            )
+            if committed != generated:
+                stale.append(path)
+        if stale:
+            joined = ", ".join(str(path) for path in stale)
+            raise SystemExit(
+                f"Generated CON source reports are stale: {joined}; "
+                "run `pixi run con-site-audit`"
+            )
+    else:
+        write_json(args.inventory, inventory)
+        write_json(args.coverage, coverage)
     print(json.dumps(coverage["summary"], indent=2, sort_keys=True))
 
 

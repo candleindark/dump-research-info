@@ -19,6 +19,7 @@ site-build = "python scripts/build_site.py --data-root data --site-root site --o
 site-serve = "python -m http.server --directory build/site 8000"
 con-site-refresh = "python scripts/con_site_ingest.py --refresh"
 con-site-audit = "python scripts/con_site_ingest.py"
+con-site-check = "python scripts/con_site_ingest.py --check"
 
 [pypi-dependencies]
 dump-things-service = ">=5.6, <6"

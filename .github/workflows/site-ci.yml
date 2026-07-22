@@ -55,6 +55,9 @@ jobs:
 
           pixi run validate-data
 
+      - name: Check pinned source audit reports
+        run: pixi run con-site-check
+
       - name: Build the static site
         shell: bash
         run: |
