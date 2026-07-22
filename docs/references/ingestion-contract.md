@@ -199,6 +199,21 @@ than minting source-specific identities. It also reports DOI duplicates,
 ambiguous class assignments, title collisions, publication venues without an
 ISSN, and PIDs already present in another source directory.
 
+Validation uses the same non-mutating service endpoint as the existing agent
+workflow:
+
+```sh
+# terminal 1
+pixi run validation-server
+
+# terminal 2
+pixi run validate-zotero
+```
+
+`scripts/validate_records.py` accepts any number of class JSON files or source
+directories, writes an optional machine-readable report, and exits non-zero if
+any record fails. This is the validation entry point for local work and CI.
+
 ## References
 
 - [DataLad Concepts: Things v2](https://concepts.datalad.org/s/things/v2/)

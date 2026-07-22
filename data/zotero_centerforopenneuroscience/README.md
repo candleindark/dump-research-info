@@ -85,3 +85,25 @@ pixi run zotero-refresh
 Candidate `XYZ*.json` files are written to
 `build/zotero_centerforopenneuroscience/`; the reconciliation report is written
 beside that directory. Nothing is promoted to this directory automatically.
+
+## First validated refresh
+
+The snapshot fetched at `2026-07-22T22:45:59Z` records Zotero library version
+`216`. All 153 generated records passed the configured research-information
+validator before promotion:
+
+- 4 `XYZDataset` records;
+- 3 `XYZInstrument` records;
+- 126 `XYZPublication` records; and
+- 20 `XYZPublicationVenue` records.
+
+The source-scoped records intentionally reuse canonical PIDs already seen in
+other sources: five publications overlap `con_site`, and thirteen venues overlap
+the shared psychoinformatics pool. These are the same entities, not new IDs.
+Multi-source consumers must reconcile records by PID and apply an explicit
+field-level merge policy.
+
+The refresh report also identified 1,930 unresolved creator occurrences, 49
+unmapped tags, and 42 venue names without ISSNs. Their source information
+remains in the committed Zotero snapshot for later registry enrichment and
+agent-assisted curation; it was not converted into unsafe local identities.

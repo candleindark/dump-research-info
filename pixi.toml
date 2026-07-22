@@ -12,3 +12,9 @@ python = ">=3.11,<3.14"
 zotero-fetch = "python scripts/zotero_ingest.py fetch --output inputs/zotero_centerforopenneuroscience/snapshot.json"
 zotero-candidates = "python scripts/zotero_ingest.py transform --input inputs/zotero_centerforopenneuroscience/snapshot.json --output-dir build/zotero_centerforopenneuroscience --report build/zotero_centerforopenneuroscience-report.json --people data/con_site/XYZPerson.json --organizations data/con_site/XYZOrganization.json --topics data/pool_psychoinformatics_de/XYZTopic.json --existing-data-root data"
 zotero-refresh = { depends-on = ["zotero-fetch", "zotero-candidates"] }
+validation-server = 'dump-things-service --origins "http://localhost:8000" --host localhost --port 8111 "store"'
+validate-zotero = "python scripts/validate_records.py data/zotero_centerforopenneuroscience --report build/zotero-validation-report.json"
+validate-data = "python scripts/validate_records.py data/* --report build/data-validation-report.json"
+
+[pypi-dependencies]
+dump-things-service = ">=5.6, <6"

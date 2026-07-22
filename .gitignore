@@ -7,3 +7,6 @@ store/**
 
 # External repo clones
 _ext
+
+# Generated ingestion candidates and reports
+build/
