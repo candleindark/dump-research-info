@@ -70,6 +70,18 @@ The planned adapter will:
    human review; and
 9. update this directory only after approval.
 
-Acquisition and transformation should run through Pixi and be recorded with
-`datalad run`. Zotero item keys and the library version must remain available as
-source identifiers/provenance even when a DOI becomes the entity `pid`.
+Acquisition and transformation run through checked-in Pixi tasks. Zotero item
+keys and the library version must remain available as source
+identifiers/provenance even when a DOI becomes the entity `pid`.
+
+## Current implementation
+
+Generate a source snapshot and review candidates with:
+
+```sh
+pixi run zotero-refresh
+```
+
+Candidate `XYZ*.json` files are written to
+`build/zotero_centerforopenneuroscience/`; the reconciliation report is written
+beside that directory. Nothing is promoted to this directory automatically.

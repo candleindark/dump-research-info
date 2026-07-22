@@ -48,8 +48,10 @@ schema gap is found, document it before introducing any local extension.
 Source adapters must create deterministic candidate arrays, preserve stable
 identifiers, reconcile duplicate entities, and validate every record before
 replacing files under `data/`. A source README records acquisition and mapping
-decisions. Prefer Pixi for environments and `datalad run` for reproducible fetch,
-transform, and validation steps. See `docs/references/ingestion-contract.md`.
+decisions. Prefer checked-in Pixi tasks and source-version records for
+reproducible fetch, transform, and validation steps. Keep the repository as pure
+Git unless that decision is explicitly revisited. See
+`docs/references/ingestion-contract.md`.
 
 Each JSON file contains an array of records conforming to `<ClassName>`.
 

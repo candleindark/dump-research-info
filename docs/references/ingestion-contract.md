@@ -79,10 +79,11 @@ Schema-native structure is preferred throughout:
    README and provenance together with them.
 9. **Project** the accepted records into website pages and other products.
 
-Pixi should pin the commands and dependencies. `datalad run` should record the
-acquisition, transformation, and validation commands and their declared inputs
-and outputs. Large or frequently refreshed raw snapshots can be annexed; they
-must not become a second hand-edited metadata authority.
+Pixi pins the commands and dependencies. For now this remains a pure Git
+repository: retrieval URLs, source versions, and commands are recorded with the
+snapshot and source README. Source snapshots must not become a second
+hand-edited metadata authority. DataLad remains a possible later refinement,
+not part of the current ingestion contract.
 
 ## Identity and reconciliation
 
@@ -176,6 +177,27 @@ the same record shapes. It should not introduce a second authoring model.
    with manual review as the fallback.
 5. **Cross-source loading:** add an explicit reconcile/build command before any
    command that loads all sources into one collection.
+
+## First adapter: Zotero
+
+The initial adapter has two explicit stages:
+
+```sh
+pixi run zotero-fetch
+pixi run zotero-candidates
+```
+
+The first writes a versioned public-API snapshot under `inputs/`. The second
+writes class-named candidate arrays under `build/` and a separate reconciliation
+report. It never writes into `data/` directly. After review and service
+validation, accepted arrays can be promoted into
+`data/zotero_centerforopenneuroscience/`.
+
+The transform reuses exact unique matches from the current person,
+organization, and topic records. It reports unresolved creators and tags rather
+than minting source-specific identities. It also reports DOI duplicates,
+ambiguous class assignments, title collisions, publication venues without an
+ISSN, and PIDs already present in another source directory.
 
 ## References
 

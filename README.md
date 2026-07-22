@@ -44,8 +44,8 @@ grant applications, reports, APIs, JSONL exports, and other projections.
   creating a second identity for the same thing.
 - Source refreshes produce reviewable diffs. They do not blindly overwrite
   curated records, and duplicate entities are reconciled before loading.
-- Acquisition and transformation should be reproducible with `datalad run`,
-  while Pixi provides the pinned execution environment.
+- Acquisition and transformation use checked-in Pixi tasks and versioned source
+  metadata. The repository remains pure Git for now.
 
 The detailed target-class mapping, identity rules, validation gate, source
 sequence, and open decisions are in
