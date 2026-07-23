@@ -116,3 +116,15 @@ and external actions. It should be updated whenever a decision changes.
 - 105 unique source assets are preserved: 61 project/third-party marks, 33 portraits, 6 handout previews, 4 banners, and 1 contact mark.
 - The mirrored asset set is 3,775,586 bytes and has no unmatched source reference.
 - CI can verify inventory coverage and byte-level integrity without network access.
+
+## Implementation checkpoint: engagement media
+
+### Decisions added
+
+- **D019 - Display the low-risk resource previews now.** The six handout images already linked by the engagement page use mirrored, base-path-aware assets with explicit alternative text and lazy loading.
+- **D020 - Withhold portraits and project marks by default.** Preserved portraits and third-party marks remain available to editors but are not automatically introduced into the replacement design before Q013 and Q014 are resolved.
+
+### Current review facts
+
+- The engagement page renders 6 local handout previews and contains no legacy-domain handout image dependency.
+- Editorial asset URLs use the same configurable base path as pull-request previews and the main deployment.

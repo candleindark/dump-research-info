@@ -41,6 +41,11 @@
       <div class="con-editorial-items">
         {% for item in section['items'] %}
         <article class="con-editorial-item">
+          {% if item.get('image') %}
+          <figure class="con-editorial-item__media">
+            <img src="{{ site_url(item.image) }}" alt="{{ item.image_alt }}" loading="lazy" decoding="async">
+          </figure>
+          {% endif %}
           <h3>{{ item.title }}</h3>
           {% if item.get('value') %}
           <p>{% if item.get('url') %}<a href="{{ item.url }}">{{ item.value }}</a>{% else %}{{ item.value }}{% endif %}</p>

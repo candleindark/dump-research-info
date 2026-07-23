@@ -74,6 +74,8 @@ pages:
       layout: entries
       items:
       - title: Collation
+        image: assets/legacy/trifolds/trifold-qrcodes.png
+        image_alt: Preview sheet of QR codes for open neuroscience handouts
         body:
         - This single page pamphlet provides QR codes to download some of the pamphlets listed below.
           Best to be kept at an exhibit booth for visitors to scan or to be presented on a bulletin board.
@@ -81,6 +83,8 @@ pages:
         - label: https://neuro.debian.net/_files/trifolds-qrcodes.pdf
           url: https://neuro.debian.net/_files/trifolds-qrcodes.pdf
       - title: Python in Electrophysiology
+        image: assets/legacy/trifolds/eppy-handout.png
+        image_alt: Preview of the Python in Electrophysiology tri-fold handout
         body:
         - Double-sided tri-fold presenting Python-based projects useful for research in electrophysiology
           ( LaTeX sources on GitHub ).
@@ -90,6 +94,8 @@ pages:
         - label: LaTeX sources on GitHub
           url: https://github.com/nipy/nipy-artwork
       - title: Python in Neuroimaging
+        image: assets/legacy/trifolds/nipy-handout.png
+        image_alt: Preview of the Python in Neuroimaging tri-fold handout
         body:
         - Double-sided tri-fold presenting Python-based projects useful for research in neuroimaging (
           LaTeX sources on GitHub ).
@@ -99,6 +105,8 @@ pages:
         - label: LaTeX sources on GitHub
           url: https://github.com/nipy/nipy-artwork
       - title: (Neuro)Debian
+        image: assets/legacy/trifolds/brochure_debian-neurodebian.png
+        image_alt: Preview of the Debian and NeuroDebian tri-fold brochure
         body:
         - Double-sided tri-fold on one side presenting Debian and on the other NeuroDebian projects (
           LaTeX sources on GitHub ).
@@ -112,6 +120,8 @@ pages:
         - label: LaTeX sources on GitHub
           url: https://github.com/neurodebian/neurodebian
       - title: git-annex/DataLad
+        image: assets/legacy/trifolds/brochure_datalad.png
+        image_alt: Preview of the git-annex and DataLad tri-fold brochure
         body:
         - Double-sided tri-fold presents DataLad and its core git-annex projects ( LaTeX sources on GitHub
           ).
@@ -129,6 +139,8 @@ pages:
         - label: https://centerforopenneuroscience.org/theme/img/banners/fromtar.png
           url: https://centerforopenneuroscience.org/theme/img/banners/fromtar.png
       - title: BIDS
+        image: assets/legacy/trifolds/brochure_bids.png
+        image_alt: Preview of the Brain Imaging Data Structure tri-fold brochure
         body:
         - Double-sided tri-fold presents BIDS (Brain Imaging Data Structure) which describes a standardized
           layout for neuroimaging data files to facilitate methods reuse, sharing, etc.
