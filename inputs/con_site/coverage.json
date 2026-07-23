@@ -2646,6 +2646,12 @@
           "file": "data/con_site/XYZProject.json",
           "index": 0,
           "pid": "xyzrins:projects/datalad"
+        },
+        {
+          "class": "XYZProject",
+          "file": "data/curated_relationships/XYZProject.json",
+          "index": 0,
+          "pid": "xyzrins:projects/datalad"
         }
       ],
       "missing_external_links": [
@@ -2680,11 +2686,6 @@
           "url": "https://github.com/myyoda/poster/blob/master/ohbm2018.pdf"
         },
         {
-          "label": "JOSS paper",
-          "raw": "https://doi.org/10.21105/joss.03262",
-          "url": "https://doi.org/10.21105/joss.03262"
-        },
-        {
           "label": "DataLad Handbook",
           "raw": "http://handbook.datalad.org",
           "url": "http://handbook.datalad.org"
@@ -2709,6 +2710,12 @@
         {
           "class": "XYZProject",
           "file": "data/con_site/XYZProject.json",
+          "index": 1,
+          "pid": "xyzrins:projects/dandi"
+        },
+        {
+          "class": "XYZProject",
+          "file": "data/curated_relationships/XYZProject.json",
           "index": 1,
           "pid": "xyzrins:projects/dandi"
         }
@@ -5025,11 +5032,6 @@
           "url": "https://github.com/myyoda/poster/blob/master/ohbm2018.pdf"
         },
         {
-          "label": "JOSS paper",
-          "raw": "https://doi.org/10.21105/joss.03262",
-          "url": "https://doi.org/10.21105/joss.03262"
-        },
-        {
           "label": "DataLad Handbook",
           "raw": "http://handbook.datalad.org",
           "url": "http://handbook.datalad.org"
@@ -5643,12 +5645,12 @@
     "url": "https://github.com/con/centerforopenneuroscience.org"
   },
   "summary": {
-    "external_links_not_represented": 285,
+    "external_links_not_represented": 284,
     "external_links_on_source_site": 327,
     "local_image_references": 103,
     "modeled_people": 33,
     "modeled_projects": 23,
-    "record_count": 1441,
+    "record_count": 1445,
     "resolved_entity_aliases": 3,
     "review_item_count": 106,
     "source_people": 33,
@@ -5939,11 +5941,6 @@
       "label": "",
       "raw": "https://www.dartmouth.edu/ccn/",
       "url": "https://www.dartmouth.edu/ccn/"
-    },
-    {
-      "label": "",
-      "raw": "http://www.nsf.gov/awardsearch/showAward?AWD_ID=1429999",
-      "url": "http://www.nsf.gov/awardsearch/showAward?AWD_ID=1429999"
     },
     {
       "label": "",
