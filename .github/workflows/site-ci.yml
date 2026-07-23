@@ -58,6 +58,9 @@ jobs:
       - name: Check pinned source audit reports
         run: pixi run con-site-check
 
+      - name: Check reviewed research slices
+        run: pixi run research-slices-check
+
       - name: Build the static site
         shell: bash
         run: |

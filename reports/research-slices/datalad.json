@@ -1,0 +1,903 @@
+{
+  "format_version": 1,
+  "slug": "datalad",
+  "label": "DataLad relationship slice",
+  "root": "xyzrins:projects/datalad",
+  "summary": {
+    "node_count": 29,
+    "edge_count": 65,
+    "class_counts": {
+      "Property": 2,
+      "XYZAgentRole": 4,
+      "XYZBibliographicType": 2,
+      "XYZGrant": 2,
+      "XYZInstrument": 1,
+      "XYZInstrumentType": 1,
+      "XYZPerson": 12,
+      "XYZProject": 1,
+      "XYZPublication": 3,
+      "XYZPublicationVenue": 1
+    },
+    "missing_external_candidates": 0
+  },
+  "nodes": [
+    {
+      "class": "XYZProject",
+      "pid": "xyzrins:projects/datalad",
+      "label": "DataLad",
+      "sources": [
+        "con_site",
+        "curated_relationships"
+      ],
+      "depth": 0
+    },
+    {
+      "class": "Property",
+      "pid": "foaf:homepage",
+      "label": "Homepage",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "marcrel:ctb",
+      "label": "Contributor",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "marcrel:led",
+      "label": "Lead",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZGrant",
+      "pid": "xyzrins:grants/nsf-1429999",
+      "label": "NSF 1429999: DataGit",
+      "sources": [
+        "curated_relationships"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZGrant",
+      "pid": "xyzrins:grants/nsf-1912266",
+      "label": "NSF 1912266: DataLad",
+      "sources": [
+        "curated_relationships"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZInstrument",
+      "pid": "xyzrins:instruments/datalad",
+      "label": "xyzrins:instruments/datalad",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/benjamin-poldrack",
+      "label": "Benjamin Poldrack",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/kyle-meyer",
+      "label": "Kyle Meyer",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+      "label": "Matteo Visconti di Oleggio Castello",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/michael-hanke",
+      "label": "Michael Hanke",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/yaroslav-halchenko",
+      "label": "Yaroslav O. Halchenko",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPublication",
+      "pid": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "label": "DataLad – decentralized data distribution for consumption and sharing of scientific datasets",
+      "sources": [
+        "zotero_centerforopenneuroscience"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPublication",
+      "pid": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "label": "The best of both worlds: using semantic web with JSON-LD. An example with NIDM-Results & DataLad",
+      "sources": [
+        "zotero_centerforopenneuroscience"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPublication",
+      "pid": "https://doi.org/10.21105/joss.03262",
+      "label": "DataLad: distributed system for joint management of code, data, and their relationship",
+      "sources": [
+        "zotero_centerforopenneuroscience"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "Property",
+      "pid": "vcard:Email",
+      "label": "Email address",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "marcrel:aut",
+      "label": "Author",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "obo:NCIT_C19924",
+      "label": "Principal investigator (PI)",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZBibliographicType",
+      "pid": "bibo:AcademicArticle",
+      "label": "Academic Article",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZBibliographicType",
+      "pid": "bibo:Document",
+      "label": "Document",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZInstrumentType",
+      "pid": "obo:IAO_0000010",
+      "label": "Software",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/horea-ioanas",
+      "label": "Horea-Ioan Ioanas",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/james-haxby",
+      "label": "James V. Haxby",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/jason-gors",
+      "label": "Jason Gors",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/jean-baptiste-poline",
+      "label": "Jean-Baptiste Poline",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/satrajit-ghosh",
+      "label": "Satrajit Ghosh",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/soichi-hayashi",
+      "label": "Soichi Hayashi",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/vanessa-sochat",
+      "label": "Vanessa Sochat",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPublicationVenue",
+      "pid": "ISSN:2475-9066",
+      "label": "The Journal Of Open Source Software",
+      "sources": [
+        "pool_psychoinformatics_de",
+        "zotero_centerforopenneuroscience"
+      ],
+      "depth": 2
+    }
+  ],
+  "edges": [
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "attributes",
+      "target": "foaf:homepage",
+      "target_class": "Property",
+      "source": "con_site",
+      "path": "attributes.0.predicate"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "schema:subjectOf",
+      "target": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "target_class": "XYZPublication",
+      "source": "curated_relationships",
+      "path": "attributes.3.value"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "schema:subjectOf",
+      "target": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "target_class": "XYZPublication",
+      "source": "curated_relationships",
+      "path": "attributes.4.value"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "schema:subjectOf",
+      "target": "https://doi.org/10.21105/joss.03262",
+      "target_class": "XYZPublication",
+      "source": "curated_relationships",
+      "path": "attributes.2.value"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "marcrel:ctb",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "associated_with.1.roles.0"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "marcrel:ctb",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "associated_with.2.roles.0"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "marcrel:ctb",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "associated_with.3.roles.0"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "marcrel:led",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "associated_with.0.roles.0"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "marcrel:led",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "associated_with.4.roles.0"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "schema:funding",
+      "target": "xyzrins:grants/nsf-1429999",
+      "target_class": "XYZGrant",
+      "source": "curated_relationships",
+      "path": "attributes.0.value"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "schema:funding",
+      "target": "xyzrins:grants/nsf-1912266",
+      "target_class": "XYZGrant",
+      "source": "curated_relationships",
+      "path": "attributes.1.value"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "dcterms:relation",
+      "target": "xyzrins:instruments/datalad",
+      "target_class": "XYZInstrument",
+      "source": "curated_relationships",
+      "path": "attributes.5.value"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "xyzrins:persons/benjamin-poldrack",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "associated_with.3.object"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "xyzrins:persons/kyle-meyer",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "associated_with.2.object"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "associated_with.1.object"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "xyzrins:persons/michael-hanke",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "associated_with.0.object"
+    },
+    {
+      "subject": "xyzrins:projects/datalad",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "associated_with.4.object"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "subject_class": "XYZPublication",
+      "relation": "kind",
+      "target": "bibo:Document",
+      "target_class": "XYZBibliographicType",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "kind"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.roles.0"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.roles.0"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.2.roles.0"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/benjamin-poldrack",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.object"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/michael-hanke",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.2.object"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.object"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "kind",
+      "target": "bibo:Document",
+      "target_class": "XYZBibliographicType",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "kind"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.roles.0"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.roles.0"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.2.roles.0"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.3.roles.0"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/jean-baptiste-poline",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.2.object"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/michael-hanke",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.3.object"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/satrajit-ghosh",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.object"
+    },
+    {
+      "subject": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "kind",
+      "target": "bibo:AcademicArticle",
+      "target_class": "XYZBibliographicType",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "kind"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "generated_by",
+      "target": "ISSN:2475-9066",
+      "target_class": "XYZPublicationVenue",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "generated_by.0.at_location"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.2.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.3.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.4.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.5.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.6.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.7.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.8.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.9.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/benjamin-poldrack",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.2.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/horea-ioanas",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.7.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/james-haxby",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.8.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/jason-gors",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.3.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/jean-baptiste-poline",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.6.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/kyle-meyer",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/michael-hanke",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.9.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/soichi-hayashi",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.5.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/vanessa-sochat",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.4.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.object"
+    },
+    {
+      "subject": "xyzrins:grants/nsf-1429999",
+      "subject_class": "XYZGrant",
+      "relation": "attributes",
+      "target": "foaf:homepage",
+      "target_class": "Property",
+      "source": "curated_relationships",
+      "path": "attributes.3.predicate"
+    },
+    {
+      "subject": "xyzrins:grants/nsf-1429999",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "obo:NCIT_C19924",
+      "target_class": "XYZAgentRole",
+      "source": "curated_relationships",
+      "path": "attributed_to.0.roles.0"
+    },
+    {
+      "subject": "xyzrins:grants/nsf-1429999",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "curated_relationships",
+      "path": "attributed_to.0.object"
+    },
+    {
+      "subject": "xyzrins:grants/nsf-1912266",
+      "subject_class": "XYZGrant",
+      "relation": "attributes",
+      "target": "foaf:homepage",
+      "target_class": "Property",
+      "source": "curated_relationships",
+      "path": "attributes.3.predicate"
+    },
+    {
+      "subject": "xyzrins:grants/nsf-1912266",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "obo:NCIT_C19924",
+      "target_class": "XYZAgentRole",
+      "source": "curated_relationships",
+      "path": "attributed_to.0.roles.0"
+    },
+    {
+      "subject": "xyzrins:grants/nsf-1912266",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "curated_relationships",
+      "path": "attributed_to.0.object"
+    },
+    {
+      "subject": "xyzrins:instruments/datalad",
+      "subject_class": "XYZInstrument",
+      "relation": "kind",
+      "target": "obo:IAO_0000010",
+      "target_class": "XYZInstrumentType",
+      "source": "pool_psychoinformatics_de",
+      "path": "kind"
+    },
+    {
+      "subject": "xyzrins:persons/kyle-meyer",
+      "subject_class": "XYZPerson",
+      "relation": "attributes",
+      "target": "vcard:Email",
+      "target_class": "Property",
+      "source": "con_site",
+      "path": "attributes.0.predicate"
+    },
+    {
+      "subject": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+      "subject_class": "XYZPerson",
+      "relation": "attributes",
+      "target": "vcard:Email",
+      "target_class": "Property",
+      "source": "con_site",
+      "path": "attributes.0.predicate"
+    },
+    {
+      "subject": "xyzrins:persons/yaroslav-halchenko",
+      "subject_class": "XYZPerson",
+      "relation": "attributes",
+      "target": "vcard:Email",
+      "target_class": "Property",
+      "source": "con_site",
+      "path": "attributes.0.predicate"
+    }
+  ],
+  "expected_targets": [
+    {
+      "pid": "xyzrins:grants/nsf-1429999",
+      "relation": "schema:funding"
+    },
+    {
+      "pid": "xyzrins:grants/nsf-1912266",
+      "relation": "schema:funding"
+    },
+    {
+      "pid": "https://doi.org/10.21105/joss.03262",
+      "relation": "schema:subjectOf"
+    },
+    {
+      "pid": "xyzrins:instruments/datalad",
+      "relation": "dcterms:relation"
+    }
+  ],
+  "external_candidates": [],
+  "evidence": [
+    "https://www.datalad.org/",
+    "https://api.nsf.gov/services/v1/awards/1429999.json",
+    "https://api.nsf.gov/services/v1/awards/1912266.json",
+    "https://joss.theoj.org/papers/10.21105/joss.03262"
+  ],
+  "follow_up": [
+    "Decide whether BMBF, NIH/ReproNim, EU, and DFG support listed by DataLad should become full grant entities."
+  ]
+}

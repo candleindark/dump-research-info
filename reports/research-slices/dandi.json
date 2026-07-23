@@ -1,0 +1,385 @@
+{
+  "format_version": 1,
+  "slug": "dandi",
+  "label": "DANDI relationship slice",
+  "root": "xyzrins:projects/dandi",
+  "summary": {
+    "node_count": 15,
+    "edge_count": 22,
+    "class_counts": {
+      "Property": 2,
+      "XYZAgentRole": 5,
+      "XYZBibliographicType": 1,
+      "XYZGrant": 1,
+      "XYZPerson": 3,
+      "XYZProject": 1,
+      "XYZPublication": 1,
+      "XYZPublicationVenue": 1
+    },
+    "missing_external_candidates": 1
+  },
+  "nodes": [
+    {
+      "class": "XYZProject",
+      "pid": "xyzrins:projects/dandi",
+      "label": "DANDI",
+      "sources": [
+        "con_site",
+        "curated_relationships"
+      ],
+      "depth": 0
+    },
+    {
+      "class": "Property",
+      "pid": "foaf:homepage",
+      "label": "Homepage",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "obo:NCIT_C19924",
+      "label": "Principal investigator (PI)",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZGrant",
+      "pid": "xyzrins:grants/nih-dandi",
+      "label": "NIH DANDI Grant",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/satrajit-ghosh",
+      "label": "Satrajit Ghosh",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/yaroslav-halchenko",
+      "label": "Yaroslav O. Halchenko",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "XYZPublication",
+      "pid": "https://doi.org/10.1038/s41597-023-02614-0",
+      "label": "A comparison of neuroelectrophysiology databases",
+      "sources": [
+        "zotero_centerforopenneuroscience"
+      ],
+      "depth": 1
+    },
+    {
+      "class": "Property",
+      "pid": "vcard:Email",
+      "label": "Email address",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "marcrel:aut",
+      "label": "Author",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "marcrel:ldr",
+      "label": "Laboratory director",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "marcrel:pdr",
+      "label": "Project director",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZAgentRole",
+      "pid": "marcrel:rth",
+      "label": "Research team head",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZBibliographicType",
+      "pid": "bibo:AcademicArticle",
+      "label": "Academic Article",
+      "sources": [
+        "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/russell-poldrack",
+      "label": "Russell A. Poldrack",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPublicationVenue",
+      "pid": "ISSN:2052-4463",
+      "label": "Scientific Data",
+      "sources": [
+        "pool_psychoinformatics_de",
+        "zotero_centerforopenneuroscience"
+      ],
+      "depth": 2
+    }
+  ],
+  "edges": [
+    {
+      "subject": "xyzrins:projects/dandi",
+      "subject_class": "XYZProject",
+      "relation": "attributes",
+      "target": "foaf:homepage",
+      "target_class": "Property",
+      "source": "con_site",
+      "path": "attributes.0.predicate"
+    },
+    {
+      "subject": "xyzrins:projects/dandi",
+      "subject_class": "XYZProject",
+      "relation": "schema:subjectOf",
+      "target": "https://doi.org/10.1038/s41597-023-02614-0",
+      "target_class": "XYZPublication",
+      "source": "curated_relationships",
+      "path": "attributes.1.value"
+    },
+    {
+      "subject": "xyzrins:projects/dandi",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "obo:NCIT_C19924",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "associated_with.0.roles.0"
+    },
+    {
+      "subject": "xyzrins:projects/dandi",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "obo:NCIT_C19924",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "associated_with.1.roles.0"
+    },
+    {
+      "subject": "xyzrins:projects/dandi",
+      "subject_class": "XYZProject",
+      "relation": "schema:funding",
+      "target": "xyzrins:grants/nih-dandi",
+      "target_class": "XYZGrant",
+      "source": "curated_relationships",
+      "path": "attributes.0.value"
+    },
+    {
+      "subject": "xyzrins:projects/dandi",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "xyzrins:persons/satrajit-ghosh",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "associated_with.0.object"
+    },
+    {
+      "subject": "xyzrins:projects/dandi",
+      "subject_class": "XYZProject",
+      "relation": "associated_with",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "associated_with.1.object"
+    },
+    {
+      "subject": "https://doi.org/10.1038/s41597-023-02614-0",
+      "subject_class": "XYZPublication",
+      "relation": "kind",
+      "target": "bibo:AcademicArticle",
+      "target_class": "XYZBibliographicType",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "kind"
+    },
+    {
+      "subject": "https://doi.org/10.1038/s41597-023-02614-0",
+      "subject_class": "XYZPublication",
+      "relation": "generated_by",
+      "target": "ISSN:2052-4463",
+      "target_class": "XYZPublicationVenue",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "generated_by.0.at_location"
+    },
+    {
+      "subject": "https://doi.org/10.1038/s41597-023-02614-0",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.1038/s41597-023-02614-0",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.1038/s41597-023-02614-0",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/russell-poldrack",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.1.object"
+    },
+    {
+      "subject": "https://doi.org/10.1038/s41597-023-02614-0",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/satrajit-ghosh",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.0.object"
+    },
+    {
+      "subject": "obo:NCIT_C19924",
+      "subject_class": "XYZAgentRole",
+      "relation": "close_mappings",
+      "target": "marcrel:ldr",
+      "target_class": "XYZAgentRole",
+      "source": "pool_psychoinformatics_de",
+      "path": "close_mappings.0"
+    },
+    {
+      "subject": "obo:NCIT_C19924",
+      "subject_class": "XYZAgentRole",
+      "relation": "close_mappings",
+      "target": "marcrel:pdr",
+      "target_class": "XYZAgentRole",
+      "source": "pool_psychoinformatics_de",
+      "path": "close_mappings.1"
+    },
+    {
+      "subject": "obo:NCIT_C19924",
+      "subject_class": "XYZAgentRole",
+      "relation": "close_mappings",
+      "target": "marcrel:rth",
+      "target_class": "XYZAgentRole",
+      "source": "pool_psychoinformatics_de",
+      "path": "close_mappings.2"
+    },
+    {
+      "subject": "xyzrins:grants/nih-dandi",
+      "subject_class": "XYZGrant",
+      "relation": "attributes",
+      "target": "foaf:homepage",
+      "target_class": "Property",
+      "source": "con_site",
+      "path": "attributes.0.predicate"
+    },
+    {
+      "subject": "xyzrins:grants/nih-dandi",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "obo:NCIT_C19924",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "attributed_to.0.roles.0"
+    },
+    {
+      "subject": "xyzrins:grants/nih-dandi",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "obo:NCIT_C19924",
+      "target_class": "XYZAgentRole",
+      "source": "con_site",
+      "path": "attributed_to.1.roles.0"
+    },
+    {
+      "subject": "xyzrins:grants/nih-dandi",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/satrajit-ghosh",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "attributed_to.0.object"
+    },
+    {
+      "subject": "xyzrins:grants/nih-dandi",
+      "subject_class": "XYZGrant",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/yaroslav-halchenko",
+      "target_class": "XYZPerson",
+      "source": "con_site",
+      "path": "attributed_to.1.object"
+    },
+    {
+      "subject": "xyzrins:persons/yaroslav-halchenko",
+      "subject_class": "XYZPerson",
+      "relation": "attributes",
+      "target": "vcard:Email",
+      "target_class": "Property",
+      "source": "con_site",
+      "path": "attributes.0.predicate"
+    }
+  ],
+  "expected_targets": [
+    {
+      "pid": "xyzrins:grants/nih-dandi",
+      "relation": "schema:funding"
+    },
+    {
+      "pid": "https://doi.org/10.1038/s41597-023-02614-0",
+      "relation": "schema:subjectOf"
+    }
+  ],
+  "external_candidates": [
+    {
+      "pid": "https://doi.org/10.7554/eLife.78362",
+      "label": "The Neurodata Without Borders ecosystem for neurophysiological data science",
+      "action": "Add this DOI to Zotero group 6197458 and rerun the Zotero ETL.",
+      "status": "missing_entity"
+    }
+  ],
+  "evidence": [
+    "https://about.dandiarchive.org/",
+    "https://docs.dandiarchive.org/introduction/",
+    "https://reporter.nih.gov/project-details/9795271",
+    "https://elifesciences.org/articles/78362"
+  ],
+  "follow_up": []
+}

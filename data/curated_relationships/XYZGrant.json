@@ -1,0 +1,96 @@
+[
+  {
+    "pid": "xyzrins:grants/nsf-1429999",
+    "title": "CRCNS US-German Data Sharing: DataGit - converging catalogues, warehouses, and deployment logistics into a federated 'data distribution'",
+    "short_name": "NSF 1429999",
+    "display_label": "NSF 1429999: DataGit",
+    "description": "NSF award supporting the DataGit work that developed into DataLad's federated approach to research data distribution.",
+    "identifiers": [
+      {
+        "schema_type": "dlthings:Identifier",
+        "notation": "1429999"
+      }
+    ],
+    "about": [
+      "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1429999"
+    ],
+    "attributes": [
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "2014-09-01",
+        "predicate": "schema:startDate"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "2018-08-31",
+        "predicate": "schema:endDate"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "USD 690400",
+        "predicate": "schema:amount"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://api.nsf.gov/services/v1/awards/1429999.json",
+        "predicate": "foaf:homepage"
+      }
+    ],
+    "attributed_to": [
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "obo:NCIT_C19924"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "xyzrins:grants/nsf-1912266",
+    "title": "Collaborative Proposal: CRCNS US-German Data Sharing Proposal: DataLad - a decentralized system for integrated discovery, management, and publication of digital objects of science",
+    "short_name": "NSF 1912266",
+    "display_label": "NSF 1912266: DataLad",
+    "description": "NSF collaborative award supporting DataLad development for decentralized discovery, management, and publication of research data and other digital objects.",
+    "identifiers": [
+      {
+        "schema_type": "dlthings:Identifier",
+        "notation": "1912266"
+      }
+    ],
+    "about": [
+      "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1912266"
+    ],
+    "attributes": [
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "2019-12-01",
+        "predicate": "schema:startDate"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "2023-11-30",
+        "predicate": "schema:endDate"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "USD 649643",
+        "predicate": "schema:amount"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://api.nsf.gov/services/v1/awards/1912266.json",
+        "predicate": "foaf:homepage"
+      }
+    ],
+    "attributed_to": [
+      {
+        "schema_type": "dlthings:Attribution",
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "obo:NCIT_C19924"
+        ]
+      }
+    ]
+  }
+]

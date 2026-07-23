@@ -1,0 +1,42 @@
+{
+  "format_version": 1,
+  "description": "Reviewed project-centered graph slices used to assess metadata completeness.",
+  "slices": [
+    {
+      "slug": "dandi",
+      "label": "DANDI relationship slice",
+      "node_count": 15,
+      "edge_count": 22,
+      "class_counts": {
+        "Property": 2,
+        "XYZAgentRole": 5,
+        "XYZBibliographicType": 1,
+        "XYZGrant": 1,
+        "XYZPerson": 3,
+        "XYZProject": 1,
+        "XYZPublication": 1,
+        "XYZPublicationVenue": 1
+      },
+      "missing_external_candidates": 1
+    },
+    {
+      "slug": "datalad",
+      "label": "DataLad relationship slice",
+      "node_count": 29,
+      "edge_count": 65,
+      "class_counts": {
+        "Property": 2,
+        "XYZAgentRole": 4,
+        "XYZBibliographicType": 2,
+        "XYZGrant": 2,
+        "XYZInstrument": 1,
+        "XYZInstrumentType": 1,
+        "XYZPerson": 12,
+        "XYZProject": 1,
+        "XYZPublication": 3,
+        "XYZPublicationVenue": 1
+      },
+      "missing_external_candidates": 0
+    }
+  ]
+}

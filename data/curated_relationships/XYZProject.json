@@ -1,0 +1,63 @@
+[
+  {
+    "pid": "xyzrins:projects/datalad",
+    "title": "DataLad",
+    "short_name": "DataLad",
+    "display_label": "DataLad",
+    "attributes": [
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "xyzrins:grants/nsf-1429999",
+        "predicate": "schema:funding"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "xyzrins:grants/nsf-1912266",
+        "predicate": "schema:funding"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://doi.org/10.21105/joss.03262",
+        "predicate": "schema:subjectOf"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://api.zotero.org/groups/6197458/items/7AHRXD2X",
+        "predicate": "schema:subjectOf"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://api.zotero.org/groups/6197458/items/DGVNVA4T",
+        "predicate": "schema:subjectOf"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "xyzrins:instruments/datalad",
+        "predicate": "dcterms:relation"
+      }
+    ]
+  },
+  {
+    "pid": "xyzrins:projects/dandi",
+    "title": "Distributed Archives for Neurophysiology Data Integration",
+    "short_name": "DANDI",
+    "display_label": "DANDI",
+    "attributes": [
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "xyzrins:grants/nih-dandi",
+        "predicate": "schema:funding"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://doi.org/10.1038/s41597-023-02614-0",
+        "predicate": "schema:subjectOf"
+      },
+      {
+        "schema_type": "dlthings:AttributeSpecification",
+        "value": "https://doi.org/10.7554/eLife.78362",
+        "predicate": "schema:subjectOf"
+      }
+    ]
+  }
+]

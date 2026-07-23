@@ -1,0 +1,43 @@
+format_version: 1
+description: Reviewed project-centered graph slices used to assess metadata completeness.
+
+slices:
+- slug: datalad
+  label: DataLad relationship slice
+  root: xyzrins:projects/datalad
+  max_depth: 2
+  expected_targets:
+  - pid: xyzrins:grants/nsf-1429999
+    relation: schema:funding
+  - pid: xyzrins:grants/nsf-1912266
+    relation: schema:funding
+  - pid: https://doi.org/10.21105/joss.03262
+    relation: schema:subjectOf
+  - pid: xyzrins:instruments/datalad
+    relation: dcterms:relation
+  evidence:
+  - https://www.datalad.org/
+  - https://api.nsf.gov/services/v1/awards/1429999.json
+  - https://api.nsf.gov/services/v1/awards/1912266.json
+  - https://joss.theoj.org/papers/10.21105/joss.03262
+  follow_up:
+  - Decide whether BMBF, NIH/ReproNim, EU, and DFG support listed by DataLad should become full grant entities.
+
+- slug: dandi
+  label: DANDI relationship slice
+  root: xyzrins:projects/dandi
+  max_depth: 2
+  expected_targets:
+  - pid: xyzrins:grants/nih-dandi
+    relation: schema:funding
+  - pid: https://doi.org/10.1038/s41597-023-02614-0
+    relation: schema:subjectOf
+  evidence:
+  - https://about.dandiarchive.org/
+  - https://docs.dandiarchive.org/introduction/
+  - https://reporter.nih.gov/project-details/9795271
+  - https://elifesciences.org/articles/78362
+  external_candidates:
+  - pid: https://doi.org/10.7554/eLife.78362
+    label: The Neurodata Without Borders ecosystem for neurophysiological data science
+    action: Add this DOI to Zotero group 6197458 and rerun the Zotero ETL.
