@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | Center for Open Neuroscience</title>
+  <meta name="description" content="{{ page.lead }}">
+  <link rel="stylesheet" href="{{ site_url('assets/site.css') }}">
+  <link rel="stylesheet" href="{{ site_url('assets/editorial.css') }}">
+</head>
+<body class="con-editorial-page">
+  <nav id="con-editorial-nav" class="con-editorial-nav" aria-label="Center information">
+    <a class="con-editorial-nav__brand" href="{{ site_url() }}">CON</a>
+    {% for item in content.navigation %}
+    <a href="{{ site_url(item.slug ~ '/') }}"{% if item.slug == current_slug %} aria-current="page"{% endif %}>{{ item.label }}</a>
+    {% endfor %}
+    <a href="{{ site_url('projects/') }}">Research index</a>
+  </nav>
+
+  <header class="con-editorial-hero">
+    <div class="con-editorial-hero__inner">
+      <p class="con-editorial-eyebrow">{{ page.eyebrow }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="con-editorial-lead">{{ page.lead }}</p>
+    </div>
+  </header>
+
+  <main class="con-editorial-main">
+    {% for section in page.sections %}
+    <section class="con-editorial-section con-editorial-section--{{ section.layout }}">
+      <header class="con-editorial-section__header">
+        <p>{{ "%02d" | format(loop.index) }}</p>
+        <h2>{{ section.title }}</h2>
+      </header>
+
+      {% for paragraph in section.get('body', []) %}
+      <p class="con-editorial-copy">{{ paragraph }}</p>
+      {% endfor %}
+
+      {% if section.get('items') %}
+      <div class="con-editorial-items">
+        {% for item in section['items'] %}
+        <article class="con-editorial-item">
+          <h3>{{ item.title }}</h3>
+          {% if item.get('value') %}
+          <p>{% if item.get('url') %}<a href="{{ item.url }}">{{ item.value }}</a>{% else %}{{ item.value }}{% endif %}</p>
+          {% endif %}
+          {% for paragraph in item.get('body', []) %}<p>{{ paragraph }}</p>{% endfor %}
+          {% if item.get('links') %}
+          <ul class="con-editorial-links">
+            {% for link in item.links %}<li><a href="{{ link.url }}">{{ link.label }}</a></li>{% endfor %}
+          </ul>
+          {% endif %}
+        </article>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if section.get('links') %}
+      <ul class="con-editorial-links con-editorial-links--feature">
+        {% for link in section.links %}<li><a href="{{ link.url }}">{{ link.label }}</a></li>{% endfor %}
+      </ul>
+      {% endif %}
+    </section>
+    {% endfor %}
+  </main>
+
+  <footer class="con-editorial-footer">
+    <p>Modeled research information and version-controlled editorial content.</p>
+    <p>Editorial migration source: <a href="{{ content.provenance.migration_source }}">legacy CON site at {{ content.provenance.migration_commit[:10] }}</a></p>
+  </footer>
+</body>
+</html>

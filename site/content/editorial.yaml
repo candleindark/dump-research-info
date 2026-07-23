@@ -1,0 +1,193 @@
+format_version: 1
+provenance:
+  migration_source: https://github.com/con/centerforopenneuroscience.org
+  migration_commit: e6e9200a0987a65097afff896105ff838be1659e
+  note: Seeded from the legacy site and curated in this repository thereafter.
+navigation:
+- label: About
+  slug: about
+- label: Engage
+  slug: engage
+- label: Support
+  slug: support
+- label: Contact
+  slug: contact
+pages:
+  about:
+    title: Center for Open Neuroscience
+    eyebrow: Open tools. Reusable knowledge. Better science.
+    lead: We provide open software frameworks, platforms, data, and methodologies for neuroscience and
+      beyond.
+    sections:
+    - title: Our principles
+      layout: cards
+      items:
+      - title: Open Source
+        body:
+        - Open source is not only an efficient paradigm for scalability and collaboration; it facilitates
+          verification and reproducibility.
+        - We advocate open-source principles and consult scientific developers on licensing and sustainable
+          development practices.
+      - title: Re-Use & Integration
+        body:
+        - Scientific communities already share powerful software and data. We develop products that harness,
+          improve, and integrate existing solutions rather than reinventing them.
+      - title: Dissemination
+        body:
+        - Scientific software often lacks the facilities and funding needed for reliable promotion and
+          distribution.
+        - We help distribute software, data, and documentation while giving careful attention to intellectual
+          property and due acknowledgment.
+      - title: Quality Assurance
+        body:
+        - Research developers are not always programmers by training. We establish unit, regression, integration,
+          and validity testing so scientific tools produce robust, correct results.
+      - title: Convenience
+        body:
+        - Reliability and accessibility only matter at scale when software and data are convenient to
+          use. We reduce the complexity that prevents communities from using shared resources.
+      - title: Community
+        body:
+        - Neuroscience projects are often pursued in isolation. We participate in cross-disciplinary initiatives
+          and build bridges between previously disconnected research groups.
+    - title: References
+      layout: links
+      body:
+      - These publications frame the center's approach to open and reproducible neuroscience.
+      links:
+      - label: 'Open and reproducible neuroimaging: from study inception to publication'
+        url: https://doi.org/10.1016/j.neuroimage.2022.119623
+      - label: Four aspects to make science open by design and not as an after-thought
+        url: https://doi.org/10.1186/s13742-015-0072-7
+      - label: Open is not enough. Let's take the next step
+        url: https://doi.org/10.3389/fninf.2012.00022
+    - title: A long view
+      layout: quote
+      body:
+      - Together we can make neuroscience a better science.
+  engage:
+    title: Engage with CON
+    eyebrow: Contribute, connect, and promote
+    lead: Join the communities that develop, test, document, teach, and sustain open neuroscience.
+    sections:
+    - title: Promote
+      layout: entries
+      items:
+      - title: Collation
+        body:
+        - This single page pamphlet provides QR codes to download some of the pamphlets listed below.
+          Best to be kept at an exhibit booth for visitors to scan or to be presented on a bulletin board.
+        links:
+        - label: https://neuro.debian.net/_files/trifolds-qrcodes.pdf
+          url: https://neuro.debian.net/_files/trifolds-qrcodes.pdf
+      - title: Python in Electrophysiology
+        body:
+        - Double-sided tri-fold presenting Python-based projects useful for research in electrophysiology
+          ( LaTeX sources on GitHub ).
+        links:
+        - label: https://neuro.debian.net/_files/eppy-handout.pdf
+          url: https://neuro.debian.net/_files/eppy-handout.pdf
+        - label: LaTeX sources on GitHub
+          url: https://github.com/nipy/nipy-artwork
+      - title: Python in Neuroimaging
+        body:
+        - Double-sided tri-fold presenting Python-based projects useful for research in neuroimaging (
+          LaTeX sources on GitHub ).
+        links:
+        - label: https://neuro.debian.net/_files/nipy-handout.pdf
+          url: https://neuro.debian.net/_files/nipy-handout.pdf
+        - label: LaTeX sources on GitHub
+          url: https://github.com/nipy/nipy-artwork
+      - title: (Neuro)Debian
+        body:
+        - Double-sided tri-fold on one side presenting Debian and on the other NeuroDebian projects (
+          LaTeX sources on GitHub ).
+        links:
+        - label: https://neuro.debian.net/_files/brochure_debian-neurodebian.pdf
+          url: https://neuro.debian.net/_files/brochure_debian-neurodebian.pdf
+        - label: Debian
+          url: https://www.debian.org
+        - label: NeuroDebian
+          url: https://neuro.debian.net
+        - label: LaTeX sources on GitHub
+          url: https://github.com/neurodebian/neurodebian
+      - title: git-annex/DataLad
+        body:
+        - Double-sided tri-fold presents DataLad and its core git-annex projects ( LaTeX sources on GitHub
+          ).
+        links:
+        - label: https://neuro.debian.net/_files/brochure_datalad.pdf
+          url: https://neuro.debian.net/_files/brochure_datalad.pdf
+        - label: DataLad
+          url: https://datalad.org
+        - label: git-annex
+          url: https://git-annex.branchable.com
+        - label: LaTeX sources on GitHub
+          url: https://github.com/datalad/artwork
+        - label: https://centerforopenneuroscience.org/theme/img/banners/unclesam.png
+          url: https://centerforopenneuroscience.org/theme/img/banners/unclesam.png
+        - label: https://centerforopenneuroscience.org/theme/img/banners/fromtar.png
+          url: https://centerforopenneuroscience.org/theme/img/banners/fromtar.png
+      - title: BIDS
+        body:
+        - Double-sided tri-fold presents BIDS (Brain Imaging Data Structure) which describes a standardized
+          layout for neuroimaging data files to facilitate methods reuse, sharing, etc.
+        links:
+        - label: https://neuro.debian.net/_files/brochure_bids.pdf
+          url: https://neuro.debian.net/_files/brochure_bids.pdf
+        - label: BIDS (Brain Imaging Data Structure)
+          url: https://bids.neuroimaging.io
+  support:
+    title: Support open neuroscience
+    eyebrow: Sustain shared infrastructure
+    lead: Support enables long-term maintenance, distribution, testing, and community work.
+    sections:
+    - title: How support helps
+      layout: prose
+      body:
+      - Support for the center and its projects is provided by
+    - title: Supporters
+      layout: supporters
+      items:
+      - title: Supporter 1
+        links:
+        - label: https://www.dartmouth.edu/ccn/
+          url: https://www.dartmouth.edu/ccn/
+      - title: Supporter 2
+        links:
+        - label: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1429999
+          url: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1429999
+      - title: Supporter 3
+        links:
+        - label: https://reporter.nih.gov/project-details/8999833
+          url: https://reporter.nih.gov/project-details/8999833
+  contact:
+    title: Contact the center
+    eyebrow: Center for Open Neuroscience
+    lead: Questions, collaboration proposals, and contributions are welcome.
+    sections:
+    - title: Stay in touch
+      layout: contact
+      items:
+      - title: Email
+        value: team@centerforopenneuroscience.org
+        url: mailto:team@centerforopenneuroscience.org
+      - title: GitHub
+        value: github.com/con
+        url: https://github.com/con
+      - title: ROR
+        value: ror.org/04tfhh831
+        url: https://ror.org/04tfhh831
+      - title: Address
+        value: Psychological and Brain Sciences, 3 Maynard Street, Hanover, NH 03755, USA
+    - title: Licensing and identity
+      layout: prose
+      body:
+      - Website content is copyright of its respective authors and is released under the Creative Commons
+        Attribution 3.0 license.
+      - The Center for Open Neuroscience is not directly affiliated with COS, the Center for Open Science.
+      links:
+      - label: Creative Commons Attribution 3.0
+        url: https://creativecommons.org/licenses/by/3.0/
+      - label: Center for Open Science
+        url: https://centerforopenscience.org/
