@@ -50,6 +50,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -160,6 +166,14 @@
     "title": "Overview of statistical evaluation techniques adopted by publicly available MVPA toolboxes"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "dcterms:issued",
@@ -238,6 +252,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/david-kennedy",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -294,6 +314,14 @@
     "title": "US-RSE Stories: Open up, Neuroscience! Here comes NeuroDebian"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -317,6 +345,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
         "roles": [
@@ -368,7 +402,19 @@
         ]
       },
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/jean-baptiste-poline",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
         "roles": [
           "marcrel:aut"
         ]
@@ -393,6 +439,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/nikolaas-oosterhof",
         "roles": [
@@ -524,6 +576,14 @@
     "title": "Predictive Decoding of Neural Data"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -665,6 +725,12 @@
         ]
       },
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/james-haxby",
         "roles": [
           "marcrel:aut"
@@ -695,6 +761,26 @@
     "title": "Finding cortical patches of shared representations: a comparison of clustering algorithms on representational geometries, and the effect of cross-validation to reduce physiological noise"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/michael-hanke",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/james-haxby",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "dcterms:issued",
@@ -800,6 +886,12 @@
         ]
       },
       {
+        "object": "xyzrins:persons/james-haxby",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/satrajit-ghosh",
         "roles": [
           "marcrel:aut"
@@ -842,6 +934,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/james-haxby",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -862,6 +960,14 @@
     "title": "Decoding the neural representation of observed social and nonsocial human actions"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "dcterms:issued",
@@ -881,6 +987,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/james-haxby",
         "roles": [
@@ -912,6 +1024,14 @@
     "title": "Localizing functional regions of interest based on responses to dynamic naturalistic stimuli"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -1124,6 +1244,18 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/david-kennedy",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -1176,6 +1308,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
         "roles": [
           "marcrel:aut"
@@ -1219,6 +1357,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/nikolaas-oosterhof",
         "roles": [
@@ -1271,6 +1415,12 @@
       },
       {
         "object": "xyzrins:persons/jean-baptiste-poline",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
         "roles": [
           "marcrel:aut"
         ]
@@ -1332,6 +1482,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/nikolaas-oosterhof",
         "roles": [
           "marcrel:aut"
@@ -1376,7 +1532,25 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/michael-hanke",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/david-kennedy",
         "roles": [
           "marcrel:aut"
         ]
@@ -1438,6 +1612,26 @@
     "title": "Scanning parameters for optimal decoding using a 32-channel head coil for fMRI"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/jason-gors",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/james-haxby",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "dcterms:issued",
@@ -1474,6 +1668,12 @@
         ]
       },
       {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/michael-hanke",
         "roles": [
           "marcrel:aut"
@@ -1502,6 +1702,14 @@
     "title": "Fantastic containers and how to tame them"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -1580,6 +1788,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -1612,6 +1826,14 @@
     "title": "OME-Zarr: a cloud-optimized bioimaging file format with international community support"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -1697,7 +1919,25 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/david-kennedy",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/jean-baptiste-poline",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
         ]
@@ -1734,6 +1974,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/jason-gors",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -1861,6 +2107,20 @@
     "title": "Dense mode clustering in brain maps"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -1953,7 +2213,19 @@
         ]
       },
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/franco-pestilli",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/adina-wagner",
         "roles": [
           "marcrel:aut"
         ]
@@ -2101,6 +2373,18 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -2114,6 +2398,12 @@
       },
       {
         "object": "xyzrins:persons/david-kennedy",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
         "roles": [
           "marcrel:aut"
         ]
@@ -2253,6 +2543,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -2299,7 +2595,19 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
         "roles": [
           "marcrel:aut"
         ]
@@ -2362,6 +2670,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -2415,6 +2729,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -2476,7 +2796,19 @@
         ]
       },
       {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
         "roles": [
           "marcrel:aut"
         ]
@@ -2636,6 +2968,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -2693,6 +3031,12 @@
       },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/jason-gors",
         "roles": [
           "marcrel:aut"
         ]
@@ -2763,6 +3107,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -2910,6 +3260,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -3014,6 +3370,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/nikolaas-oosterhof",
         "roles": [
           "marcrel:aut"
@@ -3082,6 +3444,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/jason-gors",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -3111,6 +3479,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -3147,6 +3521,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -3179,6 +3559,32 @@
     "title": "Narratives: fMRI data for evaluating models of naturalistic language comprehension"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "dcterms:issued",
@@ -3205,6 +3611,14 @@
     "title": "TemplateFlow: a community archive of imaging templates and atlases for improved consistency in neuroimaging"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "dcterms:issued",
@@ -3276,6 +3690,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -3315,6 +3735,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -3400,6 +3826,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -3430,7 +3862,19 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
         "roles": [
           "marcrel:aut"
         ]
@@ -3470,6 +3914,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -3554,6 +4004,14 @@
     "title": "Decoding the Large-Scale Structure of Brain Function by Classifying Mental States Across Individuals"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -3580,6 +4038,14 @@
     "title": "Approach to parallel-hierarchical network learning for real-time image sequence recognition"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -3613,6 +4079,12 @@
     "attributed_to": [
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
         "roles": [
           "marcrel:aut"
         ]
@@ -3675,6 +4147,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -3742,6 +4220,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -3793,6 +4277,18 @@
     "attributed_to": [
       {
         "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
         "roles": [
           "marcrel:aut"
         ]
@@ -3997,6 +4493,12 @@
     ],
     "attributed_to": [
       {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/jean-baptiste-poline",
         "roles": [
           "marcrel:aut"
@@ -4102,6 +4604,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/brock-wester",
         "roles": [
           "marcrel:aut"
@@ -4152,6 +4660,12 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/jason-gors",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -4204,6 +4718,18 @@
       },
       {
         "object": "xyzrins:persons/franco-pestilli",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/adina-wagner",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
         "roles": [
           "marcrel:aut"
         ]
@@ -4275,6 +4801,38 @@
     "title": "In defense of decentralized research data management"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/nikolaas-oosterhof",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/james-haxby",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "bibo:locator",
@@ -4369,6 +4927,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -4388,6 +4952,24 @@
       },
       {
         "object": "xyzrins:persons/michael-hanke",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/russell-poldrack",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/john-lee",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/matteo-visconti-di-oleggio-castello",
         "roles": [
           "marcrel:aut"
         ]
@@ -4493,6 +5075,12 @@
         ]
       },
       {
+        "object": "xyzrins:persons/adina-wagner",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/jason-gors",
         "roles": [
           "marcrel:aut"
@@ -4505,6 +5093,18 @@
         ]
       },
       {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/soichi-hayashi",
         "roles": [
           "marcrel:aut"
@@ -4512,6 +5112,12 @@
       },
       {
         "object": "xyzrins:persons/jean-baptiste-poline",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/david-kennedy",
         "roles": [
           "marcrel:aut"
         ]
@@ -4604,6 +5210,12 @@
         ]
       },
       {
+        "object": "xyzrins:persons/john-wodder",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/michael-hanke",
         "roles": [
           "marcrel:aut"
@@ -4616,7 +5228,19 @@
         ]
       },
       {
+        "object": "xyzrins:persons/john-lee",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/isaac-to",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
         "roles": [
           "marcrel:aut"
         ]
@@ -4727,7 +5351,19 @@
         ]
       },
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/franco-pestilli",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/adina-wagner",
         "roles": [
           "marcrel:aut"
         ]
@@ -4890,6 +5526,12 @@
         "roles": [
           "marcrel:aut"
         ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
       }
     ],
     "attributes": [
@@ -4936,6 +5578,12 @@
     "attributed_to": [
       {
         "object": "xyzrins:persons/jean-baptiste-poline",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
         "roles": [
           "marcrel:aut"
         ]
@@ -5113,6 +5761,18 @@
   },
   {
     "attributed_to": [
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
       {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
@@ -5331,6 +5991,18 @@
         ]
       },
       {
+        "object": "xyzrins:persons/chris-markiewicz",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -5447,6 +6119,14 @@
     "title": "SciOps: Achieving Productivity and Reliability in Data-Intensive Research"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "attributes": [
       {
         "predicate": "dcterms:issued",
@@ -5480,6 +6160,18 @@
     "attributed_to": [
       {
         "object": "xyzrins:persons/jean-baptiste-poline",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/satrajit-ghosh",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
+        "object": "xyzrins:persons/vanessa-sochat",
         "roles": [
           "marcrel:aut"
         ]

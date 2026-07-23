@@ -4,8 +4,8 @@
   "label": "DataLad relationship slice",
   "root": "xyzrins:projects/datalad",
   "summary": {
-    "node_count": 29,
-    "edge_count": 65,
+    "node_count": 32,
+    "edge_count": 73,
     "class_counts": {
       "Property": 2,
       "XYZAgentRole": 4,
@@ -13,7 +13,7 @@
       "XYZGrant": 2,
       "XYZInstrument": 1,
       "XYZInstrumentType": 1,
-      "XYZPerson": 12,
+      "XYZPerson": 15,
       "XYZProject": 1,
       "XYZPublication": 3,
       "XYZPublicationVenue": 1
@@ -208,6 +208,33 @@
       "label": "Software",
       "sources": [
         "pool_psychoinformatics_de"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/adina-wagner",
+      "label": "Adina Wagner",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/chris-markiewicz",
+      "label": "Chris Markiewicz",
+      "sources": [
+        "con_site"
+      ],
+      "depth": 2
+    },
+    {
+      "class": "XYZPerson",
+      "pid": "xyzrins:persons/david-kennedy",
+      "label": "David N. Kennedy",
+      "sources": [
+        "con_site"
       ],
       "depth": 2
     },
@@ -626,6 +653,42 @@
       "target": "marcrel:aut",
       "target_class": "XYZAgentRole",
       "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.10.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.11.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.12.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.13.roles.0"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "marcrel:aut",
+      "target_class": "XYZAgentRole",
+      "source": "zotero_centerforopenneuroscience",
       "path": "attributed_to.2.roles.0"
     },
     {
@@ -695,6 +758,15 @@
       "subject": "https://doi.org/10.21105/joss.03262",
       "subject_class": "XYZPublication",
       "relation": "attributed_to",
+      "target": "xyzrins:persons/adina-wagner",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.3.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
       "target": "xyzrins:persons/benjamin-poldrack",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
@@ -704,7 +776,7 @@
       "subject": "https://doi.org/10.21105/joss.03262",
       "subject_class": "XYZPublication",
       "relation": "attributed_to",
-      "target": "xyzrins:persons/horea-ioanas",
+      "target": "xyzrins:persons/chris-markiewicz",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
       "path": "attributed_to.7.object"
@@ -713,10 +785,28 @@
       "subject": "https://doi.org/10.21105/joss.03262",
       "subject_class": "XYZPublication",
       "relation": "attributed_to",
+      "target": "xyzrins:persons/david-kennedy",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.10.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/horea-ioanas",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.11.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
       "target": "xyzrins:persons/james-haxby",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
-      "path": "attributed_to.8.object"
+      "path": "attributed_to.12.object"
     },
     {
       "subject": "https://doi.org/10.21105/joss.03262",
@@ -725,7 +815,7 @@
       "target": "xyzrins:persons/jason-gors",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
-      "path": "attributed_to.3.object"
+      "path": "attributed_to.4.object"
     },
     {
       "subject": "https://doi.org/10.21105/joss.03262",
@@ -734,7 +824,7 @@
       "target": "xyzrins:persons/jean-baptiste-poline",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
-      "path": "attributed_to.6.object"
+      "path": "attributed_to.9.object"
     },
     {
       "subject": "https://doi.org/10.21105/joss.03262",
@@ -752,7 +842,16 @@
       "target": "xyzrins:persons/michael-hanke",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
-      "path": "attributed_to.9.object"
+      "path": "attributed_to.13.object"
+    },
+    {
+      "subject": "https://doi.org/10.21105/joss.03262",
+      "subject_class": "XYZPublication",
+      "relation": "attributed_to",
+      "target": "xyzrins:persons/satrajit-ghosh",
+      "target_class": "XYZPerson",
+      "source": "zotero_centerforopenneuroscience",
+      "path": "attributed_to.6.object"
     },
     {
       "subject": "https://doi.org/10.21105/joss.03262",
@@ -761,7 +860,7 @@
       "target": "xyzrins:persons/soichi-hayashi",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
-      "path": "attributed_to.5.object"
+      "path": "attributed_to.8.object"
     },
     {
       "subject": "https://doi.org/10.21105/joss.03262",
@@ -770,7 +869,7 @@
       "target": "xyzrins:persons/vanessa-sochat",
       "target_class": "XYZPerson",
       "source": "zotero_centerforopenneuroscience",
-      "path": "attributed_to.4.object"
+      "path": "attributed_to.5.object"
     },
     {
       "subject": "https://doi.org/10.21105/joss.03262",

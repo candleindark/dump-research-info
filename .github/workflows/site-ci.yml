@@ -58,6 +58,9 @@ jobs:
       - name: Check pinned source audit reports
         run: pixi run con-site-check
 
+      - name: Check promoted Zotero records
+        run: pixi run zotero-check
+
       - name: Check reviewed research slices
         run: pixi run research-slices-check
 

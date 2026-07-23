@@ -60,6 +60,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:prg"
+        ]
+      },
+      {
         "object": "xyzrins:persons/austin-macdonald",
         "roles": [
           "marcrel:prg"

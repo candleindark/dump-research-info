@@ -2,6 +2,12 @@
   {
     "attributed_to": [
       {
+        "object": "xyzrins:persons/samuel-nastase",
+        "roles": [
+          "marcrel:aut"
+        ]
+      },
+      {
         "object": "xyzrins:persons/yaroslav-halchenko",
         "roles": [
           "marcrel:aut"
@@ -33,6 +39,14 @@
     "title": "Neural responses to naturalistic clips of behaving animals in two different task contexts"
   },
   {
+    "attributed_to": [
+      {
+        "object": "xyzrins:persons/yaroslav-halchenko",
+        "roles": [
+          "marcrel:aut"
+        ]
+      }
+    ],
     "display_label": "Cortical myelin measured by the T1w/T2w ratio in individuals with depressive disorders and healthy controls",
     "identifiers": [
       {

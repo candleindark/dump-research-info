@@ -10,8 +10,10 @@ python = ">=3.11,<3.14"
 
 [tasks]
 zotero-fetch = "python scripts/zotero_ingest.py fetch --output inputs/zotero_centerforopenneuroscience/snapshot.json"
-zotero-candidates = "python scripts/zotero_ingest.py transform --input inputs/zotero_centerforopenneuroscience/snapshot.json --output-dir build/zotero_centerforopenneuroscience --report build/zotero_centerforopenneuroscience-report.json --people data/con_site/XYZPerson.json --organizations data/con_site/XYZOrganization.json --topics data/pool_psychoinformatics_de/XYZTopic.json --existing-data-root data"
-zotero-refresh = { depends-on = ["zotero-fetch", "zotero-candidates"] }
+zotero-candidates = "python scripts/zotero_ingest.py transform --input inputs/zotero_centerforopenneuroscience/snapshot.json --output-dir build/zotero_centerforopenneuroscience --report build/zotero_centerforopenneuroscience-report.json --people data/con_site/XYZPerson.json --organizations data/con_site/XYZOrganization.json --topics data/pool_psychoinformatics_de/XYZTopic.json --creator-map inputs/zotero_centerforopenneuroscience/creator-mappings.yaml --existing-data-root data"
+zotero-promote = { depends-on = ["zotero-candidates"], cmd = "python scripts/check_generated_records.py --generated build/zotero_centerforopenneuroscience --promoted data/zotero_centerforopenneuroscience --promote" }
+zotero-check = { depends-on = ["zotero-candidates"], cmd = "python scripts/check_generated_records.py --generated build/zotero_centerforopenneuroscience --promoted data/zotero_centerforopenneuroscience --check" }
+zotero-refresh = { depends-on = ["zotero-fetch", "zotero-promote"] }
 validation-server = 'dump-things-service --origins "http://localhost:8000" --host localhost --port 8111 "store"'
 validate-zotero = "python scripts/validate_records.py data/zotero_centerforopenneuroscience --report build/zotero-validation-report.json"
 validate-data = "python scripts/validate_records.py data/* --report build/data-validation-report.json"

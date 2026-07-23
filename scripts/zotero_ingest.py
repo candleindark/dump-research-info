@@ -260,6 +260,31 @@ def load_entity_index(paths: Iterable[Path]) -> dict[str, str]:
     }
 
 
+def load_creator_mappings(path: Path | None) -> dict[str, str]:
+    if path is None:
+        return {}
+
+    import yaml
+
+    document = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if not isinstance(document, dict) or document.get("format_version") != 1:
+        raise ValueError("Creator mapping must be a mapping with format_version: 1")
+
+    mappings: dict[str, str] = {}
+    for group in document.get("mappings", []):
+        if not isinstance(group, dict) or not clean_text(group.get("pid")):
+            raise ValueError("Every creator mapping group must define a pid")
+        pid = clean_text(group["pid"])
+        for alias in group.get("aliases", []):
+            normalized = normalize_name(alias)
+            if not normalized:
+                raise ValueError(f"Creator mapping contains an empty alias for {pid}")
+            if normalized in mappings and mappings[normalized] != pid:
+                raise ValueError(f"Creator alias maps to multiple PIDs: {alias}")
+            mappings[normalized] = pid
+    return mappings
+
+
 def collection_names(snapshot: dict[str, Any]) -> dict[str, str]:
     names: dict[str, str] = {}
     for collection in snapshot.get("collections", []):
@@ -414,6 +439,7 @@ def resolve_creators(
     item: SourceItem,
     people: dict[str, str],
     organizations: dict[str, str],
+    creator_mappings: dict[str, str],
 ) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
     attributions: list[dict[str, Any]] = []
     unresolved: list[dict[str, str]] = []
@@ -426,7 +452,9 @@ def resolve_creators(
         normalized = normalize_name(name)
         if not normalized:
             continue
-        if creator.get("name"):
+        if normalized in creator_mappings:
+            matches = {creator_mappings[normalized]}
+        elif creator.get("name"):
             matches = {
                 value
                 for value in (organizations.get(normalized), people.get(normalized))
@@ -518,6 +546,7 @@ def build_record(
     people: dict[str, str],
     organizations: dict[str, str],
     topics: dict[str, str],
+    creator_mappings: dict[str, str],
 ) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any] | None]:
     data = preferred.data
     doi = preferred.doi
@@ -539,7 +568,7 @@ def build_record(
         record["kind"] = kind
 
     attributions, unresolved_creators = resolve_creators(
-        preferred, people, organizations
+        preferred, people, organizations, creator_mappings
     )
     if attributions:
         record["attributed_to"] = attributions
@@ -627,7 +656,30 @@ def command_transform(args: argparse.Namespace) -> None:
     people = load_entity_index(args.people)
     organizations = load_entity_index(args.organizations)
     topics = load_entity_index(args.topics)
+    creator_mappings = load_creator_mappings(args.creator_map)
+    known_creator_pids = set(people.values()) | set(organizations.values())
+    unknown_mapping_pids = sorted(set(creator_mappings.values()) - known_creator_pids)
+    if unknown_mapping_pids:
+        raise ValueError(
+            f"Creator mappings target unknown people or organizations: {unknown_mapping_pids}"
+        )
+    for name, pid in creator_mappings.items():
+        automatic_matches = {
+            value for value in (people.get(name), organizations.get(name)) if value
+        }
+        if automatic_matches and automatic_matches != {pid}:
+            raise ValueError(
+                f"Creator mapping conflicts with automatic identity index: {name}"
+            )
     items = source_items(snapshot)
+    creator_mapping_usage = Counter(
+        normalize_name(creator_name(creator))
+        for item in items
+        if item.selected
+        for creator in item.data.get("creators", [])
+        if isinstance(creator, dict)
+        and normalize_name(creator_name(creator)) in creator_mappings
+    )
 
     excluded_external: list[dict[str, Any]] = []
     unfiled: list[dict[str, Any]] = []
@@ -671,6 +723,19 @@ def command_transform(args: argparse.Namespace) -> None:
         "unresolved_venues": [],
         "missing_titles": [],
         "venue_conflicts": [],
+        "creator_mapping": {
+            "source": str(args.creator_map) if args.creator_map else None,
+            "alias_count": len(creator_mappings),
+            "target_count": len(set(creator_mappings.values())),
+            "usage": [
+                {
+                    "normalized_name": name,
+                    "occurrences": count,
+                    "pid": creator_mappings[name],
+                }
+                for name, count in sorted(creator_mapping_usage.items())
+            ],
+        },
     }
     venues: dict[str, dict[str, Any]] = {}
 
@@ -713,6 +778,7 @@ def command_transform(args: argparse.Namespace) -> None:
             people,
             organizations,
             topics,
+            creator_mappings,
         )
         output[class_name].append(record)
 
@@ -817,6 +883,7 @@ def build_parser() -> argparse.ArgumentParser:
     transform.add_argument("--people", type=Path, action="append", default=[])
     transform.add_argument("--organizations", type=Path, action="append", default=[])
     transform.add_argument("--topics", type=Path, action="append", default=[])
+    transform.add_argument("--creator-map", type=Path)
     transform.add_argument("--existing-data-root", type=Path)
     transform.set_defaults(handler=command_transform)
     return parser

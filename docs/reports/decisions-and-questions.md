@@ -77,3 +77,24 @@ and external actions. It should be updated whenever a decision changes.
 - DANDI slice: 15 nodes, 22 edges, 1 grant, 1 publication, and 1 publication queued for Zotero.
 - Validation: 1,445 of 1,445 Things v2 records valid.
 - Site merge: 13 reviewed source conflicts resolved; 0 conflicts remain in rendered data.
+
+## Implementation checkpoint: Zotero creator identities
+
+### Decisions added
+
+- **D014 - Resolve aliases explicitly, never fuzzily.** Zotero creator variants map to existing person or organization PIDs only through the reviewed YAML file; fuzzy matching is limited to candidate discovery and never runs during ingestion.
+- **D015 - Make promotion reproducible and fail stale CI.** Candidate generation, semantic promotion, and promoted-data comparison are separate Pixi tasks. CI regenerates candidates offline and fails if committed Zotero records differ.
+- **D016 - Leave external coauthors unresolved by default.** The repository does not create person entities merely to eliminate a reconciliation count; identity records require a defined scope and sufficient evidence.
+
+### Questions added
+
+- **Q011 - Person scope:** Should future person modeling include every publication coauthor, only CON contributors and project investigators, or an intermediate evidence-based subset?
+- **Q012 - Identity source:** Should ORCID become a separate person-enrichment ETL before expanding beyond the current CON roster?
+
+### Current review facts
+
+- 28 normalized aliases across 15 modeled people resolve 110 Zotero creator occurrences.
+- The unresolved queue is now 1,817 occurrences across 1,221 names; the remaining high-similarity candidates were reviewed as different people.
+- DataLad slice: 32 nodes and 73 edges, including 15 people.
+- DANDI slice: 16 nodes and 26 edges, including 4 people.
+- Validation: 1,445 of 1,445 Things v2 records valid after promotion.
