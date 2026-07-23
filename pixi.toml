@@ -15,7 +15,8 @@ zotero-refresh = { depends-on = ["zotero-fetch", "zotero-candidates"] }
 validation-server = 'dump-things-service --origins "http://localhost:8000" --host localhost --port 8111 "store"'
 validate-zotero = "python scripts/validate_records.py data/zotero_centerforopenneuroscience --report build/zotero-validation-report.json"
 validate-data = "python scripts/validate_records.py data/* --report build/data-validation-report.json"
-site-build = "python scripts/build_site.py --data-root data --site-root site --output build/site --report build/site-merge-report.json --base-path / && python scripts/build_editorial.py --content site/content/editorial.yaml --template site/templates/editorial_page.html --output build/site --base-path /"
+site-policy = "python scripts/apply_merge_policy.py --data-root data --policy site/merge-policy.yaml --output build/policy-data --report build/site-policy-report.json"
+site-build = "python scripts/apply_merge_policy.py --data-root data --policy site/merge-policy.yaml --output build/policy-data --report build/site-policy-report.json && python scripts/build_site.py --data-root build/policy-data --site-root site --output build/site --report build/site-merge-report.json --base-path / && python scripts/build_editorial.py --content site/content/editorial.yaml --template site/templates/editorial_page.html --output build/site --base-path /"
 site-serve = "python -m http.server --directory build/site 8000"
 editorial-seed = "python scripts/seed_editorial.py"
 editorial-build = "python scripts/build_editorial.py --content site/content/editorial.yaml --template site/templates/editorial_page.html --output build/site --base-path /"
