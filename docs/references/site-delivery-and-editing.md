@@ -6,8 +6,11 @@ Build the Center for Open Neuroscience website as a set of views over validated
 research metadata, rather than as a manually maintained collection of pages. The
 canonical repository representation remains the existing
 [DataLad Concepts Things v2 schema](https://concepts.datalad.org/s/things/v2/)
-used by the upstream project. Source adapters, assisted reconciliation, and site
-presentation are replaceable layers around those records.
+used by the pre-existing effort. Source adapters, assisted reconciliation, and
+site presentation are replaceable layers around those records. Compatibility
+with the Psychoinformatics implementation means using its data-model and
+projection approach; it does not mean importing that site's branding or
+content.
 
 The repository remains pure Git for now. Pixi provides the reproducible tool
 environment; DataLad can be introduced later if data size or provenance needs
@@ -72,6 +75,12 @@ This is an initial policy, not a claim that one source is universally
 authoritative. Field-level policy can replace class-level precedence once the
 conflict report has been reviewed.
 
+`site/merge-policy.yaml` enumerates the current set of non-empty scalar
+disagreements for the same class, PID, and field. CI fails when a new
+disagreement lacks a reviewed decision or when a decision becomes stale. This
+fail-closed rule is deliberately narrow: it does not claim that all content,
+identity, relationship, or editorial decisions are complete.
+
 ## Continuous integration and publishing
 
 The `Site CI` workflow runs for every pull request and every push to `main`:
@@ -132,15 +141,23 @@ deployment configuration change rather than a data-model change.
    presentation.
 
 The Zotero group can be refreshed on this cadence without changing the site
-templates. Additional adapters for ORCID, ROR, Crossref, OpenAlex, GitHub, or
-institutional sources should follow the same snapshot/candidate/reconciliation/
-promotion contract and respect source API terms.
+templates. New Zotero items require a reviewed addition record before the write
+command can apply them. Additional adapters for ORCID, ROR, Crossref, OpenAlex,
+GitHub, or institutional sources should eventually follow the same
+snapshot/candidate/reconciliation/promotion contract and respect source API
+terms.
+
+Before generalizing those adapters, agent and human research should map the
+available sources, identifiers, evidence quality, and unknowns. This avoids
+prematurely forcing heterogeneous funder, project, publication, and dataset
+sources through one extraction design.
 
 ## SHACL-vue boundary
 
-[SHACL-vue](https://hub.psychoinformatics.de/orinoco/shacl-vue) is a promising
-editing surface, but adding it to the static public build would blur an
-important security and ownership boundary. A useful deployment needs at least:
+[SHACL-vue](https://hub.psychoinformatics.de/orinoco/shacl-vue) is the proposed
+editing surface for the same Things v2 model. Adding an editor to the static
+public build would blur an important security and ownership boundary. A useful
+deployment needs at least:
 
 - an annotated SHACL shapes graph;
 - an OWL class hierarchy;
@@ -152,8 +169,10 @@ important security and ownership boundary. A useful deployment needs at least:
 
 The recommended sequence is to keep the public site read-only, prove the
 ingestion and preview workflow, then prototype SHACL-vue as a separate editor
-against a disposable branch or staging repository. Accepted edits should arrive
-as reviewable Git changes rather than mutating the generated merged view.
+against a disposable branch or staging repository. The RDF graph is a
+serialization of Things v2, not an alternative backing model. Accepted edits
+should arrive as reviewable Git changes rather than mutating the generated
+merged view.
 
 ## Coverage work still required
 
@@ -170,16 +189,14 @@ as reviewable Git changes rather than mutating the generated merged view.
 
 ## Open decisions
 
-1. Should the first public deployment use the GitHub project URL or immediately
-   target `centerforopenneuroscience.org`?
-2. Who can enable upstream Pages and grant the required workflow permissions?
-3. Which source is authoritative for each scalar field where the current merge
+1. Who can enable repository Pages and grant the required workflow permissions?
+2. Which source is authoritative for each scalar field where the current merge
    report identifies a disagreement?
-4. Should agent-proposed identity mappings live in a reviewed mapping file, or
+3. Should agent-proposed identity mappings live in a reviewed mapping file, or
    should accepted links be written directly into promoted records?
-5. Which current-site narrative sections need first-class modeled entities, and
+4. Which current-site narrative sections need first-class modeled entities, and
    which can remain version-controlled editorial content?
-6. What authentication provider and review policy should a future SHACL-vue
+5. What authentication provider and review policy should the SHACL-vue
    editor use?
 
 ## References

@@ -1,9 +1,10 @@
-# Legacy site asset policy
+# Current-site imported asset policy
 
-The legacy CON site contains locally hosted images that are part of its content
-and presentation. The replacement must not depend on the continued operation of
-the old domain, but mirroring an image does not by itself approve prominent or
-current use.
+The current CON site contains images that are part of its published content and
+presentation. The metadata-driven replacement must not depend on the continued
+operation of that deployment. The existing public display provides the initial
+approval basis, and the repository owner explicitly approved these files for
+continued display on 2026-07-23.
 
 ## Preservation
 
@@ -14,27 +15,35 @@ source path, source URL, reference variant, media type, byte count, SHA-256
 digest, site path, and web path. CI verifies the inventory, manifest, and files
 offline.
 
-The mirrored files are byte-for-byte source artifacts. They are not optimized,
+The imported files are byte-for-byte source artifacts. They are not optimized,
 resized, recolored, or silently replaced with newer upstream branding.
 
 ## Display status
 
-- `team/` portraits are preserved for migration, but current display should be
-  confirmed with the represented person or the center's editorial owner.
-- `3rd/` project and third-party marks are preserved for identification. Their
-  current branding and trademark guidance should be reviewed before prominent
-  display.
-- `banners/` and `trifolds/` are legacy engagement artwork. They may be shown in
-  historical or resource context while the linked handouts remain available.
-- `contact/` contains the ROR mark used by the contact page.
+- `team/` portraits are approved for the current roster projection.
+- `3rd/` project logos are approved wherever the corresponding project is
+  displayed.
+- `banners/` and `trifolds/` are approved in their existing engagement and
+  resource context.
+- `contact/` contains the ROR logo used by the contact page.
 
-The legacy footer states that website content is released under CC BY 3.0, but
-third-party marks and portraits can carry separate rights. The manifest
-therefore establishes provenance, not a blanket relicensing assertion.
+Here, "logo" means a graphic used to identify a represented project or
+organization. It does not refer to additional branding imported from the
+Psychoinformatics site or Michael Hanke's lab.
+
+The current-site footer states that website content is released under CC BY
+3.0, but logos and portraits can carry separate rights. This note records that
+general caveat; it does not override the current display approval. A repository
+editor can update `site/entity-assets.yaml` through normal review if an image
+should be replaced or withdrawn.
+
+The files are committed under `site/assets/current-site/`. "Committed" means
+they are copied into every built site artifact and served from the generated
+site. The browser does not fetch them from the current CON domain at runtime.
 
 ## Commands
 
-Refresh from the immutable upstream commit:
+Refresh from the immutable current-site source commit:
 
 ```bash
 pixi run con-site-assets-fetch

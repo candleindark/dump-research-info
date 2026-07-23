@@ -10,3 +10,6 @@ _ext
 
 # Generated ingestion candidates and reports
 build/
+
+# Local credentials
+zotero-key.txt

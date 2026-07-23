@@ -109,8 +109,8 @@ def build_manifest(args: argparse.Namespace, references: dict[str, list[str]]) -
                 "size": len(data),
                 "source_path": path,
                 "source_url": url,
-                "site_path": f"assets/legacy/{relative.as_posix()}",
-                "web_path": f"/assets/legacy/{relative.as_posix()}",
+                "site_path": f"assets/current-site/{relative.as_posix()}",
+                "web_path": f"/assets/current-site/{relative.as_posix()}",
             }
         )
     return {
@@ -165,8 +165,8 @@ def check_manifest(
 
 
 def main() -> int:
-    inventory = json.loads(parse_args().inventory.read_text(encoding="utf-8"))
     args = parse_args()
+    inventory = json.loads(args.inventory.read_text(encoding="utf-8"))
     references = referenced_assets(inventory)
     if args.fetch:
         manifest = build_manifest(args, references)

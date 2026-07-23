@@ -104,7 +104,7 @@
       },
       "meta": {
         "numCollections": 0,
-        "numItems": 49
+        "numItems": 50
       },
       "version": 29
     },
@@ -10520,6 +10520,152 @@
         "parsedDate": "2021-05"
       },
       "version": 42
+    },
+    {
+      "data": {
+        "DOI": "10.7554/eLife.78362",
+        "ISSN": "",
+        "PMCID": "",
+        "PMID": "",
+        "abstractNote": "",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "callNumber": "",
+        "citationKey": "",
+        "collections": [
+          "PE6MR7E8"
+        ],
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Oliver",
+            "lastName": "Rübel"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Andrew",
+            "lastName": "Tritt"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Ryan",
+            "lastName": "Ly"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Benjamin K",
+            "lastName": "Dichter"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Satrajit",
+            "lastName": "Ghosh"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lawrence",
+            "lastName": "Niu"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Pamela",
+            "lastName": "Baker"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Ivan",
+            "lastName": "Soltesz"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lydia",
+            "lastName": "Ng"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Karel",
+            "lastName": "Svoboda"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Loren",
+            "lastName": "Frank"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Kristofer E",
+            "lastName": "Bouchard"
+          }
+        ],
+        "date": "2022-10-04",
+        "dateAdded": "2026-07-23T13:43:38Z",
+        "dateModified": "2026-07-23T13:43:38Z",
+        "extra": "",
+        "issue": "",
+        "itemType": "journalArticle",
+        "journalAbbreviation": "",
+        "key": "EQVSKDTG",
+        "language": "en",
+        "libraryCatalog": "",
+        "pages": "e78362",
+        "partNumber": "",
+        "partTitle": "",
+        "place": "",
+        "publicationTitle": "eLife",
+        "publisher": "",
+        "relations": {},
+        "rights": "CC BY 4.0",
+        "section": "",
+        "series": "",
+        "seriesText": "",
+        "seriesTitle": "",
+        "shortTitle": "",
+        "tags": [],
+        "title": "The Neurodata Without Borders ecosystem for neurophysiological data science",
+        "url": "https://elifesciences.org/articles/78362",
+        "version": 217,
+        "volume": "11"
+      },
+      "key": "EQVSKDTG",
+      "library": {
+        "id": 6197458,
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/centerforopenneuroscience",
+            "type": "text/html"
+          }
+        },
+        "name": "centerforopenneuroscience",
+        "type": "group"
+      },
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/centerforopenneuroscience/items/EQVSKDTG",
+          "type": "text/html"
+        },
+        "self": {
+          "href": "https://api.zotero.org/groups/6197458/items/EQVSKDTG",
+          "type": "application/json"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 13525972,
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/johnlee_pythonaisolutions",
+              "type": "text/html"
+            }
+          },
+          "name": "",
+          "username": "johnlee_pythonaisolutions"
+        },
+        "creatorSummary": "Rübel et al.",
+        "numChildren": 0,
+        "parsedDate": "2022-10-04"
+      },
+      "version": 217
     },
     {
       "data": {
@@ -32043,13 +32189,13 @@
     "collection_urls": [
       "https://api.zotero.org/groups/6197458/collections?format=json&include=data&limit=100&start=0"
     ],
-    "fetched_at": "2026-07-22T22:45:59.274080+00:00",
+    "fetched_at": "2026-07-23T13:43:48.834803+00:00",
     "group_id": 6197458,
     "item_urls": [
       "https://api.zotero.org/groups/6197458/items/top?format=json&include=data&limit=100&start=0",
       "https://api.zotero.org/groups/6197458/items/top?format=json&include=data&limit=100&start=100"
     ],
-    "library_version": 216,
+    "library_version": 217,
     "zotero_api_version": "3"
   }
 }

@@ -96,6 +96,13 @@ main { min-height: 70vh; }
 .section-heading > a { flex: none; font-weight: 800; text-decoration: none; border-bottom: 1px solid; padding-bottom: .35rem; }
 .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--ink); border: 1px solid var(--ink); counter-reset: cards; }
 .record-card { counter-increment: cards; position: relative; min-height: 340px; background: var(--paper); padding: 2rem; text-decoration: none; overflow: hidden; transition: background .2s, color .2s, transform .2s; }
+.record-card--with-media { min-height: 490px; padding-top: 13.5rem; }
+.record-card__media { position: absolute; inset: 0 0 auto; display: block; height: 185px; overflow: hidden; border-bottom: 1px solid var(--ink); background: #fff; }
+.record-card__media img { width: 100%; height: 100%; transition: transform .35s ease; }
+.record-card__media--portrait img { object-fit: cover; object-position: center 24%; }
+.record-card__media--logo { padding: 1.5rem; background: repeating-linear-gradient(135deg, #fff, #fff 12px, #f3f1e9 12px, #f3f1e9 24px); }
+.record-card__media--logo img { object-fit: contain; }
+.record-card:hover .record-card__media img { transform: scale(1.035); }
 .record-card:hover { z-index: 2; background: var(--acid); transform: translate(-5px, -5px); box-shadow: 8px 8px 0 var(--ink); }
 .record-card__index::before { content: counter(cards, decimal-leading-zero); position: absolute; right: 1.5rem; top: 1rem; color: var(--line); font: 500 3.5rem/1 var(--serif); }
 .record-card__meta { display: flex; justify-content: space-between; gap: 1rem; padding-right: 5rem; font-size: .67rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
@@ -144,6 +151,11 @@ main { min-height: 70vh; }
 .record-hero h1 { max-width: 1050px; margin: 0; overflow-wrap: anywhere; font: 500 clamp(3.7rem, 7vw, 8rem)/.9 var(--serif); letter-spacing: -.055em; }
 .record-hero__description { max-width: 850px; margin: 3rem 0 0; font-size: 1.15rem; white-space: pre-line; }
 .record-identity { background: var(--acid); border: 1px solid var(--ink); padding: 1.5rem; box-shadow: 9px 9px 0 var(--ink); overflow-wrap: anywhere; }
+.record-identity__image { margin: -1.5rem -1.5rem 1.5rem; overflow: hidden; border-bottom: 1px solid var(--ink); background: #fff; }
+.record-identity__image img { display: block; width: 100%; }
+.record-identity__image--portrait img { aspect-ratio: 1 / 1; object-fit: cover; object-position: center 24%; }
+.record-identity__image--logo { padding: 1.5rem; }
+.record-identity__image--logo img { aspect-ratio: 16 / 9; object-fit: contain; }
 .record-identity > span { display: block; margin-bottom: .8rem; font-size: .68rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .record-identity > a, .record-identity > code { font-size: .78rem; }
 .record-identity dl { margin: 1.5rem 0 0; border-top: 1px solid var(--ink); }

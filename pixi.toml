@@ -12,8 +12,10 @@ python = ">=3.11,<3.14"
 zotero-fetch = "python scripts/zotero_ingest.py fetch --output inputs/zotero_centerforopenneuroscience/snapshot.json"
 zotero-candidates = "python scripts/zotero_ingest.py transform --input inputs/zotero_centerforopenneuroscience/snapshot.json --output-dir build/zotero_centerforopenneuroscience --report build/zotero_centerforopenneuroscience-report.json --people data/con_site/XYZPerson.json --organizations data/con_site/XYZOrganization.json --topics data/pool_psychoinformatics_de/XYZTopic.json --creator-map inputs/zotero_centerforopenneuroscience/creator-mappings.yaml --existing-data-root data"
 zotero-promote = { depends-on = ["zotero-candidates"], cmd = "python scripts/check_generated_records.py --generated build/zotero_centerforopenneuroscience --promoted data/zotero_centerforopenneuroscience --promote" }
-zotero-check = { depends-on = ["zotero-candidates"], cmd = "python scripts/check_generated_records.py --generated build/zotero_centerforopenneuroscience --promoted data/zotero_centerforopenneuroscience --check" }
+zotero-check = { depends-on = ["zotero-candidates"], cmd = "python scripts/check_generated_records.py --generated build/zotero_centerforopenneuroscience --promoted data/zotero_centerforopenneuroscience --check && python scripts/zotero_reviewed_additions.py --review inputs/zotero_centerforopenneuroscience/reviewed-additions.yaml --snapshot inputs/zotero_centerforopenneuroscience/snapshot.json --check-snapshot" }
 zotero-refresh = { depends-on = ["zotero-fetch", "zotero-promote"] }
+zotero-add-reviewed = "python scripts/zotero_reviewed_additions.py --review inputs/zotero_centerforopenneuroscience/reviewed-additions.yaml --api-key-file ../zotero-key.txt --apply"
+zotero-reviewed-check = "python scripts/zotero_reviewed_additions.py --review inputs/zotero_centerforopenneuroscience/reviewed-additions.yaml --snapshot inputs/zotero_centerforopenneuroscience/snapshot.json --check-snapshot"
 validation-server = 'dump-things-service --origins "http://localhost:8000" --host localhost --port 8111 "store"'
 validate-zotero = "python scripts/validate_records.py data/zotero_centerforopenneuroscience --report build/zotero-validation-report.json"
 validate-data = "python scripts/validate_records.py data/* --report build/data-validation-report.json"
@@ -27,8 +29,8 @@ research-slices-check = "python scripts/build_research_slices.py --data-root dat
 con-site-refresh = "python scripts/con_site_ingest.py --refresh"
 con-site-audit = "python scripts/con_site_ingest.py"
 con-site-check = "python scripts/con_site_ingest.py --check"
-con-site-assets-fetch = "python scripts/con_site_assets.py --inventory inputs/con_site/inventory.json --asset-root site/assets/legacy --manifest inputs/con_site/assets.json --repository con/centerforopenneuroscience.org --commit e6e9200a0987a65097afff896105ff838be1659e --fetch"
-con-site-assets-check = "python scripts/con_site_assets.py --inventory inputs/con_site/inventory.json --asset-root site/assets/legacy --manifest inputs/con_site/assets.json --repository con/centerforopenneuroscience.org --commit e6e9200a0987a65097afff896105ff838be1659e --check"
+con-site-assets-fetch = "python scripts/con_site_assets.py --inventory inputs/con_site/inventory.json --asset-root site/assets/current-site --manifest inputs/con_site/assets.json --repository con/centerforopenneuroscience.org --commit e6e9200a0987a65097afff896105ff838be1659e --fetch"
+con-site-assets-check = "python scripts/con_site_assets.py --inventory inputs/con_site/inventory.json --asset-root site/assets/current-site --manifest inputs/con_site/assets.json --repository con/centerforopenneuroscience.org --commit e6e9200a0987a65097afff896105ff838be1659e --check"
 
 [pypi-dependencies]
 dump-things-service = ">=5.6, <6"

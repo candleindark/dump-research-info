@@ -1,0 +1,68 @@
+format_version: 1
+source:
+  repository: con/centerforopenneuroscience.org
+  commit: e6e9200a0987a65097afff896105ff838be1659e
+approval:
+  status: approved
+  approved_by: John Lee
+  approved_on: 2026-07-23
+  basis: Existing display on the current CON site and explicit repository-owner approval.
+entities:
+  people:
+    Yaroslav O. Halchenko: xyzrins:persons/yaroslav-halchenko
+    James V. Haxby: xyzrins:persons/james-haxby
+    Isaac To: xyzrins:persons/isaac-to
+    Austin Macdonald: xyzrins:persons/austin-macdonald
+    Vadim Melnik: xyzrins:persons/vadim-melnik
+    Cody Baker: xyzrins:persons/cody-baker
+    John Lee: xyzrins:persons/john-lee
+    Adina Wagner: xyzrins:persons/adina-wagner
+    Chris Markiewicz: xyzrins:persons/chris-markiewicz
+    David N. Kennedy: xyzrins:persons/david-kennedy
+    Jean-Baptiste Poline: xyzrins:persons/jean-baptiste-poline
+    Joey Hess: xyzrins:persons/joey-hess
+    Franco Pestilli: xyzrins:persons/franco-pestilli
+    Michael Hanke: xyzrins:persons/michael-hanke
+    Satrajit Ghosh: xyzrins:persons/satrajit-ghosh
+    Jeremy Rothman Manning: xyzrins:persons/jeremy-manning
+    Luke Chang: xyzrins:persons/luke-chang
+    Matthijs (Matt) van der Meer: xyzrins:persons/matthijs-van-der-meer
+    Tor D. Wager: xyzrins:persons/tor-wager
+    Jason Gors: xyzrins:persons/jason-gors
+    Gergana Alteva: xyzrins:persons/gergana-alteva
+    Oliver Contier: xyzrins:persons/oliver-contier
+    Matteo Visconti di Oleggio Castello: xyzrins:persons/matteo-visconti-di-oleggio-castello
+    Samuel Nastase: xyzrins:persons/samuel-nastase
+    Nikolaas N. Oosterhof: xyzrins:persons/nikolaas-oosterhof
+    Matthew Brett: xyzrins:persons/matthew-brett
+    Kyle Meyer: xyzrins:persons/kyle-meyer
+    Chris Cheng: xyzrins:persons/chris-cheng
+    Soichi Hayashi: xyzrins:persons/soichi-hayashi
+    Vanessa Sochat: xyzrins:persons/vanessa-sochat
+    Benjamin Poldrack: xyzrins:persons/benjamin-poldrack
+    Horea-Ioan Ioanas: xyzrins:persons/horea-ioanas
+    John Wodder: xyzrins:persons/john-wodder
+  projects:
+    DataLad: xyzrins:projects/datalad
+    DANDI: xyzrins:projects/dandi
+    EMBER: xyzrins:projects/ember
+    OpenNeuro: xyzrins:projects/openneuro
+    DataLad-Registry: xyzrins:projects/datalad-registry
+    DueCredit: xyzrins:projects/duecredit
+    HeuDiConv / ReproIn: xyzrins:projects/heudiconv
+    NeuroDebian: xyzrins:projects/neurodebian
+    PyMVPA: xyzrins:projects/pymvpa
+    ReproMan: xyzrins:projects/reproman
+    con/duct: xyzrins:projects/con-duct
+    (con/)tinuous: xyzrins:projects/con-tinuous
+    pyout: xyzrins:projects/pyout
+    Quail: xyzrins:projects/quail
+    HyperTools: xyzrins:projects/hypertools
+    SuperEEG: xyzrins:projects/supereeg
+    Open Brain Consent: xyzrins:projects/open-brain-consent
+    distribits: xyzrins:projects/distribits
+    Brain Imaging Data Structure (BIDS): xyzrins:projects/bids
+    "Neurodata Without Borders: Neurophysiology (NWB:N)": xyzrins:projects/nwb
+    "YODA's Organigram on Data Analysis": xyzrins:projects/yoda
+    "ReproNim: Reproducible Basics": xyzrins:projects/repronim-reproducible-basics
+    SingularityHub (after-life): xyzrins:projects/singularityhub-afterlife

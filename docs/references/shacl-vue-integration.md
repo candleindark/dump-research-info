@@ -1,4 +1,4 @@
-# SHACL-vue integration decision
+# SHACL-vue editor integration decision
 
 ## Decision
 
@@ -7,12 +7,18 @@ separately deployed spike from the same Things v2 data. Add editing only after a
 staging service can round-trip a record into a reviewable Git change without
 semantic loss.
 
+SHACL-vue is the proposed editor. No alternative backing data model is being
+introduced. Things v2 remains the research-information model and the validated
+JSON arrays remain its canonical repository serialization. SHACL-vue consumes
+an RDF serialization because that is its interface contract; JSON-to-RDF and
+RDF-to-JSON are adapter and round-trip concerns, not a second semantic model.
+
 This keeps the current delivery architecture simple:
 
 - Git and the validated source-scoped JSON arrays remain canonical.
 - The public website remains a deterministic, read-only projection deployed by
   GitHub Actions.
-- A future editor is a separate client and trust boundary.
+- The SHACL-vue editor is a separate client and runtime trust boundary.
 - Accepted edits enter the canonical repository through a pull request.
 
 The decision was assessed against
@@ -41,8 +47,9 @@ makes a read-only GitHub Pages prototype possible without introducing a service.
 
 ### RDF data projection
 
-The repository stores validated source-scoped JSON arrays, while SHACL-vue takes
-an RDF data graph in Turtle format. A deterministic projection is needed that:
+The repository stores validated source-scoped JSON arrays, while the editor
+takes the same Things v2 graph serialized as RDF/Turtle. A deterministic
+serialization adapter is needed that:
 
 - merges or preserves duplicate source records according to an explicit policy;
 - emits named nodes using the existing Things v2 PIDs;
@@ -50,8 +57,9 @@ an RDF data graph in Turtle format. A deterministic projection is needed that:
 - records the source directory for later write-back; and
 - has a regression test that compares JSON-to-RDF-to-JSON semantics.
 
-The generated public-site merge is not an acceptable write target because it has
-already applied precedence and union rules.
+The generated public-site merge is not an acceptable write target because it
+has already applied precedence and union rules. This is a provenance limitation
+of that projection, not evidence of an alternative model.
 
 ### Read/write service
 

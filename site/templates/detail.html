@@ -13,6 +13,11 @@
       {% if item.description %}<p class="record-hero__description">{{ item.description }}</p>{% endif %}
     </div>
     <aside class="record-identity reveal">
+      {% if item.image %}
+      <figure class="record-identity__image record-identity__image--{{ item.image_kind }}">
+        <img src="{{ item.image }}" alt="{{ item.image_alt }}">
+      </figure>
+      {% endif %}
       <span>Persistent identity</span>
       {% if item.pid.startswith('http') %}<a href="{{ item.pid }}">{{ item.pid }}</a>{% else %}<code>{{ item.pid }}</code>{% endif %}
       <dl>

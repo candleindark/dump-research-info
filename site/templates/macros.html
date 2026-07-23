@@ -1,8 +1,13 @@
 {% macro record_card(item, compact=false) -%}
-<a class="record-card{% if compact %} record-card--compact{% endif %}" href="{{ item.href }}" data-search="{{ (item.label ~ ' ' ~ item.description ~ ' ' ~ item.kind_label)|lower }}">
+<a class="record-card{% if compact %} record-card--compact{% endif %}{% if item.image %} record-card--with-media{% endif %}" href="{{ item.href }}" data-search="{{ (item.label ~ ' ' ~ item.description ~ ' ' ~ item.kind_label ~ ' ' ~ item.display_group)|lower }}">
   <span class="record-card__index" aria-hidden="true"></span>
+  {% if item.image %}
+  <span class="record-card__media record-card__media--{{ item.image_kind }}">
+    <img src="{{ item.image }}" alt="{{ item.image_alt }}" loading="lazy">
+  </span>
+  {% endif %}
   <div class="record-card__meta">
-    <span>{{ item.kind_label }}</span>
+    <span>{{ item.display_group or item.kind_label }}</span>
     {% if item.date %}<time>{{ item.date }}</time>{% endif %}
   </div>
   <h3>{{ item.label }}</h3>

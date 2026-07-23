@@ -15,6 +15,7 @@ from typing import Any, Iterable
 import unicodedata
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+import yaml
 
 
 @dataclass(frozen=True)
@@ -175,6 +176,72 @@ def with_base(base_path: str, relative: str = "") -> str:
     return f"{base_path}{relative}" if relative else base_path
 
 
+def load_entity_media(
+    config_path: Path,
+    inventory_path: Path,
+    site_root: Path,
+    base_path: str,
+) -> dict[str, dict[str, Any]]:
+    config = yaml.safe_load(config_path.read_text(encoding="utf-8"))
+    inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
+    approval = config.get("approval", {})
+    if approval.get("status") != "approved":
+        raise ValueError(f"Entity media are not approved in {config_path}")
+
+    media: dict[str, dict[str, Any]] = {}
+    specifications = (
+        ("people", "name", "portrait"),
+        ("projects", "title", "logo"),
+    )
+    for section, name_field, image_kind in specifications:
+        mappings = config.get("entities", {}).get(section, {})
+        seen_names: set[str] = set()
+        for order, entry in enumerate(inventory.get(section, [])):
+            source_name = clean_text(entry.get(name_field))
+            if source_name not in mappings:
+                raise ValueError(
+                    f"Missing {section} media decision for {source_name!r} in {config_path}"
+                )
+            pid = clean_text(mappings[source_name])
+            if not pid or pid in media:
+                raise ValueError(f"Invalid or duplicate entity media PID: {pid!r}")
+            seen_names.add(source_name)
+
+            images = entry.get("images", [])
+            image_url = None
+            image_alt = source_name
+            if images:
+                image = images[0]
+                source_ref = clean_text(image.get("raw") or image.get("url"))
+                marker = "/theme/img/"
+                if marker in source_ref:
+                    relative = source_ref.split(marker, 1)[1]
+                elif source_ref.startswith("theme/img/"):
+                    relative = source_ref.removeprefix("theme/img/")
+                else:
+                    raise ValueError(f"Unsupported current-site image reference: {source_ref}")
+                asset_path = Path("assets") / "current-site" / relative
+                if not (site_root / asset_path).is_file():
+                    raise ValueError(f"Missing approved current-site asset: {asset_path}")
+                image_url = with_base(base_path, asset_path.as_posix())
+                image_alt = clean_text(image.get("alt")) or source_name
+
+            media[pid] = {
+                "display_group": clean_text(entry.get("group") or entry.get("category")),
+                "display_order": order,
+                "image": image_url,
+                "image_alt": image_alt,
+                "image_kind": image_kind,
+            }
+
+        stale_names = sorted(set(mappings) - seen_names)
+        if stale_names:
+            raise ValueError(
+                f"Stale {section} media decisions in {config_path}: {stale_names}"
+            )
+    return media
+
+
 def record_label(record: dict[str, Any]) -> str:
     for field in (
         "display_label",
@@ -316,9 +383,11 @@ class SiteModel:
         self,
         merged: dict[str, list[dict[str, Any]]],
         base_path: str,
+        entity_media: dict[str, dict[str, Any]],
     ) -> None:
         self.merged = merged
         self.base_path = base_path
+        self.entity_media = entity_media
         self.labels: dict[str, str] = {}
         self.entity_records: dict[tuple[str, str], dict[str, Any]] = {}
         self.routes: dict[tuple[str, str], str] = {}
@@ -410,6 +479,8 @@ class SiteModel:
         for attribute in record.get("attributes", []):
             if not isinstance(attribute, dict):
                 continue
+            if attribute.get("predicate") == "foaf:depiction":
+                continue
             value = attribute.get("value")
             if isinstance(value, (dict, list)):
                 value = json.dumps(value, ensure_ascii=False, sort_keys=True)
@@ -468,6 +539,7 @@ class SiteModel:
         topics = [self.ref(value) for value in record.get("about", [])]
         description = clean_text(record.get("description") or record.get("display_note"))
         date = publication_date(record)
+        media = self.entity_media.get(str(record["pid"]), {})
         return {
             "attributes": attributes,
             "backlinks": backlinks,
@@ -475,9 +547,14 @@ class SiteModel:
             "config": config,
             "date": date,
             "description": description,
+            "display_group": clean_text(media.get("display_group")),
+            "display_order": media.get("display_order"),
             "facts": facts,
             "href": self.routes[key],
             "identifiers": identifiers,
+            "image": media.get("image"),
+            "image_alt": clean_text(media.get("image_alt")) or label,
+            "image_kind": clean_text(media.get("image_kind")),
             "kind": kind,
             "kind_label": kind["label"] if kind else config.singular,
             "label": label,
@@ -507,7 +584,13 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
     base_path = normalize_base_path(args.base_path)
     observations, load_report = load_observations(args.data_root)
     merged, conflicts = merge_observations(observations)
-    model = SiteModel(merged, base_path)
+    entity_media = load_entity_media(
+        args.entity_assets,
+        args.con_site_inventory,
+        args.site_root,
+        base_path,
+    )
+    model = SiteModel(merged, base_path, entity_media)
 
     output = args.output
     if output.exists():
@@ -527,6 +610,14 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
         items = [model.prepare(class_name, record) for record in merged.get(class_name, [])]
         if class_name == "XYZPublication":
             items.sort(key=lambda item: (item["date"], item["label"].casefold()), reverse=True)
+        elif class_name in {"XYZPerson", "XYZProject"}:
+            items.sort(
+                key=lambda item: (
+                    item["display_order"] is None,
+                    item["display_order"] if item["display_order"] is not None else 0,
+                    item["label"].casefold(),
+                )
+            )
         else:
             items.sort(key=lambda item: item["label"].casefold())
         items_by_class[class_name] = items
@@ -603,6 +694,7 @@ def build(args: argparse.Namespace) -> dict[str, Any]:
                 "@id": item["pid"],
                 "@type": config.singular,
                 "description": item["description"] or None,
+                "image": item["image"] or None,
                 "name": item["label"],
             }
             structured_json = json.dumps(structured, ensure_ascii=False).replace("</", "<\\/")
@@ -668,6 +760,14 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-root", type=Path, default=Path("data"))
     parser.add_argument("--site-root", type=Path, default=Path("site"))
+    parser.add_argument(
+        "--entity-assets", type=Path, default=Path("site/entity-assets.yaml")
+    )
+    parser.add_argument(
+        "--con-site-inventory",
+        type=Path,
+        default=Path("inputs/con_site/inventory.json"),
+    )
     parser.add_argument("--output", type=Path, default=Path("build/site"))
     parser.add_argument("--report", type=Path, default=Path("build/site-merge-report.json"))
     parser.add_argument("--base-path", default="/")
