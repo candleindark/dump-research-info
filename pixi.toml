@@ -27,6 +27,8 @@ research-slices-check = "python scripts/build_research_slices.py --data-root dat
 con-site-refresh = "python scripts/con_site_ingest.py --refresh"
 con-site-audit = "python scripts/con_site_ingest.py"
 con-site-check = "python scripts/con_site_ingest.py --check"
+con-site-assets-fetch = "python scripts/con_site_assets.py --inventory inputs/con_site/inventory.json --asset-root site/assets/legacy --manifest inputs/con_site/assets.json --repository con/centerforopenneuroscience.org --commit e6e9200a0987a65097afff896105ff838be1659e --fetch"
+con-site-assets-check = "python scripts/con_site_assets.py --inventory inputs/con_site/inventory.json --asset-root site/assets/legacy --manifest inputs/con_site/assets.json --repository con/centerforopenneuroscience.org --commit e6e9200a0987a65097afff896105ff838be1659e --check"
 
 [pypi-dependencies]
 dump-things-service = ">=5.6, <6"

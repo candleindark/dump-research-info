@@ -58,6 +58,9 @@ jobs:
       - name: Check pinned source audit reports
         run: pixi run con-site-check
 
+      - name: Check mirrored legacy assets
+        run: pixi run con-site-assets-check
+
       - name: Check promoted Zotero records
         run: pixi run zotero-check
 

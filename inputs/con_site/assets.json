@@ -1,0 +1,1482 @@
+{
+  "format_version": 1,
+  "source": {
+    "repository": "con/centerforopenneuroscience.org",
+    "commit": "e6e9200a0987a65097afff896105ff838be1659e",
+    "inventory": "inputs/con_site/inventory.json"
+  },
+  "asset_count": 105,
+  "total_bytes": 3775586,
+  "assets": [
+    {
+      "category": "3rd",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/3rd/afni_logo.jpg",
+        "https://centerforopenneuroscience.org/theme/img/3rd/afni_logo.jpg"
+      ],
+      "sha256": "428e47894d31068138dba4c56e9276954ae9555e969e400c3f14a8c0dc84a16a",
+      "size": 2431,
+      "source_path": "theme/static/img/3rd/afni_logo.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/afni_logo.jpg",
+      "site_path": "assets/legacy/3rd/afni_logo.jpg",
+      "web_path": "/assets/legacy/3rd/afni_logo.jpg"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/bids_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/bids_logo.png"
+      ],
+      "sha256": "49eff73f0d0c1fec5bd6884083965f1b5feaa78e6fff26f91b5ee8bdcc6f965a",
+      "size": 62518,
+      "source_path": "theme/static/img/3rd/bids_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/bids_logo.png",
+      "site_path": "assets/legacy/3rd/bids_logo.png",
+      "web_path": "/assets/legacy/3rd/bids_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/biosig_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/biosig_logo.png"
+      ],
+      "sha256": "ed33bdf8feed3c34f695ac1cf27b902160d31b4257b8947250193958d9da8b63",
+      "size": 6202,
+      "source_path": "theme/static/img/3rd/biosig_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/biosig_logo.png",
+      "site_path": "assets/legacy/3rd/biosig_logo.png",
+      "web_path": "/assets/legacy/3rd/biosig_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/brainlife_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/brainlife_logo.png"
+      ],
+      "sha256": "eb24972ebc0a93d173f2ee97bc858a5fb668b3f82aadac9124cea1fe7c6355c3",
+      "size": 20009,
+      "source_path": "theme/static/img/3rd/brainlife_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/brainlife_logo.png",
+      "site_path": "assets/legacy/3rd/brainlife_logo.png",
+      "web_path": "/assets/legacy/3rd/brainlife_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/brian_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/brian_logo.png"
+      ],
+      "sha256": "20ad6e26da1cb3491d5662642cef6e49b10ab4018ff886b96e04ecf10139b8f3",
+      "size": 15125,
+      "source_path": "theme/static/img/3rd/brian_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/brian_logo.png",
+      "site_path": "assets/legacy/3rd/brian_logo.png",
+      "web_path": "/assets/legacy/3rd/brian_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/ccn-logo_h100.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/ccn-logo_h100.png"
+      ],
+      "sha256": "97f187610c8bf12b4f6ff0d8cce1783380aa0e59f9f91e6b01fb6bba6af9bb39",
+      "size": 13898,
+      "source_path": "theme/static/img/3rd/ccn-logo_h100.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/ccn-logo_h100.png",
+      "site_path": "assets/legacy/3rd/ccn-logo_h100.png",
+      "web_path": "/assets/legacy/3rd/ccn-logo_h100.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/dandi_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/dandi_logo.png"
+      ],
+      "sha256": "b4bb71f833102beeee74b3b88b7a5964b1c1b63355cc61072871cef719bf35f4",
+      "size": 71800,
+      "source_path": "theme/static/img/3rd/dandi_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/dandi_logo.png",
+      "site_path": "assets/legacy/3rd/dandi_logo.png",
+      "web_path": "/assets/legacy/3rd/dandi_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/datalad_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/datalad_logo.png"
+      ],
+      "sha256": "e145c07b7a9515a94664b326f1b9c31993833c3726425bbe73c1ddbde5073f10",
+      "size": 28205,
+      "source_path": "theme/static/img/3rd/datalad_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/datalad_logo.png",
+      "site_path": "assets/legacy/3rd/datalad_logo.png",
+      "web_path": "/assets/legacy/3rd/datalad_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/dipy_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/dipy_logo.png"
+      ],
+      "sha256": "6f48af3de576eea05ab1659b5f208c533b1ab51924acf12ba7d8789e7c9993a3",
+      "size": 13778,
+      "source_path": "theme/static/img/3rd/dipy_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/dipy_logo.png",
+      "site_path": "assets/legacy/3rd/dipy_logo.png",
+      "web_path": "/assets/legacy/3rd/dipy_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/webp",
+      "references": [
+        "/theme/img/3rd/distribits_logo.webp",
+        "https://centerforopenneuroscience.org/theme/img/3rd/distribits_logo.webp"
+      ],
+      "sha256": "1bea88389cda9d592acee3a6670f2ef8c6cd7dc383d859c51bd0f8556fa2ffde",
+      "size": 65,
+      "source_path": "theme/static/img/3rd/distribits_logo.webp",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/distribits_logo.webp",
+      "site_path": "assets/legacy/3rd/distribits_logo.webp",
+      "web_path": "/assets/legacy/3rd/distribits_logo.webp"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/webp",
+      "references": [
+        "/theme/img/3rd/duct.webp",
+        "https://centerforopenneuroscience.org/theme/img/3rd/duct.webp"
+      ],
+      "sha256": "ad108b887c4d3a4f9be081a4ec954db09f6acd234270b0116dd0ec9e1847eb60",
+      "size": 52082,
+      "source_path": "theme/static/img/3rd/duct.webp",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/duct.webp",
+      "site_path": "assets/legacy/3rd/duct.webp",
+      "web_path": "/assets/legacy/3rd/duct.webp"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/duecredit_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/duecredit_logo.png"
+      ],
+      "sha256": "1e99fd244ec605c5f586d5a7e90a5954c3369173f8600ad5ea811ddb37039ec9",
+      "size": 5442,
+      "source_path": "theme/static/img/3rd/duecredit_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/duecredit_logo.png",
+      "site_path": "assets/legacy/3rd/duecredit_logo.png",
+      "web_path": "/assets/legacy/3rd/duecredit_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/ember_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/ember_logo.png"
+      ],
+      "sha256": "f259ff2fbc333efc17324c3247cff2fa07e2b8ee616e7c2fefa548516e770170",
+      "size": 65,
+      "source_path": "theme/static/img/3rd/ember_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/ember_logo.png",
+      "site_path": "assets/legacy/3rd/ember_logo.png",
+      "web_path": "/assets/legacy/3rd/ember_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/freeipmi_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/freeipmi_logo.png"
+      ],
+      "sha256": "b5683b5999eb9356d9d6277c6e3c7618ae461c140a3888b4c4785de9b9f534ce",
+      "size": 12156,
+      "source_path": "theme/static/img/3rd/freeipmi_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/freeipmi_logo.png",
+      "site_path": "assets/legacy/3rd/freeipmi_logo.png",
+      "web_path": "/assets/legacy/3rd/freeipmi_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/freenect_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/freenect_logo.png"
+      ],
+      "sha256": "f90d727a8a7541e1752554f56ae5301e6a4b1ff98ed0d70f227c546e83c7b401",
+      "size": 19136,
+      "source_path": "theme/static/img/3rd/freenect_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/freenect_logo.png",
+      "site_path": "assets/legacy/3rd/freenect_logo.png",
+      "web_path": "/assets/legacy/3rd/freenect_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/freesurfer_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/freesurfer_logo.png"
+      ],
+      "sha256": "560f6e8fa06a3041c9a1846eccb84ef3a03c8d3242a81497ff285138c88cde98",
+      "size": 18067,
+      "source_path": "theme/static/img/3rd/freesurfer_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/freesurfer_logo.png",
+      "site_path": "assets/legacy/3rd/freesurfer_logo.png",
+      "web_path": "/assets/legacy/3rd/freesurfer_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/3rd/fsl_logo.jpg",
+        "https://centerforopenneuroscience.org/theme/img/3rd/fsl_logo.jpg"
+      ],
+      "sha256": "ea05141f4d432e3be6a2ba312dc2fe9f49310c3ce7e17fcfc9a4354fd50ef518",
+      "size": 2446,
+      "source_path": "theme/static/img/3rd/fsl_logo.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/fsl_logo.jpg",
+      "site_path": "assets/legacy/3rd/fsl_logo.jpg",
+      "web_path": "/assets/legacy/3rd/fsl_logo.jpg"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/git-annex_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/git-annex_logo.png"
+      ],
+      "sha256": "c604d942bd8edebe5e8e01d18d1ad3604b0874c38d436c9486c52d601e4251dd",
+      "size": 4749,
+      "source_path": "theme/static/img/3rd/git-annex_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/git-annex_logo.png",
+      "site_path": "assets/legacy/3rd/git-annex_logo.png",
+      "web_path": "/assets/legacy/3rd/git-annex_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/hcp_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/hcp_logo.png"
+      ],
+      "sha256": "1676d315868b209b9600a01b7e5af0f5c91d47f424b0dce18083079285462b8e",
+      "size": 17035,
+      "source_path": "theme/static/img/3rd/hcp_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/hcp_logo.png",
+      "site_path": "assets/legacy/3rd/hcp_logo.png",
+      "web_path": "/assets/legacy/3rd/hcp_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/hypertools_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/hypertools_logo.png"
+      ],
+      "sha256": "4ac495b35abeaf02d2eda9b4f9dfc74310a9eb10af71b7c359e6b0372db45658",
+      "size": 7538,
+      "source_path": "theme/static/img/3rd/hypertools_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/hypertools_logo.png",
+      "site_path": "assets/legacy/3rd/hypertools_logo.png",
+      "web_path": "/assets/legacy/3rd/hypertools_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/impressive_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/impressive_logo.png"
+      ],
+      "sha256": "eb945768dc6babde8e3a81a996bfe4aaffefa267060fd9f3d70ec9dc4d1bb298",
+      "size": 10450,
+      "source_path": "theme/static/img/3rd/impressive_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/impressive_logo.png",
+      "site_path": "assets/legacy/3rd/impressive_logo.png",
+      "web_path": "/assets/legacy/3rd/impressive_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/incf_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/incf_logo.png"
+      ],
+      "sha256": "da672c5f29f3999e94441091c70ee2ac2dbbddaec2a23ce3adeedab59e8c068d",
+      "size": 17743,
+      "source_path": "theme/static/img/3rd/incf_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/incf_logo.png",
+      "site_path": "assets/legacy/3rd/incf_logo.png",
+      "web_path": "/assets/legacy/3rd/incf_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/mdp_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/mdp_logo.png"
+      ],
+      "sha256": "d9b461362beab783141dc2254bc665d7a8a08160a6b4d5afdec0f3df13d8edc4",
+      "size": 24059,
+      "source_path": "theme/static/img/3rd/mdp_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/mdp_logo.png",
+      "site_path": "assets/legacy/3rd/mdp_logo.png",
+      "web_path": "/assets/legacy/3rd/mdp_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/mne-python_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/mne-python_logo.png"
+      ],
+      "sha256": "b83048e9e6ee1bb54f055a3b58654620bb73f7b55870e623d62d6de345683d21",
+      "size": 5578,
+      "source_path": "theme/static/img/3rd/mne-python_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/mne-python_logo.png",
+      "site_path": "assets/legacy/3rd/mne-python_logo.png",
+      "web_path": "/assets/legacy/3rd/mne-python_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/neo_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/neo_logo.png"
+      ],
+      "sha256": "c3c57a7d8776ec79d488d05cfa35515ec0234ea3337348db1406b4411c1df814",
+      "size": 16693,
+      "source_path": "theme/static/img/3rd/neo_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/neo_logo.png",
+      "site_path": "assets/legacy/3rd/neo_logo.png",
+      "web_path": "/assets/legacy/3rd/neo_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/3rd/neurodebian_logo.jpg",
+        "https://centerforopenneuroscience.org/theme/img/3rd/neurodebian_logo.jpg"
+      ],
+      "sha256": "72a92d814d38127483010298f68e4fc3304ac5629904773409ef020059340120",
+      "size": 8552,
+      "source_path": "theme/static/img/3rd/neurodebian_logo.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/neurodebian_logo.jpg",
+      "site_path": "assets/legacy/3rd/neurodebian_logo.jpg",
+      "web_path": "/assets/legacy/3rd/neurodebian_logo.jpg"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nibabel_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nibabel_logo.png"
+      ],
+      "sha256": "0e0ae67a7229921c60f2d0999230c2e13177c7b38bd98815e804c6c8cf8dda3f",
+      "size": 21821,
+      "source_path": "theme/static/img/3rd/nibabel_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nibabel_logo.png",
+      "site_path": "assets/legacy/3rd/nibabel_logo.png",
+      "web_path": "/assets/legacy/3rd/nibabel_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/niceman_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/niceman_logo.png"
+      ],
+      "sha256": "2279e09af6bd3041bdde1be2cb9fc6e6dd17e9dbd5c1a6d8b5ab1a3ff39644a2",
+      "size": 16882,
+      "source_path": "theme/static/img/3rd/niceman_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/niceman_logo.png",
+      "site_path": "assets/legacy/3rd/niceman_logo.png",
+      "web_path": "/assets/legacy/3rd/niceman_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nih-logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nih-logo.png"
+      ],
+      "sha256": "84b1693d37bcb41fdb4a6a1b1e86d3d044f099c618b57d00c10ddbafd7f5d03c",
+      "size": 8050,
+      "source_path": "theme/static/img/3rd/nih-logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nih-logo.png",
+      "site_path": "assets/legacy/3rd/nih-logo.png",
+      "web_path": "/assets/legacy/3rd/nih-logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nipy_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nipy_logo.png"
+      ],
+      "sha256": "5eefb5a02daf4cdaba59ecbc7e22a4e5f0e2df4ab6f5b5d5276aab450dcad432",
+      "size": 10039,
+      "source_path": "theme/static/img/3rd/nipy_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nipy_logo.png",
+      "site_path": "assets/legacy/3rd/nipy_logo.png",
+      "web_path": "/assets/legacy/3rd/nipy_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nipype_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nipype_logo.png"
+      ],
+      "sha256": "cd3a21d9ca8482e0ccd826453cf439c0319b9f88d6f7a0f127c390cd2adfa1c3",
+      "size": 27873,
+      "source_path": "theme/static/img/3rd/nipype_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nipype_logo.png",
+      "site_path": "assets/legacy/3rd/nipype_logo.png",
+      "web_path": "/assets/legacy/3rd/nipype_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nitime_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nitime_logo.png"
+      ],
+      "sha256": "8aef1357827346f847d92d3f2fbda407a9155817a5d0ca0236e8bd94295de929",
+      "size": 27803,
+      "source_path": "theme/static/img/3rd/nitime_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nitime_logo.png",
+      "site_path": "assets/legacy/3rd/nitime_logo.png",
+      "web_path": "/assets/legacy/3rd/nitime_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nitrc_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nitrc_logo.png"
+      ],
+      "sha256": "93490d46d66de99ff730990204e23204566c104c393c0c3c23ca6bd66216acb6",
+      "size": 36636,
+      "source_path": "theme/static/img/3rd/nitrc_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nitrc_logo.png",
+      "site_path": "assets/legacy/3rd/nitrc_logo.png",
+      "web_path": "/assets/legacy/3rd/nitrc_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/gif",
+      "references": [
+        "/theme/img/3rd/nsf-logo.gif",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nsf-logo.gif"
+      ],
+      "sha256": "4768e586723786951b6c0bf4707ced14a24b40c626653728e295a14d6eba6779",
+      "size": 12384,
+      "source_path": "theme/static/img/3rd/nsf-logo.gif",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nsf-logo.gif",
+      "site_path": "assets/legacy/3rd/nsf-logo.gif",
+      "web_path": "/assets/legacy/3rd/nsf-logo.gif"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nuitka_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nuitka_logo.png"
+      ],
+      "sha256": "1b00b38dcb57d711b258e731c2ebb9f852912d050ef2c65cfba0b71730925e2f",
+      "size": 4143,
+      "source_path": "theme/static/img/3rd/nuitka_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nuitka_logo.png",
+      "site_path": "assets/legacy/3rd/nuitka_logo.png",
+      "web_path": "/assets/legacy/3rd/nuitka_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/nwb_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/nwb_logo.png"
+      ],
+      "sha256": "c0f839437eb5e2e7dbd66a8fd169bb41f59d5c19794aa9e868de122100cf785b",
+      "size": 12458,
+      "source_path": "theme/static/img/3rd/nwb_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/nwb_logo.png",
+      "site_path": "assets/legacy/3rd/nwb_logo.png",
+      "web_path": "/assets/legacy/3rd/nwb_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/svg+xml",
+      "references": [
+        "/theme/img/3rd/obc_logo.svg",
+        "https://centerforopenneuroscience.org/theme/img/3rd/obc_logo.svg"
+      ],
+      "sha256": "4cdea9c9b3570f39f9aee0ca60001d7d50e6fd935eb5756f7d38fd95971bd069",
+      "size": 9674,
+      "source_path": "theme/static/img/3rd/obc_logo.svg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/obc_logo.svg",
+      "site_path": "assets/legacy/3rd/obc_logo.svg",
+      "web_path": "/assets/legacy/3rd/obc_logo.svg"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/openfmri_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/openfmri_logo.png"
+      ],
+      "sha256": "0f068327df9c78be6223be715e33a9cedb18bf0d2fce668b754f4c487f6772a6",
+      "size": 22761,
+      "source_path": "theme/static/img/3rd/openfmri_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/openfmri_logo.png",
+      "site_path": "assets/legacy/3rd/openfmri_logo.png",
+      "web_path": "/assets/legacy/3rd/openfmri_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/openneuro_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/openneuro_logo.png"
+      ],
+      "sha256": "6472f24cb9fa37842b580929f80b3e2ad1fc35dde2fc926d67a13512d9858941",
+      "size": 65,
+      "source_path": "theme/static/img/3rd/openneuro_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/openneuro_logo.png",
+      "site_path": "assets/legacy/3rd/openneuro_logo.png",
+      "web_path": "/assets/legacy/3rd/openneuro_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/openpyxl_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/openpyxl_logo.png"
+      ],
+      "sha256": "e91d5661f05fc04c843f0b95989ff092d6a004cad33fe4253e9fe4c6c01bc9f4",
+      "size": 2471,
+      "source_path": "theme/static/img/3rd/openpyxl_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/openpyxl_logo.png",
+      "site_path": "assets/legacy/3rd/openpyxl_logo.png",
+      "web_path": "/assets/legacy/3rd/openpyxl_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/opensesame_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/opensesame_logo.png"
+      ],
+      "sha256": "8b674fb3a7ff47b003a04bab3c4f792aadda18d6d576dab8005df4b226400b71",
+      "size": 7846,
+      "source_path": "theme/static/img/3rd/opensesame_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/opensesame_logo.png",
+      "site_path": "assets/legacy/3rd/opensesame_logo.png",
+      "web_path": "/assets/legacy/3rd/opensesame_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/pandas_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/pandas_logo.png"
+      ],
+      "sha256": "c7a4ff3241c37458777c14a6af503350f24ab71182448dab1a750ff08bd5a864",
+      "size": 24680,
+      "source_path": "theme/static/img/3rd/pandas_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/pandas_logo.png",
+      "site_path": "assets/legacy/3rd/pandas_logo.png",
+      "web_path": "/assets/legacy/3rd/pandas_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/psychopy_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/psychopy_logo.png"
+      ],
+      "sha256": "d7a8f472549fa3adcc7afcf657c831404829419ba2f61cc42d55a11785682e77",
+      "size": 21749,
+      "source_path": "theme/static/img/3rd/psychopy_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/psychopy_logo.png",
+      "site_path": "assets/legacy/3rd/psychopy_logo.png",
+      "web_path": "/assets/legacy/3rd/psychopy_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/psychtoolbox_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/psychtoolbox_logo.png"
+      ],
+      "sha256": "58a2ef121b45c964440068237bce46a752fb6c5062732484ea263eb1746d19d1",
+      "size": 9478,
+      "source_path": "theme/static/img/3rd/psychtoolbox_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/psychtoolbox_logo.png",
+      "site_path": "assets/legacy/3rd/psychtoolbox_logo.png",
+      "web_path": "/assets/legacy/3rd/psychtoolbox_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/pymvpa_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/pymvpa_logo.png"
+      ],
+      "sha256": "2a7ee0cb7fba714d3f0ffd6d7d049d7bd0300c03555273aa5e555f223007747f",
+      "size": 56956,
+      "source_path": "theme/static/img/3rd/pymvpa_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/pymvpa_logo.png",
+      "site_path": "assets/legacy/3rd/pymvpa_logo.png",
+      "web_path": "/assets/legacy/3rd/pymvpa_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/pynn_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/pynn_logo.png"
+      ],
+      "sha256": "2bc25064e35bb979da7bf96a65948dd1de0cd6fe1fd1e8bfae75b9f60139fd97",
+      "size": 2626,
+      "source_path": "theme/static/img/3rd/pynn_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/pynn_logo.png",
+      "site_path": "assets/legacy/3rd/pynn_logo.png",
+      "web_path": "/assets/legacy/3rd/pynn_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/pyout_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/pyout_logo.png"
+      ],
+      "sha256": "902104f5399cc1b27abd91e2b27b6065e78950123563e4de78a6d3cd0d6d2870",
+      "size": 6492,
+      "source_path": "theme/static/img/3rd/pyout_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/pyout_logo.png",
+      "site_path": "assets/legacy/3rd/pyout_logo.png",
+      "web_path": "/assets/legacy/3rd/pyout_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/pysurfer_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/pysurfer_logo.png"
+      ],
+      "sha256": "e5e2e30793c07b36503abcc7287600946a6a1c7b476c1592bbbb2d4cfa3e8380",
+      "size": 20758,
+      "source_path": "theme/static/img/3rd/pysurfer_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/pysurfer_logo.png",
+      "site_path": "assets/legacy/3rd/pysurfer_logo.png",
+      "web_path": "/assets/legacy/3rd/pysurfer_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/quail_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/quail_logo.png"
+      ],
+      "sha256": "35b0f9d0de6fd50ef70b098136a4380f207b509c11525c1c6c82a9b178a58b53",
+      "size": 8141,
+      "source_path": "theme/static/img/3rd/quail_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/quail_logo.png",
+      "site_path": "assets/legacy/3rd/quail_logo.png",
+      "web_path": "/assets/legacy/3rd/quail_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/svg+xml",
+      "references": [
+        "/theme/img/3rd/registry_logo.svg",
+        "https://centerforopenneuroscience.org/theme/img/3rd/registry_logo.svg"
+      ],
+      "sha256": "b1ec29c9a8bcca6b1b426f1ec2823afa2d1cf806899c601acaebfe2c3b86de0a",
+      "size": 15390,
+      "source_path": "theme/static/img/3rd/registry_logo.svg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/registry_logo.svg",
+      "site_path": "assets/legacy/3rd/registry_logo.svg",
+      "web_path": "/assets/legacy/3rd/registry_logo.svg"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/svg+xml",
+      "references": [
+        "/theme/img/3rd/repronim_logo.svg",
+        "https://centerforopenneuroscience.org/theme/img/3rd/repronim_logo.svg"
+      ],
+      "sha256": "44bc16211d172a4da817200b5cf13769dd35d24700856f326432493ae5d6ee50",
+      "size": 71651,
+      "source_path": "theme/static/img/3rd/repronim_logo.svg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/repronim_logo.svg",
+      "site_path": "assets/legacy/3rd/repronim_logo.svg",
+      "web_path": "/assets/legacy/3rd/repronim_logo.svg"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/scikit-image_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/scikit-image_logo.png"
+      ],
+      "sha256": "a9b48162871b65135ac5c4220488fb5954c9c0837154397d22be867c209ff9b7",
+      "size": 21857,
+      "source_path": "theme/static/img/3rd/scikit-image_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/scikit-image_logo.png",
+      "site_path": "assets/legacy/3rd/scikit-image_logo.png",
+      "web_path": "/assets/legacy/3rd/scikit-image_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/scikit-learn_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/scikit-learn_logo.png"
+      ],
+      "sha256": "23e47570b48941825926a55c930b4377102df7ff82f6682f1b5da271c7cdfaea",
+      "size": 16279,
+      "source_path": "theme/static/img/3rd/scikit-learn_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/scikit-learn_logo.png",
+      "site_path": "assets/legacy/3rd/scikit-learn_logo.png",
+      "web_path": "/assets/legacy/3rd/scikit-learn_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/svg+xml",
+      "references": [
+        "/theme/img/3rd/singularity_logo.svg",
+        "https://centerforopenneuroscience.org/theme/img/3rd/singularity_logo.svg"
+      ],
+      "sha256": "49616af4eec2132bc385e7c997129a525884707ab57017be9c42619d66226b47",
+      "size": 12219,
+      "source_path": "theme/static/img/3rd/singularity_logo.svg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/singularity_logo.svg",
+      "site_path": "assets/legacy/3rd/singularity_logo.svg",
+      "web_path": "/assets/legacy/3rd/singularity_logo.svg"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/spykeviewer_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/spykeviewer_logo.png"
+      ],
+      "sha256": "1667fc00349e44483f06bdef8299eb0a8dcb17a5af92825e84d1b05e52e5d82c",
+      "size": 20777,
+      "source_path": "theme/static/img/3rd/spykeviewer_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/spykeviewer_logo.png",
+      "site_path": "assets/legacy/3rd/spykeviewer_logo.png",
+      "web_path": "/assets/legacy/3rd/spykeviewer_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/statsmodels_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/statsmodels_logo.png"
+      ],
+      "sha256": "f743889ba7fe48aa38f3754b8eb3e45ff74309780465975f18695d3a2e8648b6",
+      "size": 28294,
+      "source_path": "theme/static/img/3rd/statsmodels_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/statsmodels_logo.png",
+      "site_path": "assets/legacy/3rd/statsmodels_logo.png",
+      "web_path": "/assets/legacy/3rd/statsmodels_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/stimfit_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/stimfit_logo.png"
+      ],
+      "sha256": "24224702b721ee8c2c3dcaaa1a9982d934fe12af6eb2b58dd8c2ffd6940ce7b2",
+      "size": 6045,
+      "source_path": "theme/static/img/3rd/stimfit_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/stimfit_logo.png",
+      "site_path": "assets/legacy/3rd/stimfit_logo.png",
+      "web_path": "/assets/legacy/3rd/stimfit_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/supereeg_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/supereeg_logo.png"
+      ],
+      "sha256": "85fd50a57d9f55a3b0a35a1393b356171d513f83c151168a5bc5fca711ce3cde",
+      "size": 36223,
+      "source_path": "theme/static/img/3rd/supereeg_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/supereeg_logo.png",
+      "site_path": "assets/legacy/3rd/supereeg_logo.png",
+      "web_path": "/assets/legacy/3rd/supereeg_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/utopia_documents_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/utopia_documents_logo.png"
+      ],
+      "sha256": "dc37af6c22aa656e52944e00704364755525ba5fda6546e60968523018c2c7cc",
+      "size": 7707,
+      "source_path": "theme/static/img/3rd/utopia_documents_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/utopia_documents_logo.png",
+      "site_path": "assets/legacy/3rd/utopia_documents_logo.png",
+      "web_path": "/assets/legacy/3rd/utopia_documents_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/xnat_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/xnat_logo.png"
+      ],
+      "sha256": "5f19eea513b46fb8bb5b3413d4fdada9f7e4c25f99f7c05e359eda1e534d6881",
+      "size": 14892,
+      "source_path": "theme/static/img/3rd/xnat_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/xnat_logo.png",
+      "site_path": "assets/legacy/3rd/xnat_logo.png",
+      "web_path": "/assets/legacy/3rd/xnat_logo.png"
+    },
+    {
+      "category": "3rd",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/3rd/yoda_logo.png",
+        "https://centerforopenneuroscience.org/theme/img/3rd/yoda_logo.png"
+      ],
+      "sha256": "d4134997eba5cd858e4a009e061927bbede3a1a5c0b7c3417dba5cb7380a6e41",
+      "size": 14933,
+      "source_path": "theme/static/img/3rd/yoda_logo.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/3rd/yoda_logo.png",
+      "site_path": "assets/legacy/3rd/yoda_logo.png",
+      "web_path": "/assets/legacy/3rd/yoda_logo.png"
+    },
+    {
+      "category": "banners",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/banners/fromtar.png",
+        "https://centerforopenneuroscience.org/theme/img/banners/fromtar.png"
+      ],
+      "sha256": "bbe1c43ed6a364696fae3e8c1d3a606fad357a830e6cf099a2e88b2602c71a5d",
+      "size": 103,
+      "source_path": "theme/static/img/banners/fromtar.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/banners/fromtar.png",
+      "site_path": "assets/legacy/banners/fromtar.png",
+      "web_path": "/assets/legacy/banners/fromtar.png"
+    },
+    {
+      "category": "banners",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/banners/fromtar_preview.png",
+        "https://centerforopenneuroscience.org/theme/img/banners/fromtar_preview.png"
+      ],
+      "sha256": "4e548608135877d98feae07663a8473f3d6e8dbe2609861c1b89402dfb68a885",
+      "size": 102,
+      "source_path": "theme/static/img/banners/fromtar_preview.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/banners/fromtar_preview.png",
+      "site_path": "assets/legacy/banners/fromtar_preview.png",
+      "web_path": "/assets/legacy/banners/fromtar_preview.png"
+    },
+    {
+      "category": "banners",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/banners/unclesam.png",
+        "https://centerforopenneuroscience.org/theme/img/banners/unclesam.png"
+      ],
+      "sha256": "be04f064b87aaf4bceacc5dcebe4fe5e0cd36a5cd31f5e478bef94f41accd2b0",
+      "size": 103,
+      "source_path": "theme/static/img/banners/unclesam.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/banners/unclesam.png",
+      "site_path": "assets/legacy/banners/unclesam.png",
+      "web_path": "/assets/legacy/banners/unclesam.png"
+    },
+    {
+      "category": "banners",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/banners/unclesam_preview.png",
+        "https://centerforopenneuroscience.org/theme/img/banners/unclesam_preview.png"
+      ],
+      "sha256": "7eb585c4bb67ebe7912be45455dd852efce88af0bcb572075ce70163592fb3bb",
+      "size": 102,
+      "source_path": "theme/static/img/banners/unclesam_preview.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/banners/unclesam_preview.png",
+      "site_path": "assets/legacy/banners/unclesam_preview.png",
+      "web_path": "/assets/legacy/banners/unclesam_preview.png"
+    },
+    {
+      "category": "contact",
+      "media_type": "image/svg+xml",
+      "references": [
+        "https://centerforopenneuroscience.org/theme/img/contact/ror-icon-rgb.svg",
+        "theme/img/contact/ror-icon-rgb.svg"
+      ],
+      "sha256": "688b61e7ff9a601ef2c759ecc2333a5e01c0156e9dbc9739921911f648560993",
+      "size": 3712,
+      "source_path": "theme/static/img/contact/ror-icon-rgb.svg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/contact/ror-icon-rgb.svg",
+      "site_path": "assets/legacy/contact/ror-icon-rgb.svg",
+      "web_path": "/assets/legacy/contact/ror-icon-rgb.svg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/adina.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/adina.jpg"
+      ],
+      "sha256": "a2c77453c6af241fdf34b3bd466beb7dcb95cef3676ff5c0c6143e69780dcb72",
+      "size": 10993,
+      "source_path": "theme/static/img/team/adina.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/adina.jpg",
+      "site_path": "assets/legacy/team/adina.jpg",
+      "web_path": "/assets/legacy/team/adina.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/asmacdo.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/asmacdo.jpg"
+      ],
+      "sha256": "ca4ffde88bccb18d4665d8df2d646f0f82d889b54c13fdcaddf10c46cc4e1f4c",
+      "size": 977030,
+      "source_path": "theme/static/img/team/asmacdo.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/asmacdo.jpg",
+      "site_path": "assets/legacy/team/asmacdo.jpg",
+      "web_path": "/assets/legacy/team/asmacdo.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/ben.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/ben.jpg"
+      ],
+      "sha256": "c7286e788cf83f2fc4a5a4425239d6a96254b9c26cf67b478b47405b2a3a2fe5",
+      "size": 22224,
+      "source_path": "theme/static/img/team/ben.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/ben.jpg",
+      "site_path": "assets/legacy/team/ben.jpg",
+      "web_path": "/assets/legacy/team/ben.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/chang.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/chang.jpg"
+      ],
+      "sha256": "3c44b36af8c8a8b95e9b455ef962a36a13e4ca0e76098f83c6512aa57245e96a",
+      "size": 40001,
+      "source_path": "theme/static/img/team/chang.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/chang.jpg",
+      "site_path": "assets/legacy/team/chang.jpg",
+      "web_path": "/assets/legacy/team/chang.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/chr.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/chr.jpg"
+      ],
+      "sha256": "e8fe74a239931439c3825ba3784a3e09a29303ac56129f0b5363e7b4e2461869",
+      "size": 369275,
+      "source_path": "theme/static/img/team/chr.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/chr.jpg",
+      "site_path": "assets/legacy/team/chr.jpg",
+      "web_path": "/assets/legacy/team/chr.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/chris.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/chris.jpg"
+      ],
+      "sha256": "3178dec14a1eda64018539af4b12bee5e43b8dd7da2f31d7fbe86d9e0333ee45",
+      "size": 12290,
+      "source_path": "theme/static/img/team/chris.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/chris.jpg",
+      "site_path": "assets/legacy/team/chris.jpg",
+      "web_path": "/assets/legacy/team/chris.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/cody.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/cody.jpg"
+      ],
+      "sha256": "9e606d227e87e5618bfb84f3bc6d770865182072885ffc2f0199ec1cc27a2d6e",
+      "size": 8123,
+      "source_path": "theme/static/img/team/cody.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/cody.jpg",
+      "site_path": "assets/legacy/team/cody.jpg",
+      "web_path": "/assets/legacy/team/cody.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/franco.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/franco.jpg"
+      ],
+      "sha256": "d09103c99d60296df3dd32b42ba4236ef588e0616f6009ca1edb4188378085dc",
+      "size": 125717,
+      "source_path": "theme/static/img/team/franco.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/franco.jpg",
+      "site_path": "assets/legacy/team/franco.jpg",
+      "web_path": "/assets/legacy/team/franco.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/gergana.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/gergana.jpg"
+      ],
+      "sha256": "fc227772e01527b58c88ae1825e423438f888ed9c3e96387fa53c930c7f7b5d3",
+      "size": 8615,
+      "source_path": "theme/static/img/team/gergana.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/gergana.jpg",
+      "site_path": "assets/legacy/team/gergana.jpg",
+      "web_path": "/assets/legacy/team/gergana.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/ito.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/ito.jpg"
+      ],
+      "sha256": "c139d2baeb7dccc89e36cfbb50888043a0f15e497b02ff5dfb83c5db1f648bdf",
+      "size": 122817,
+      "source_path": "theme/static/img/team/ito.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/ito.jpg",
+      "site_path": "assets/legacy/team/ito.jpg",
+      "web_path": "/assets/legacy/team/ito.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/jason.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/jason.jpg"
+      ],
+      "sha256": "dcd493111dbce473bd2780ddafd57617e401d6f69940cb1d2d0993d00d8c4b15",
+      "size": 22533,
+      "source_path": "theme/static/img/team/jason.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/jason.jpg",
+      "site_path": "assets/legacy/team/jason.jpg",
+      "web_path": "/assets/legacy/team/jason.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/team/jb.png",
+        "https://centerforopenneuroscience.org/theme/img/team/jb.png"
+      ],
+      "sha256": "c10710cb378df3bbb47f938d29d4c9a441afd5705dd0597cf6df50d1f021fc04",
+      "size": 65,
+      "source_path": "theme/static/img/team/jb.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/jb.png",
+      "site_path": "assets/legacy/team/jb.png",
+      "web_path": "/assets/legacy/team/jb.png"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/jeremy.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/jeremy.jpg"
+      ],
+      "sha256": "f457d2d841aee144ac274ae9685b5669fce8ae25a13ed9437108378a59be6a7a",
+      "size": 345330,
+      "source_path": "theme/static/img/team/jeremy.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/jeremy.jpg",
+      "site_path": "assets/legacy/team/jeremy.jpg",
+      "web_path": "/assets/legacy/team/jeremy.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/jim.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/jim.jpg"
+      ],
+      "sha256": "f9b03449d1a96f893654040e11857e839af1279b6c897cd3576b6554408bbc3a",
+      "size": 129814,
+      "source_path": "theme/static/img/team/jim.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/jim.jpg",
+      "site_path": "assets/legacy/team/jim.jpg",
+      "web_path": "/assets/legacy/team/jim.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/joey.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/joey.jpg"
+      ],
+      "sha256": "c53c9404ef0897d64c8621aa100058a1022916a3c31713e1eed119461cdb1049",
+      "size": 13111,
+      "source_path": "theme/static/img/team/joey.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/joey.jpg",
+      "site_path": "assets/legacy/team/joey.jpg",
+      "web_path": "/assets/legacy/team/joey.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/johnlee.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/johnlee.jpg"
+      ],
+      "sha256": "eb040b375c079fcc006c59b8497d44d9a733ba40cc3e53f1f3b5b8363fd732d6",
+      "size": 72504,
+      "source_path": "theme/static/img/team/johnlee.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/johnlee.jpg",
+      "site_path": "assets/legacy/team/johnlee.jpg",
+      "web_path": "/assets/legacy/team/johnlee.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/jwodder.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/jwodder.jpg"
+      ],
+      "sha256": "10eaf9b40edf0766bbf1f3ef8a39f0717f99c53acedcff41cdb18ae01871237c",
+      "size": 17232,
+      "source_path": "theme/static/img/team/jwodder.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/jwodder.jpg",
+      "site_path": "assets/legacy/team/jwodder.jpg",
+      "web_path": "/assets/legacy/team/jwodder.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/kennedy.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/kennedy.jpg"
+      ],
+      "sha256": "b44bdc0042836e9e346c9406a64128ea53a29639cfc5314e7bbeb5be487646c2",
+      "size": 65,
+      "source_path": "theme/static/img/team/kennedy.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/kennedy.jpg",
+      "site_path": "assets/legacy/team/kennedy.jpg",
+      "web_path": "/assets/legacy/team/kennedy.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/kyle.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/kyle.jpg"
+      ],
+      "sha256": "e671d522725e5aacdc3ac8b9d0687b69010696a805a359d467107a0af2cf9046",
+      "size": 32533,
+      "source_path": "theme/static/img/team/kyle.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/kyle.jpg",
+      "site_path": "assets/legacy/team/kyle.jpg",
+      "web_path": "/assets/legacy/team/kyle.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/markiewicz.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/markiewicz.jpg"
+      ],
+      "sha256": "90ee08fdcfba82b2537081d6bd3ef4f6213c0ea7082f51c9c507371cfefda15a",
+      "size": 65,
+      "source_path": "theme/static/img/team/markiewicz.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/markiewicz.jpg",
+      "site_path": "assets/legacy/team/markiewicz.jpg",
+      "web_path": "/assets/legacy/team/markiewicz.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/matteo.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/matteo.jpg"
+      ],
+      "sha256": "9b0ab382d48d290448ec315fa53b83cf133d8bf6fcbcf3efb9a0cd0152568d3d",
+      "size": 7739,
+      "source_path": "theme/static/img/team/matteo.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/matteo.jpg",
+      "site_path": "assets/legacy/team/matteo.jpg",
+      "web_path": "/assets/legacy/team/matteo.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/matthew.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/matthew.jpg"
+      ],
+      "sha256": "fe65465e94703d025b18fc39ad046a998d6fa24c229660ebe7ff062d163af7c6",
+      "size": 26882,
+      "source_path": "theme/static/img/team/matthew.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/matthew.jpg",
+      "site_path": "assets/legacy/team/matthew.jpg",
+      "web_path": "/assets/legacy/team/matthew.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/michael.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/michael.jpg"
+      ],
+      "sha256": "95e68dcefc4d48642d10bb1caefbb568f311236d20dd59d16ea3515888f0b84e",
+      "size": 7453,
+      "source_path": "theme/static/img/team/michael.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/michael.jpg",
+      "site_path": "assets/legacy/team/michael.jpg",
+      "web_path": "/assets/legacy/team/michael.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/mvdm.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/mvdm.jpg"
+      ],
+      "sha256": "52901f2208924d51351967af55d8f0d2f25ccfdd4afc94be2601d04878d50032",
+      "size": 48291,
+      "source_path": "theme/static/img/team/mvdm.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/mvdm.jpg",
+      "site_path": "assets/legacy/team/mvdm.jpg",
+      "web_path": "/assets/legacy/team/mvdm.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/nick.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/nick.jpg"
+      ],
+      "sha256": "8dc782e7eac957362a4b76e75ac11a673cc27dfddef2c6dac7845824f44f5a1b",
+      "size": 21967,
+      "source_path": "theme/static/img/team/nick.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/nick.jpg",
+      "site_path": "assets/legacy/team/nick.jpg",
+      "web_path": "/assets/legacy/team/nick.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/oli.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/oli.jpg"
+      ],
+      "sha256": "55ed70b88cfb803d808742f1cbb2300e42d351480e2cc564716da371b4dcf4c8",
+      "size": 26282,
+      "source_path": "theme/static/img/team/oli.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/oli.jpg",
+      "site_path": "assets/legacy/team/oli.jpg",
+      "web_path": "/assets/legacy/team/oli.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/sam.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/sam.jpg"
+      ],
+      "sha256": "92ef43eb4a06ba86b65c8ee704f09d17c1d59a8d6db108f918d8dc9271df4142",
+      "size": 29837,
+      "source_path": "theme/static/img/team/sam.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/sam.jpg",
+      "site_path": "assets/legacy/team/sam.jpg",
+      "web_path": "/assets/legacy/team/sam.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/satra.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/satra.jpg"
+      ],
+      "sha256": "83f67a43ff101e8544e9110daac12e2715dda8e4652cbcc2d0f2bfea3112a69c",
+      "size": 13129,
+      "source_path": "theme/static/img/team/satra.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/satra.jpg",
+      "site_path": "assets/legacy/team/satra.jpg",
+      "web_path": "/assets/legacy/team/satra.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/soichi.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/soichi.jpg"
+      ],
+      "sha256": "fac0b6acd1b90f9d5a6cb498638f06ec339096963384a2d91cf05e28ea30d70f",
+      "size": 5200,
+      "source_path": "theme/static/img/team/soichi.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/soichi.jpg",
+      "site_path": "assets/legacy/team/soichi.jpg",
+      "web_path": "/assets/legacy/team/soichi.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/tor.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/tor.jpg"
+      ],
+      "sha256": "23906905a376d41343c366dc1db8700a593b116526521dcb90b879b1e6afd716",
+      "size": 146280,
+      "source_path": "theme/static/img/team/tor.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/tor.jpg",
+      "site_path": "assets/legacy/team/tor.jpg",
+      "web_path": "/assets/legacy/team/tor.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/vadim.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/vadim.jpg"
+      ],
+      "sha256": "b6b240f51a299e4d853e01cfa8fea795c012c6c17644c7286a06d51d401b03b4",
+      "size": 9008,
+      "source_path": "theme/static/img/team/vadim.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/vadim.jpg",
+      "site_path": "assets/legacy/team/vadim.jpg",
+      "web_path": "/assets/legacy/team/vadim.jpg"
+    },
+    {
+      "category": "team",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/team/vanessa.png",
+        "https://centerforopenneuroscience.org/theme/img/team/vanessa.png"
+      ],
+      "sha256": "ee57e7e98765d9bdfbf82117c3e19a8e31cc78b3a6248e6849c36d663f46f1b8",
+      "size": 4513,
+      "source_path": "theme/static/img/team/vanessa.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/vanessa.png",
+      "site_path": "assets/legacy/team/vanessa.png",
+      "web_path": "/assets/legacy/team/vanessa.png"
+    },
+    {
+      "category": "team",
+      "media_type": "image/jpeg",
+      "references": [
+        "/theme/img/team/yarik.jpg",
+        "https://centerforopenneuroscience.org/theme/img/team/yarik.jpg"
+      ],
+      "sha256": "0e0feac6853c8f7673bb878a50d0ec2f4812ef6280e3b0eb626a34977ef21f53",
+      "size": 65,
+      "source_path": "theme/static/img/team/yarik.jpg",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/team/yarik.jpg",
+      "site_path": "assets/legacy/team/yarik.jpg",
+      "web_path": "/assets/legacy/team/yarik.jpg"
+    },
+    {
+      "category": "trifolds",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/trifolds/brochure_bids.png",
+        "https://centerforopenneuroscience.org/theme/img/trifolds/brochure_bids.png"
+      ],
+      "sha256": "89de075318dae4c4d076bba6b10a394a6461ceaf788682b7ae40a4c3881ac14a",
+      "size": 101,
+      "source_path": "theme/static/img/trifolds/brochure_bids.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/trifolds/brochure_bids.png",
+      "site_path": "assets/legacy/trifolds/brochure_bids.png",
+      "web_path": "/assets/legacy/trifolds/brochure_bids.png"
+    },
+    {
+      "category": "trifolds",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/trifolds/brochure_datalad.png",
+        "https://centerforopenneuroscience.org/theme/img/trifolds/brochure_datalad.png"
+      ],
+      "sha256": "217512c61e192c1d54277c9816137004fa9f8f778f0abc8a7659cb251e8fd661",
+      "size": 101,
+      "source_path": "theme/static/img/trifolds/brochure_datalad.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/trifolds/brochure_datalad.png",
+      "site_path": "assets/legacy/trifolds/brochure_datalad.png",
+      "web_path": "/assets/legacy/trifolds/brochure_datalad.png"
+    },
+    {
+      "category": "trifolds",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/trifolds/brochure_debian-neurodebian.png",
+        "https://centerforopenneuroscience.org/theme/img/trifolds/brochure_debian-neurodebian.png"
+      ],
+      "sha256": "b8ad7968114ae5db3f8d34f10349592afbdfa95cf79c654c60b8ef88798db5a9",
+      "size": 101,
+      "source_path": "theme/static/img/trifolds/brochure_debian-neurodebian.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/trifolds/brochure_debian-neurodebian.png",
+      "site_path": "assets/legacy/trifolds/brochure_debian-neurodebian.png",
+      "web_path": "/assets/legacy/trifolds/brochure_debian-neurodebian.png"
+    },
+    {
+      "category": "trifolds",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/trifolds/eppy-handout.png",
+        "https://centerforopenneuroscience.org/theme/img/trifolds/eppy-handout.png"
+      ],
+      "sha256": "81e57e7ec28e610d7d9c9fccf5d551ead4d01378f97508f0c82913cb443703fc",
+      "size": 101,
+      "source_path": "theme/static/img/trifolds/eppy-handout.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/trifolds/eppy-handout.png",
+      "site_path": "assets/legacy/trifolds/eppy-handout.png",
+      "web_path": "/assets/legacy/trifolds/eppy-handout.png"
+    },
+    {
+      "category": "trifolds",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/trifolds/nipy-handout.png",
+        "https://centerforopenneuroscience.org/theme/img/trifolds/nipy-handout.png"
+      ],
+      "sha256": "06c710bab43794c2d9fbb5b29b974e4f36246a472449e719d535b216e2a80a20",
+      "size": 101,
+      "source_path": "theme/static/img/trifolds/nipy-handout.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/trifolds/nipy-handout.png",
+      "site_path": "assets/legacy/trifolds/nipy-handout.png",
+      "web_path": "/assets/legacy/trifolds/nipy-handout.png"
+    },
+    {
+      "category": "trifolds",
+      "media_type": "image/png",
+      "references": [
+        "/theme/img/trifolds/trifold-qrcodes.png",
+        "https://centerforopenneuroscience.org/theme/img/trifolds/trifold-qrcodes.png"
+      ],
+      "sha256": "1f57cfcda2c1f0c525e7d8f585e4cbcf4c0b28d32e021942ede56327f60b3fa8",
+      "size": 101,
+      "source_path": "theme/static/img/trifolds/trifold-qrcodes.png",
+      "source_url": "https://raw.githubusercontent.com/con/centerforopenneuroscience.org/e6e9200a0987a65097afff896105ff838be1659e/theme/static/img/trifolds/trifold-qrcodes.png",
+      "site_path": "assets/legacy/trifolds/trifold-qrcodes.png",
+      "web_path": "/assets/legacy/trifolds/trifold-qrcodes.png"
+    }
+  ]
+}

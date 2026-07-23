@@ -98,3 +98,21 @@ and external actions. It should be updated whenever a decision changes.
 - DataLad slice: 32 nodes and 73 edges, including 15 people.
 - DANDI slice: 16 nodes and 26 edges, including 4 people.
 - Validation: 1,445 of 1,445 Things v2 records valid after promotion.
+
+## Implementation checkpoint: legacy assets
+
+### Decisions added
+
+- **D017 - Preserve before selecting.** Every image referenced by the pinned legacy inventory is mirrored byte-for-byte from the pinned source commit with a SHA-256 manifest; preservation does not imply approval for current prominent display.
+- **D018 - Keep builds independent of the old domain.** The static site artifact contains the complete mirrored asset set, and CI verifies it offline.
+
+### Questions added
+
+- **Q013 - Portrait review:** Who is the editorial owner for confirming which of the 33 legacy team portraits remain current and approved for display?
+- **Q014 - Brand review:** Should legacy third-party marks be shown as a historical project index, or replaced selectively with current upstream brand assets and explicit trademark notes?
+
+### Current review facts
+
+- 105 unique source assets are preserved: 61 project/third-party marks, 33 portraits, 6 handout previews, 4 banners, and 1 contact mark.
+- The mirrored asset set is 3,775,586 bytes and has no unmatched source reference.
+- CI can verify inventory coverage and byte-level integrity without network access.
