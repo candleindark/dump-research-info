@@ -18,8 +18,12 @@ class TestCLIInfo:
     def test_help(self):
         result = runner.invoke(app, ["--help"])
         assert result.exit_code == 0
-        for expected in ["SOURCE", "SERVICE_URL", "--token", "--collection", "--dry-run"]:
-            assert expected in result.output
+        # Match case-insensitively: Typer renders positional-argument names in
+        # lowercase in its Rich help, and the exact casing is a cosmetic detail
+        # that has changed across Typer releases.
+        output = result.output.lower()
+        for expected in ["source", "service_url", "--token", "--collection", "--dry-run"]:
+            assert expected in output
 
     @pytest.mark.parametrize(
         "extra_args",
