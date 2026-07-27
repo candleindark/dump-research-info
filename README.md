@@ -78,7 +78,13 @@ and
   JSON files in `data/<source_name>/`.
 - **`/start_frontend`** — Launch the local frontend web UI for the
   dump-things-server. This command handles cloning and building the
-  frontend repo (if needed) and serving it on `http://localhost:8000`.
+  frontend repo (if needed), pointing it at the local backend, and
+  serving it on `http://localhost:8000`. The build provides two
+  application variants, which are served under separate subpaths, just
+  as they are on the production deployment at
+  <https://pool.psychoinformatics.de/>: the main knowledge pooling tool
+  at `http://localhost:8000/ui/` and the knowledge kickstarter at
+  `http://localhost:8000/kickstarter/`.
 
 ## License
 
