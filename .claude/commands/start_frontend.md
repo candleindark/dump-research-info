@@ -15,7 +15,15 @@ Launch the local frontend web UI for the dump-things-server.
    ```
    cd _ext/pool.psychoinformatics.de-ui && make install && make
    ```
-5. Modify the file `_ext/pool.psychoinformatics.de-ui/dist/config.yaml`: set the `service_base_url` key to the following value:
+5. The build produces two application variants, each in its own
+   subdirectory of `dist/` with its own copy of the configuration:
+   - `dist/ui/`: the main knowledge pooling tool
+   - `dist/kickstarter/`: the "knowledge kickstarter" variant
+
+   In **both** `_ext/pool.psychoinformatics.de-ui/dist/ui/config.yaml` and
+   `_ext/pool.psychoinformatics.de-ui/dist/kickstarter/config.yaml`, replace
+   the `service_base_url` key (which by default lists the production
+   `pool.psychoinformatics.de` endpoints) with the following value:
    ```yaml
    service_base_url:
      - url: http://localhost:8111/research_info/
@@ -25,4 +33,11 @@ Launch the local frontend web UI for the dump-things-server.
    ```
    hatch run tools:serve-frontend
    ```
-   The frontend will be available at http://localhost:8000.
+   This serves the whole `dist/` directory, so that both variants are
+   reachable under their own subpaths, mirroring the layout of the
+   production deployment at https://pool.psychoinformatics.de/:
+   - http://localhost:8000/ui/
+   - http://localhost:8000/kickstarter/
+
+   Note that there is no application at the server root
+   (http://localhost:8000/); it only lists the two subdirectories.
