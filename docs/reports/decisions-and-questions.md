@@ -41,7 +41,7 @@ and external actions. It should be updated whenever a decision changes.
 | Scalar merge conflicts | 13 | Resolve in explicit merge policy and enforce in CI. |
 | Current-site field-level review | 106 | Separate identity links from narrative/editorial links. |
 | Current-site imported images | 105 | Keep the approved PID mapping aligned with the pinned inventory. |
-| Zotero creator occurrences | 1,930 | Resolve high-confidence ORCID/name matches through reviewed mappings. |
+| Zotero creator occurrences | 1,817 | Resolve high-confidence ORCID/name matches through reviewed mappings. |
 | Zotero tags | 49 | Map to existing topics or retain as source annotations. |
 | Zotero venues without ISSNs | 42 | Resolve through authoritative journal metadata. |
 
@@ -134,6 +134,57 @@ and external actions. It should be updated whenever a decision changes.
 - The engagement page renders 6 local handout previews and contains no current-site runtime image dependency.
 - Editorial asset URLs use the same configurable base path as pull-request previews and the main deployment.
 - The current inventory maps 33 roster entries and 23 project entries; 33 portraits and 19 project logos are available for entity pages.
+
+## Implementation checkpoint: Milestone 3 Zotero website migration
+
+### Decisions added
+
+- **D027 - Require a coherent public API snapshot.** Pagination verifies
+  `Total-Results`, unique keys, requested/returned API version 3, and one
+  `Last-Modified-Version`; `Backoff`, `Retry-After`, and complete-snapshot
+  retries are honored without credentials or writes.
+- **D028 - Preserve collection meaning across the label migration.** The
+  reviewed `Articles`, `Datasets`, `Software`, and `Zenodo/OSF DOIs` classes
+  accept their current `CON `-prefixed names without broadening automatic
+  selection to unknown collections.
+- **D029 - Keep site promotion explicit.** The exporter verifies promoted
+  records against the source snapshot and a reviewed relationship policy,
+  renders candidate YAML deterministically, and never writes the website or
+  Zotero library itself.
+
+### Questions added
+
+- **Q015 - Hidden publication contributors:** Should Brock Wester and Russell
+  Poldrack receive public person records, or should their otherwise resolved
+  publication attributions remain omitted from the static graph?
+- **Q016 - Complete author presentation:** Should a later identity pipeline
+  model every Zotero creator, display unresolved creator strings separately,
+  or continue showing only authors linked to reviewed person identities?
+- **Q017 - Publishing activity:** What canonical activity model should replace
+  the source adapter's generic `obo:IAO_0000444` placeholder before venue and
+  publishing events are exposed as native graph relationships?
+- **Q018 - Topic vocabulary:** Who will review the 36 unresolved Zotero tag
+  values and decide which become controlled topics rather than source-only
+  annotations?
+
+### Current review facts
+
+- The public snapshot was fetched at `2026-08-12T00:03:17Z`, library version
+  451, with normalized content digest
+  `5e0f5fe1d68c18214110a37c24a8e9177dc484f64a1d9d832f322b477bfef20d`.
+- 197 top-level items produce 153 promoted research records: 126
+  publications, 20 publication venues, 4 datasets, and 3 instruments.
+- The site export contains 126 publication candidates: 79 academic articles,
+  7 articles, 3 book sections, 34 documents, 2 manuscripts, and 1 thesis.
+- The export retains 373 reviewed person attributions. It omits 2 Brock Wester
+  and 19 Russell Poldrack attribution occurrences until Q015 is decided, plus
+  38 generic publishing-activity placeholders until Q017 is decided.
+- The accepted site-owned DataLad publication Generation remains intact. Its
+  reviewed project target is distinct from the generic Zotero publishing
+  placeholder and is declared explicitly in the export policy.
+- Source reconciliation still reports 1,817 unresolved creator occurrences
+  across 1,221 names, 49 unmapped tag occurrences across 36 values, and 42
+  venue names without ISSNs.
 
 ## Current research questions
 
