@@ -205,6 +205,175 @@ class ZoteroAcquisitionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "content_sha256"):
             ZOTERO.validate_snapshot(changed)
 
+    def test_known_creator_role_uses_the_reviewed_marcrel_mapping(self) -> None:
+        item = ZOTERO.SourceItem(
+            item={
+                "data": {
+                    "key": "ITEM0001",
+                    "creators": [
+                        {
+                            "creatorType": "author",
+                            "firstName": "Ada",
+                            "lastName": "Lovelace",
+                        }
+                    ],
+                }
+            },
+            collections=("CON Articles",),
+            doi=None,
+            selected=True,
+        )
+        attributions, unresolved = ZOTERO.resolve_creators(
+            item,
+            {"adalovelace": "xyzrins:persons/ada-lovelace"},
+            {},
+            {},
+        )
+        self.assertEqual(unresolved, [])
+        self.assertEqual(
+            attributions,
+            [
+                {
+                    "object": "xyzrins:persons/ada-lovelace",
+                    "roles": ["marcrel:aut"],
+                }
+            ],
+        )
+
+    def test_unknown_and_missing_creator_roles_fail_closed(self) -> None:
+        for creator in (
+            {"creatorType": "reviewedAuthor", "name": "Unknown Role"},
+            {"name": "Missing Role"},
+        ):
+            with self.subTest(creator=creator):
+                item = ZOTERO.SourceItem(
+                    item={"data": {"key": "ITEM0001", "creators": [creator]}},
+                    collections=("CON Articles",),
+                    doi=None,
+                    selected=True,
+                )
+                with self.assertRaisesRegex(
+                    ValueError, "unsupported Zotero creator role"
+                ):
+                    ZOTERO.resolve_creators(item, {}, {}, {})
+
+        for creators in (["not a mapping"], {"not": "a list"}):
+            with self.subTest(creators=creators):
+                malformed = ZOTERO.SourceItem(
+                    item={"data": {"key": "ITEM0002", "creators": creators}},
+                    collections=("CON Articles",),
+                    doi=None,
+                    selected=True,
+                )
+                with self.assertRaisesRegex(ValueError, "creators must be"):
+                    ZOTERO.resolve_creators(malformed, {}, {}, {})
+
+    def test_selected_duplicate_cannot_hide_an_unknown_creator_role(self) -> None:
+        known = ZOTERO.SourceItem(
+            item={
+                "data": {
+                    "key": "PREFERRED",
+                    "creators": [
+                        {"creatorType": "author", "name": "Known Role"}
+                    ],
+                }
+            },
+            collections=("CON Articles",),
+            doi="10.1234/example",
+            selected=True,
+        )
+        hidden = ZOTERO.SourceItem(
+            item={
+                "data": {
+                    "key": "DUPLICATE",
+                    "creators": [
+                        {"creatorType": "reviewedAuthor", "name": "New Role"}
+                    ],
+                }
+            },
+            collections=("CON Articles",),
+            doi="10.1234/example",
+            selected=True,
+        )
+        with self.assertRaisesRegex(ValueError, "DUPLICATE"):
+            ZOTERO.validate_creator_roles([known, hidden])
+
+    def test_transform_preflight_rejects_a_hidden_duplicate_role(self) -> None:
+        collections = [
+            {"data": {"key": "COLL0001", "name": "CON Articles", "version": 1}}
+        ]
+        items = [
+            {
+                "data": {
+                    "key": "A-PREFERRED",
+                    "version": 1,
+                    "itemType": "journalArticle",
+                    "collections": ["COLL0001"],
+                    "DOI": "10.1234/example",
+                    "title": "Preferred record",
+                    "creators": [
+                        {"creatorType": "author", "name": "Known Role"}
+                    ],
+                }
+            },
+            {
+                "data": {
+                    "key": "B-DUPLICATE",
+                    "version": 1,
+                    "itemType": "journalArticle",
+                    "collections": ["COLL0001"],
+                    "DOI": "10.1234/example",
+                    "title": "Duplicate record",
+                    "creators": [
+                        {"creatorType": "reviewedAuthor", "name": "New Role"}
+                    ],
+                }
+            },
+        ]
+        snapshot = {
+            "source": {
+                "api_root": "https://api.zotero.org/groups/6197458",
+                "collection_urls": [
+                    "https://api.zotero.org/groups/6197458/collections?start=0"
+                ],
+                "content_sha256": ZOTERO.source_content_sha256(collections, items),
+                "fetched_at": "2026-08-11T12:00:00+00:00",
+                "group_id": 6197458,
+                "item_urls": [
+                    "https://api.zotero.org/groups/6197458/items/top?start=0"
+                ],
+                "library_version": 1,
+                "response_api_version": "3",
+                "total_collections": len(collections),
+                "total_top_level_items": len(items),
+                "zotero_api_version": "3",
+            },
+            "collections": collections,
+            "items": items,
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            snapshot_path = root / "snapshot.json"
+            snapshot_path.write_text(
+                json.dumps(snapshot, sort_keys=True), encoding="utf-8"
+            )
+            output = root / "candidates"
+            report = root / "report.json"
+            args = argparse.Namespace(
+                creator_map=None,
+                existing_data_root=None,
+                input=snapshot_path,
+                organizations=[],
+                output_dir=output,
+                people=[],
+                report=report,
+                topics=[],
+            )
+            with self.assertRaisesRegex(ValueError, "B-DUPLICATE"):
+                ZOTERO.command_transform(args)
+            self.assertFalse(output.exists())
+            self.assertFalse(report.exists())
+
 
 if __name__ == "__main__":
     unittest.main()

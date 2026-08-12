@@ -632,6 +632,15 @@ def canonical_pid(item: SourceItem, doi: str | None, group_id: int) -> str:
     return f"https://api.zotero.org/groups/{group_id}/items/{item.key}"
 
 
+def creator_records(item: SourceItem) -> list[dict[str, Any]]:
+    creators = item.data.get("creators", [])
+    if not isinstance(creators, list):
+        raise ValueError(f"{item.key}: Zotero creators must be a list")
+    if not all(isinstance(creator, dict) for creator in creators):
+        raise ValueError(f"{item.key}: Zotero creators must be mappings")
+    return creators
+
+
 def resolve_creators(
     item: SourceItem,
     people: dict[str, str],
@@ -642,9 +651,13 @@ def resolve_creators(
     unresolved: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
 
-    for creator in item.data.get("creators", []):
-        if not isinstance(creator, dict):
-            continue
+    for creator in creator_records(item):
+        creator_type = clean_text(creator.get("creatorType"))
+        if creator_type not in CREATOR_ROLES:
+            raise ValueError(
+                f"{item.key}: unsupported Zotero creator role "
+                f"{creator_type or '<missing>'!r}"
+            )
         name = creator_name(creator)
         normalized = normalize_name(name)
         if not normalized:
@@ -659,8 +672,7 @@ def resolve_creators(
             }
         else:
             matches = {value for value in (people.get(normalized),) if value}
-        creator_type = clean_text(creator.get("creatorType")) or "contributor"
-        role = CREATOR_ROLES.get(creator_type, "marcrel:ctb")
+        role = CREATOR_ROLES[creator_type]
         if len(matches) != 1:
             unresolved.append(
                 {
@@ -676,6 +688,28 @@ def resolve_creators(
             attributions.append({"object": pid, "roles": [role]})
             seen.add(key)
     return attributions, unresolved
+
+
+def validate_creator_roles(items: list[SourceItem]) -> None:
+    """Reject new Zotero role values before duplicate selection can hide them."""
+    unsupported: list[dict[str, Any]] = []
+    for item in items:
+        for index, creator in enumerate(creator_records(item)):
+            creator_type = clean_text(creator.get("creatorType"))
+            if creator_type not in CREATOR_ROLES:
+                unsupported.append(
+                    {
+                        "creator_index": index,
+                        "creator_type": creator_type or "<missing>",
+                        "item_key": item.key,
+                        "name": creator_name(creator),
+                    }
+                )
+    if unsupported:
+        raise ValueError(
+            "Selected Zotero items contain unsupported creator roles: "
+            + json.dumps(unsupported, ensure_ascii=False, sort_keys=True)
+        )
 
 
 def resolve_topics(
@@ -870,15 +904,6 @@ def command_transform(args: argparse.Namespace) -> None:
                 f"Creator mapping conflicts with automatic identity index: {name}"
             )
     items = source_items(snapshot)
-    creator_mapping_usage = Counter(
-        normalize_name(creator_name(creator))
-        for item in items
-        if item.selected
-        for creator in item.data.get("creators", [])
-        if isinstance(creator, dict)
-        and normalize_name(creator_name(creator)) in creator_mappings
-    )
-
     excluded_external: list[dict[str, Any]] = []
     unfiled: list[dict[str, Any]] = []
     selected: list[SourceItem] = []
@@ -891,6 +916,14 @@ def command_transform(args: argparse.Namespace) -> None:
             excluded_external.append(
                 {"collections": list(item.collections), "item_key": item.key}
             )
+
+    validate_creator_roles(selected)
+    creator_mapping_usage = Counter(
+        normalize_name(creator_name(creator))
+        for item in selected
+        for creator in creator_records(item)
+        if normalize_name(creator_name(creator)) in creator_mappings
+    )
 
     groups: dict[str, list[SourceItem]] = defaultdict(list)
     for item in selected:

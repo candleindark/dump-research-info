@@ -20,7 +20,12 @@ transforming it.
 
 `site-migration.yaml` is the reviewed translation boundary for the static CON
 profile. It lists permitted and deliberately omitted relationship targets plus
-the one preserved publication PID override. `pixi run
+the one preserved publication PID override. Every behavioral policy entry must
+match the current source records; stale entries and unknown policy fields stop
+the export. Likewise, a new or missing Zotero creator role stops ingestion
+until its MARC relationship has been reviewed. `pixi run
 zotero-site-candidates` first verifies that promoted JSON is current, then
 renders isolated candidate YAML and a provenance report under ignored
-`build/` state. It never writes the website repository.
+`build/` state. The exporter rejects destinations outside that repository build
+area, path overlaps, and symlinks, and stages the complete result before
+replacing an older candidate artifact. It never writes the website repository.
