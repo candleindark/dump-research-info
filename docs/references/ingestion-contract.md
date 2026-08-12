@@ -119,7 +119,9 @@ not behavior that can be assumed from the loader.
 
 Source: [CON Zotero group library](https://www.zotero.org/groups/6197458/centerforopenneuroscience/library)
 
-- Include `Articles`, `Datasets`, `Zenodo/OSF DOIs`, and `Software`.
+- Include the current `CON Articles`, `CON Datasets`, `CON Zenodo/OSF DOIs`,
+  and `CON Software` labels, while accepting their historical unprefixed forms
+  during the reviewed collection-label migration.
 - Exclude `External`.
 - Send unfiled items to review rather than publishing them automatically.
 - Collapse duplicate DOI items to one entity while retaining all Zotero item

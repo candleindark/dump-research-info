@@ -9,6 +9,7 @@ platforms = ["linux-64", "osx-64", "osx-arm64"]
 python = ">=3.11,<3.14"
 
 [tasks]
+test = "PYTHONPATH=src pytest"
 zotero-fetch = "python scripts/zotero_ingest.py fetch --output inputs/zotero_centerforopenneuroscience/snapshot.json"
 zotero-candidates = "python scripts/zotero_ingest.py transform --input inputs/zotero_centerforopenneuroscience/snapshot.json --output-dir build/zotero_centerforopenneuroscience --report build/zotero_centerforopenneuroscience-report.json --people data/con_site/XYZPerson.json --organizations data/con_site/XYZOrganization.json --topics data/pool_psychoinformatics_de/XYZTopic.json --creator-map inputs/zotero_centerforopenneuroscience/creator-mappings.yaml --existing-data-root data"
 zotero-promote = { depends-on = ["zotero-candidates"], cmd = "python scripts/check_generated_records.py --generated build/zotero_centerforopenneuroscience --promoted data/zotero_centerforopenneuroscience --promote" }
@@ -37,3 +38,4 @@ dump-things-service = ">=5.6, <6"
 jinja2 = ">=3.1, <4"
 beautifulsoup4 = ">=4.13, <5"
 pyyaml = ">=6, <7"
+pytest-asyncio = ">=1, <2"

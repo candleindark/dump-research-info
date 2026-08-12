@@ -7,39 +7,45 @@
 - API root: https://api.zotero.org/groups/6197458
 - Access: public, read-only ingestion
 
-This directory is reserved for validated JSON arrays generated from the CON
-Zotero group. It does not yet contain promoted records.
+This directory contains validated JSON arrays generated from the CON Zotero
+group. It is refreshed only through the snapshot, candidate, review, and
+promotion boundaries described below.
 
 ## Inclusion policy
 
 Include items assigned to these collections:
 
-- `Articles`
-- `Datasets`
-- `Zenodo/OSF DOIs`
-- `Software`
+- `CON Articles`
+- `CON Datasets`
+- `CON Zenodo/OSF DOIs`
+- `CON Software`
+
+The importer also accepts the historical forms without the `CON` prefix so
+that a collection-label migration does not silently reclassify records.
 
 Exclude `External`. Treat unfiled items as review candidates rather than
 automatic additions. Attachments and notes are supporting source material, not
 independent research-information records unless a reviewer promotes one as a
 first-class document.
 
-## Baseline inventory
+## Current inventory
 
-The public API was inspected on 2026-07-22 at library version `216`:
+The public API snapshot fetched at `2026-08-12T00:03:17Z` records library
+version `451` and normalized payload digest
+`5e0f5fe1d68c18214110a37c24a8e9177dc484f64a1d9d832f322b477bfef20d`:
 
-- 193 active top-level items;
-- 244 active records including 38 attachments and 13 notes;
-- 9 deleted records reported by the API;
-- 128 top-level items in `Articles`;
-- 49 in excluded `External`;
-- 4 in `Datasets`;
-- 3 in `Zenodo/OSF DOIs`;
-- 0 in `Software`; and
-- 9 unfiled top-level items.
+- 197 top-level items;
+- 127 memberships in `CON Articles`;
+- 55 in excluded `External`;
+- 4 in `CON Datasets`;
+- 3 in `CON Zenodo/OSF DOIs`;
+- 0 in `CON Software`; and
+- 8 unfiled top-level items.
 
-The baseline contains eight normalized DOI collision groups spanning 17 items.
-An importer must reconcile these before emitting target arrays.
+The current snapshot contains six normalized DOI collision groups. The
+deterministic completeness rule selects one preferred source item and retains
+the supporting Zotero item identifiers; conflicting fields remain explicit in
+the candidate report.
 
 ## Target mapping
 
@@ -57,18 +63,20 @@ and collection context before class assignment.
 
 ## Refresh contract
 
-The planned adapter will:
+The adapter:
 
-1. fetch collection and item data with Zotero API version headers recorded;
+1. fetch all collection and top-level item pages at one verified library
+   version, with requested and returned API versions recorded;
 2. exclude deleted, child, and `External` records from automatic publication;
 3. normalize DOI, ISBN, PMID, PMCID, ORCID, and URL identifiers;
-4. enrich DOI records with Crossref or DataCite where needed for classification;
+4. queues records that still require Crossref or DataCite enrichment rather
+   than guessing a class;
 5. reconcile against existing records by canonical identifier;
 6. render stable, sorted candidate arrays;
 7. validate candidates against the configured research-information collection;
 8. present additions, changes, removals, collisions, and uncertain mappings for
    human review; and
-9. update this directory only after approval.
+9. updates this directory only through an explicit promotion command.
 
 Acquisition and transformation run through checked-in Pixi tasks. Zotero item
 keys and the library version must remain available as source
@@ -86,11 +94,10 @@ Candidate `XYZ*.json` files are written to
 `build/zotero_centerforopenneuroscience/`; the reconciliation report is written
 beside that directory. Nothing is promoted to this directory automatically.
 
-## First validated refresh
+## Validated refresh
 
-The snapshot fetched at `2026-07-22T22:45:59Z` records Zotero library version
-`216`. All 153 generated records passed the configured research-information
-validator before promotion:
+The version `451` snapshot deterministically generates 153 records, all of
+which pass the configured research-information validator:
 
 - 4 `XYZDataset` records;
 - 3 `XYZInstrument` records;
@@ -103,7 +110,8 @@ the shared psychoinformatics pool. These are the same entities, not new IDs.
 Multi-source consumers must reconcile records by PID and apply an explicit
 field-level merge policy.
 
-The refresh report also identified 1,930 unresolved creator occurrences, 49
-unmapped tags, and 42 venue names without ISSNs. Their source information
-remains in the committed Zotero snapshot for later registry enrichment and
-agent-assisted curation; it was not converted into unsafe local identities.
+The refresh report also identifies 1,817 unresolved creator occurrences across
+1,221 names, 49 unmapped tag occurrences across 36 values, and 42 venue names
+without ISSNs. Their source information remains in the committed Zotero
+snapshot for later registry enrichment and review; it is not converted into
+unsafe local identities.
