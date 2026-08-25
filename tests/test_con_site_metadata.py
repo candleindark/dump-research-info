@@ -37,3 +37,30 @@ def test_con_homepage_uses_the_qualified_attribute_pattern():
         "value": "https://centerforopenneuroscience.org/",
         "predicate": "foaf:homepage",
     } in con["attributes"]
+
+
+def test_identifier_creators_match_public_things_records():
+    records = {record["pid"]: record for record in _records()}
+
+    assert records["rrid:SCR_002630"] == {
+        "schema_type": "xyzri:XYZOrganization",
+        "pid": "rrid:SCR_002630",
+        "name": "GitHub",
+    }
+    assert records["ror:04fa4r544"] == {
+        "annotations": {
+            "obo:NCIT_C54269": "m.szczepanik@fz-juelich.de",
+            "sio:SIO_001083": "2026-01-19T17:44:59.765383",
+        },
+        "characterized_by": [
+            {"object": "http://orcid.org/", "predicate": "rdfs:seeAlso"},
+            {
+                "object": "https://en.wikipedia.org/wiki/ORCID",
+                "predicate": "rdfs:seeAlso",
+            },
+        ],
+        "schema_type": "xyzri:XYZOrganization",
+        "pid": "ror:04fa4r544",
+        "name": "ORCID",
+        "at_location": "geodata:4348599",
+    }
