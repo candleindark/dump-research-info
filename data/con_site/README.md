@@ -128,10 +128,10 @@ Descriptions were derived from the biographical blurbs on the website.
   `creator: ror:04fa4r544` and `schema_type: xyzri:ORCID`. ORCIDs were only
   added for persons where they were explicitly available (Russell Poldrack,
   Brock Wester); they were not looked up externally for existing members.
-- The GitHub and ORCID creator records are copied from the public
-  Psychoinformatics Things pool at their exact PIDs. Both are
-  `xyzri:XYZOrganization` records; they make the identifier issuer references
-  resolvable without changing the identifier assertions.
+- The GitHub and ORCID creator identities use the exact PID, `schema_type`, and
+  name found in the public Psychoinformatics Things pool. These bounded local
+  `xyzri:XYZOrganization` records make the identifier issuer references
+  resolvable without mirroring or synchronizing the external graph.
 - **Email addresses** are recorded as `attributes` entries with
   `predicate: vcard:Email` and `schema_type: dlthings:AttributeSpecification`.
   Emails were extracted from the CON website source repository. Four members
