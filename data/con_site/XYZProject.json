@@ -5,9 +5,6 @@
     "short_name": "DataLad",
     "display_label": "DataLad",
     "description": "A data management platform that adapts open-source software distribution models to address data-sharing limitations. Provides a versatile data management platform using git-annex for large data tracking built on Git.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://datalad.org", "predicate": "foaf:homepage"}
     ],
@@ -45,9 +42,6 @@
     "short_name": "DANDI",
     "display_label": "DANDI",
     "description": "Platform for publishing, sharing, and processing neurophysiology data supported by the BRAIN Initiative. Provides data upload and distribution with supplementary client tools for data introspection and organization. Compliant with NWB standards.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://dandiarchive.org", "predicate": "foaf:homepage"}
     ],
@@ -70,9 +64,6 @@
     "short_name": "EMBER",
     "display_label": "EMBER",
     "description": "BRAIN Initiative archive for multi-modal neurophysiological and behavioral data, supporting the Brain Behavior Quantification and Synchronization Program. Being developed based on DANDI.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://emberarchive.org", "predicate": "foaf:homepage"}
     ],
@@ -95,9 +86,6 @@
     "short_name": "OpenNeuro",
     "display_label": "OpenNeuro",
     "description": "One of the oldest and most well-known BRAIN Initiative archives for neuroimaging data. Uses git-annex as core technology, inspired by early DataLad crawling efforts. Successor to OpenfMRI.org.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://openneuro.org", "predicate": "foaf:homepage"}
     ],
@@ -120,9 +108,6 @@
     "short_name": "DataLad-Registry",
     "display_label": "DataLad Registry",
     "description": "Service maintaining up-to-date information on an expanding collection of datasets, currently numbering over ten thousand. Provides automatic dataset registration, metadata extraction, and search functionality via web interface and RESTful API.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://registry.datalad.org", "predicate": "foaf:homepage"}
     ],
@@ -140,9 +125,6 @@
     "short_name": "DueCredit",
     "display_label": "DueCredit",
     "description": "Provides a solution for the problem of inadequate citation and referencing of scientific software and methods. A Python-focused framework embedding publication references in code with automatic citation collection and reporting.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/duecredit/duecredit", "predicate": "foaf:homepage"}
     ],
@@ -165,9 +147,6 @@
     "short_name": "HeuDiConv",
     "display_label": "HeuDiConv / ReproIn",
     "description": "Flexible DICOM converter for organizing brain imaging data into structured directory layouts. Includes the ReproIn component for turnkey automatic conversion of MR data to BIDS DataLad datasets.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/nipy/heudiconv", "predicate": "foaf:homepage"}
     ],
@@ -195,9 +174,6 @@
     "short_name": "NeuroDebian",
     "display_label": "NeuroDebian",
     "description": "Turnkey research software platform for all aspects of the neuroscientific research process. Provides a comprehensive suite of readily usable and fully integrated software with robust testing and deployment infrastructure.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://neuro.debian.net", "predicate": "foaf:homepage"}
     ],
@@ -220,9 +196,6 @@
     "short_name": "PyMVPA",
     "display_label": "PyMVPA",
     "description": "Python-based framework for neural decoding using multivariate pattern analysis. Supports volume and surface-based analyses, supervised/unsupervised learning, representational similarity analyses, searchlight analyses, hyperalignment, and model-based decoding/encoding.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "http://pymvpa.org", "predicate": "foaf:homepage"}
     ],
@@ -245,9 +218,6 @@
     "short_name": "ReproMan",
     "display_label": "ReproMan",
     "description": "Aims to facilitate reproducible computation via collection of detailed information about origin of used components including Debian/Conda packages and VCS repositories. Part of the NIH-supported ReproNim effort.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "http://reproman.repronim.org", "predicate": "foaf:homepage"}
     ],
@@ -270,9 +240,6 @@
     "short_name": "duct",
     "display_label": "con/duct",
     "description": "Lightweight wrapper that collects execution data for an arbitrary command including execution time, system information, and resource usage statistics. Particularly suited for HPC environments.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/con/duct", "predicate": "foaf:homepage"}
     ]
@@ -283,9 +250,6 @@
     "short_name": "tinuous",
     "display_label": "con/tinuous",
     "description": "Command for downloading build logs, artifacts, and release assets for a GitHub repository. Supports GitHub Actions, Travis-CI.com, and Appveyor with optional DataLad control for backup and distribution.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/con/tinuous", "predicate": "foaf:homepage"}
     ]
@@ -296,9 +260,6 @@
     "short_name": "pyout",
     "display_label": "pyout",
     "description": "Python package that defines an interface for writing structured records as a table in a terminal.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/pyout/pyout", "predicate": "foaf:homepage"}
     ]
@@ -309,9 +270,6 @@
     "short_name": "Quail",
     "display_label": "Quail",
     "description": "Python toolbox for analyzing data from free recall memory experiments. Provides data structures for encoding/recall data, memory performance metric functions, customizable plots, and support for naturalistic stimuli.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://cdl-quail.readthedocs.io/en/latest/", "predicate": "foaf:homepage"}
     ],
@@ -329,9 +287,6 @@
     "short_name": "HyperTools",
     "display_label": "HyperTools",
     "description": "Python toolbox for gaining geometric insights into high dimensional data. Supports 2D/3D static and animated visualizations, data manipulation including hyperalignment and k-means clustering.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://hypertools.readthedocs.io/en/latest/", "predicate": "foaf:homepage"}
     ],
@@ -349,9 +304,6 @@
     "short_name": "SuperEEG",
     "display_label": "SuperEEG",
     "description": "Python toolbox for inferring whole-brain activity from sparse ECoG recordings. Leverages multi-patient brain data to learn correlation models and uses Gaussian process regression for activity inference.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://supereeg.readthedocs.io/en/latest/", "predicate": "foaf:homepage"}
     ],
@@ -369,9 +321,6 @@
     "short_name": "BIDS",
     "display_label": "BIDS",
     "description": "A standard providing a simple and intuitive way to organize and describe neuroimaging and behavioral data. Governed by a community-elected steering group.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "http://bids.neuroimaging.io", "predicate": "foaf:homepage"}
     ],
@@ -389,9 +338,6 @@
     "short_name": "NWB",
     "display_label": "NWB",
     "description": "A data standard providing neuroscientists with a common standard to share, archive, use, and build analysis tools for neurophysiology data.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://www.nwb.org/", "predicate": "foaf:homepage"}
     ]
@@ -402,9 +348,6 @@
     "short_name": "YODA",
     "display_label": "YODA",
     "description": "Collection of best practices for organizing and managing digital objects of science.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://github.com/myyoda/myyoda", "predicate": "foaf:homepage"}
     ],
@@ -442,9 +385,6 @@
     "short_name": "Open Brain Consent",
     "display_label": "Open Brain Consent",
     "description": "Aims to facilitate neuroimaging data sharing by providing an out-of-the-box solution including consent forms enabling anonymized data deposition and anonymization tools/pipelines. An international effort with GDPR compliance materials.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://open-brain-consent.readthedocs.io/", "predicate": "foaf:homepage"}
     ],
@@ -466,9 +406,6 @@
     "title": "ReproNim: Reproducible Basics",
     "display_label": "ReproNim: Reproducible Basics",
     "description": "Training module presenting daily core tools (shell, version control, etc) and demonstrating research reproducibility improvement. Part of the ReproNim training curriculum.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "http://www.reproducibleimaging.org/module-reproducible-basics", "predicate": "foaf:homepage"}
     ],
@@ -486,9 +423,6 @@
     "short_name": "distribits",
     "display_label": "distribits",
     "description": "Community for enthusiasts of tools and workflows in the domain of distributed data.",
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {"schema_type": "dlthings:AttributeSpecification", "value": "https://www.distribits.live/", "predicate": "foaf:homepage"}
     ]

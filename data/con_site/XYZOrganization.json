@@ -5,8 +5,8 @@
     "short_name": "CON",
     "description": "Provides open software frameworks, platforms, data and methodologies for neuroscience and beyond.",
     "at_location": "https://www.wikidata.org/entity/Q131908",
-    "about": [
-      "https://centerforopenneuroscience.org/"
+    "attributes": [
+      {"schema_type": "dlthings:AttributeSpecification", "value": "https://centerforopenneuroscience.org/", "predicate": "foaf:homepage"}
     ],
     "part_of": ["ror:049s0rh22"],
     "display_label": "Center for Open Neuroscience (CON)"

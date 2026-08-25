@@ -156,6 +156,12 @@ the website, plus two added during refinement:
 Relationships between records were populated using PROV-O-based fields where
 the `object` property references another record's PID:
 
+- **Website navigation**: The source pages used to discover records are
+  acquisition evidence, not Things related through `about`. The site root,
+  `/whoweare`, and `/projects` paths are therefore not stored as `about`
+  targets. Actual record homepages use a qualified `foaf:homepage`
+  `dlthings:AttributeSpecification` instead.
+
 - **XYZOrganization `part_of`**: CON is part of Dartmouth College (stated on
   the website).
 - **XYZProject `associated_with`**: Projects were linked to persons explicitly
