@@ -11,9 +11,6 @@
         "notation": "1R24MH117295-01A1"
       }
     ],
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {
         "schema_type": "dlthings:AttributeSpecification",
@@ -46,9 +43,6 @@
         "notation": "1R24MH136632-01"
       }
     ],
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
-    ],
     "attributes": [
       {
         "schema_type": "dlthings:AttributeSpecification",
@@ -80,9 +74,6 @@
         "schema_type": "dlthings:Identifier",
         "notation": "5R24MH117179-07"
       }
-    ],
-    "about": [
-      "https://centerforopenneuroscience.org/projects"
     ],
     "attributes": [
       {

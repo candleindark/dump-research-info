@@ -146,8 +146,15 @@ HeuDiConv) but without specific grant numbers, so these were not included.
 Eleven publications are included: nine identified from explicit references on
 the website, plus two added during refinement:
 
-- **HyperTools** ("Heusser et al. 2018 JMLR"): published in JMLR, vol. 18.
-  No DOI available; canonical JMLR URL used as `pid`.
+- **HyperTools** ("Heusser et al. 2018 JMLR"): the
+  [official article page](https://www.jmlr.org/papers/v18/17-434.html) cites
+  the paper as volume 18, issue 152, pages 1–6, and does not publish a DOI.
+  JMLR's
+  [source metadata](https://github.com/JmlrOrg/v18/blob/215f8a0a0e41608836c40b0cc8dcafc8b2c2a543/17-434/info.json)
+  uses `17-434` as its source ID and URL key. The canonical JMLR URL is the
+  publication `pid`, so that source ID is already retained there. It is not
+  duplicated as a generic identifier, and the publication venue is not
+  asserted to be an identifier-creating agent.
 - **SuperEEG** ("Owen et al. 2020 Cerebral Cortex"):
   `https://doi.org/10.1093/cercor/bhaa115`.
 
@@ -155,6 +162,12 @@ the website, plus two added during refinement:
 
 Relationships between records were populated using PROV-O-based fields where
 the `object` property references another record's PID:
+
+- **Website navigation**: The source pages used to discover records are
+  acquisition evidence, not Things related through `about`. The site root,
+  `/whoweare`, and `/projects` paths are therefore not stored as `about`
+  targets. Actual record homepages use a qualified `foaf:homepage`
+  `dlthings:AttributeSpecification` instead.
 
 - **XYZOrganization `part_of`**: CON is part of Dartmouth College (stated on
   the website).
