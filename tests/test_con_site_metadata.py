@@ -77,3 +77,16 @@ def test_publication_roles_match_public_things_identities():
         "pid": "obo:MS_1002036",
         "display_label": "Co-author",
     }
+
+
+def test_jmlr_identifier_uses_the_existing_venue_identity():
+    records = {record["pid"]: record for record in _records()}
+    publication = records["http://jmlr.org/papers/v18/17-434.html"]
+
+    assert publication["identifiers"] == [
+        {
+            "schema_type": "dlthings:Identifier",
+            "notation": "17-434",
+            "creator": "ISSN:1532-4435",
+        }
+    ]

@@ -32,14 +32,15 @@ and its source repository:
 
 | File                       | Class               | Records | Content                                                 |
 |----------------------------|---------------------|---------|---------------------------------------------------------|
-| `XYZOrganization.json`     | XYZOrganization     | 8       | CON and affiliated institutions                         |
+| `XYZAgentRole.json`        | XYZAgentRole        | 3       | First-, senior-, and co-author role identities          |
+| `XYZOrganization.json`     | XYZOrganization     | 11      | CON, affiliates, and identifier providers               |
 | `XYZPerson.json`           | XYZPerson           | 33      | Centroids, collaborators, affiliated faculty, emeritus  |
 | `XYZProject.json`          | XYZProject          | 22      | Software, standards, initiatives, education, community  |
 | `XYZGrant.json`            | XYZGrant            | 3       | NIH grants (DANDI, EMBER, OpenNeuro)                    |
 | `XYZPublication.json`      | XYZPublication      | 11      | Referenced papers (with DOIs or canonical URLs)         |
 | `XYZPublicationVenue.json` | XYZPublicationVenue | 2       | Journals not already covered by the pool                |
 
-**Total: 79 records.**
+**Total: 85 records.**
 
 ## Pool Deduplication
 
@@ -85,7 +86,10 @@ strategy varied by class:
 - **XYZPublication**: DOI URLs (e.g.
   `https://doi.org/10.3389/fninf.2012.00022`). The HyperTools paper has no DOI;
   its canonical JMLR URL is used as `pid`.
-- **XYZPublicationVenue**: ISSN-based PIDs (e.g. `ISSN:0147-006X`).
+- **XYZPublicationVenue**: ISSN-based PIDs (e.g. `ISSN:0147-006X`). The JMLR
+  manuscript identifier `17-434` names the existing JMLR venue Thing
+  (`ISSN:1532-4435`) as its creator rather than using the journal website URL
+  as a second identity.
 
 ### Class selection
 
