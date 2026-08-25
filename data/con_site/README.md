@@ -132,6 +132,10 @@ Descriptions were derived from the biographical blurbs on the website.
   name found in the public Psychoinformatics Things pool. These bounded local
   `xyzri:XYZOrganization` records make the identifier issuer references
   resolvable without mirroring or synchronizing the external graph.
+- Publication-venue ISSNs identify the ISSN International Centre with its ROR
+  PID. Because that provider is not present in the public Psychoinformatics
+  Things pool, its bounded local organization identity uses the English ROR
+  display name without mirroring the complete ROR record.
 - **Email addresses** are recorded as `attributes` entries with
   `predicate: vcard:Email` and `schema_type: dlthings:AttributeSpecification`.
   Emails were extracted from the CON website source repository. Four members

@@ -52,3 +52,8 @@ def test_identifier_creators_match_public_things_records():
         "pid": "ror:04fa4r544",
         "name": "ORCID",
     }
+    assert records["ror:026ytr635"] == {
+        "schema_type": "xyzri:XYZOrganization",
+        "pid": "ror:026ytr635",
+        "name": "ISSN International Centre",
+    }

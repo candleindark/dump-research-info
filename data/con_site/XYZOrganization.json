@@ -59,5 +59,10 @@
     "schema_type": "xyzri:XYZOrganization",
     "pid": "ror:04fa4r544",
     "name": "ORCID"
+  },
+  {
+    "schema_type": "xyzri:XYZOrganization",
+    "pid": "ror:026ytr635",
+    "name": "ISSN International Centre"
   }
 ]
