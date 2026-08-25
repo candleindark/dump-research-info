@@ -57,3 +57,23 @@ def test_identifier_creators_match_public_things_records():
         "pid": "ror:026ytr635",
         "name": "ISSN International Centre",
     }
+
+
+def test_publication_roles_match_public_things_identities():
+    records = {record["pid"]: record for record in _records()}
+
+    assert records["obo:MS_1002034"] == {
+        "schema_type": "xyzri:XYZAgentRole",
+        "pid": "obo:MS_1002034",
+        "display_label": "First author",
+    }
+    assert records["obo:MS_1002035"] == {
+        "schema_type": "xyzri:XYZAgentRole",
+        "pid": "obo:MS_1002035",
+        "display_label": "Senior author",
+    }
+    assert records["obo:MS_1002036"] == {
+        "schema_type": "xyzri:XYZAgentRole",
+        "pid": "obo:MS_1002036",
+        "display_label": "Co-author",
+    }

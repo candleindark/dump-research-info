@@ -1,0 +1,17 @@
+[
+  {
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:MS_1002034",
+    "display_label": "First author"
+  },
+  {
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:MS_1002035",
+    "display_label": "Senior author"
+  },
+  {
+    "schema_type": "xyzri:XYZAgentRole",
+    "pid": "obo:MS_1002036",
+    "display_label": "Co-author"
+  }
+]

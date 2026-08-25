@@ -190,6 +190,10 @@ the `object` property references another record's PID:
   (first author), `obo:MS_1002035` (senior author), or `obo:MS_1002036`
   (co-author), assigned based on author-order information visible from the CON
   website. All 11 publications have at least one attribution.
+- **XYZAgentRole**: The first-, senior-, and co-author role identities use the
+  exact PID, class, and display label found in the public Psychoinformatics
+  Things pool. The bounded local records resolve publication attributions
+  without mirroring the external descriptions or mappings.
 - **XYZGrant `attributed_to`**: Grants were linked to PIs and Co-Is named on
   the `/projects` page. Each entry includes `schema_type: dlthings:Attribution`
   and `roles`: `obo:NCIT_C19924` (PI) or `marcrel:rtm` (Co-I).
